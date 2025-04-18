@@ -3,5 +3,13 @@
   "rules": {
     "react-hooks/exhaustive-deps": "warn",
     "@typescript-eslint/no-explicit-any": "off"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["components/ui/sparkles.tsx"],
+      "rules": {
+        "@typescript-eslint/no-explicit-any": "off"
+      }
+    }
+  ]
 }
