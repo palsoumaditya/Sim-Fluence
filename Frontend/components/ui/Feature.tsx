@@ -130,15 +130,14 @@ export const SkeletonThree = () => {
     <Link
       href="https://www.youtube.com/watch?v=RPa3_AD1_Vs"
       target="__blank"
-      className="relative flex gap-10  h-full group/image"
+      className="relative flex gap-10 h-full group/image"
     >
-      <div className="w-full  mx-auto bg-transparent dark:bg-transparent group h-full">
-        <div className="flex flex-1 w-full h-full flex-col space-y-2  relative">
-        
+      <div className="w-full mx-auto bg-transparent dark:bg-transparent group h-full">
+        <div className="flex flex-1 w-full h-full flex-col space-y-2 relative">
           <IconBrandYoutubeFilled className="h-20 w-20 absolute z-10 inset-0 text-red-500 m-auto " />
           <Image
-            src="https://unsplash.com/photos/black-and-blue-audio-mixer-dY8TvpNz72o"
-            alt="header"
+            src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=2070"
+            alt="Audio mixer"
             width={800}
             height={800}
             className="h-full w-full aspect-square object-cover object-center rounded-sm blur-none group-hover/image:blur-md transition-all duration-200"
