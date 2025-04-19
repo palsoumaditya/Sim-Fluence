@@ -1,3 +1,5 @@
+"use client";
+import { useState } from "react";
 import React from "react";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
@@ -233,41 +235,64 @@ export const SkeletonFour = () => {
 
 export const Globe = ({ className }: { className?: string }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const [hasError, setHasError] = useState(false);
 
   useEffect(() => {
     let phi = 0;
+    let globeInstance: any = null;
 
     if (!canvasRef.current) return;
 
-    const globe = createGlobe(canvasRef.current, {
-      devicePixelRatio: 2,
-      width: 600 * 2,
-      height: 600 * 2,
-      phi: 0,
-      theta: 0,
-      dark: 1,
-      diffuse: 1.2,
-      mapSamples: 16000,
-      mapBrightness: 6,
-      baseColor: [0.3, 0.3, 0.3],
-      markerColor: [0.1, 0.8, 1],
-      glowColor: [1, 1, 1],
-      markers: [
-      
-        { location: [37.7595, -122.4367], size: 0.03 },
-        { location: [40.7128, -74.006], size: 0.1 },
-      ],
-      onRender: (state) => {
-        
-        state.phi = phi;
-        phi += 0.01;
-      },
-    });
+    try {
+      globeInstance = createGlobe(canvasRef.current, {
+        devicePixelRatio: 2,
+        width: 600 * 2,
+        height: 600 * 2,
+        phi: 0,
+        theta: 0,
+        dark: 1,
+        diffuse: 1.2,
+        mapSamples: 16000,
+        mapBrightness: 6,
+        baseColor: [0.3, 0.3, 0.3],
+        markerColor: [0.1, 0.8, 1],
+        glowColor: [1, 1, 1],
+        markers: [
+          { location: [37.7595, -122.4367], size: 0.03 },
+          { location: [40.7128, -74.006], size: 0.1 },
+        ],
+        onRender: (state) => {
+          state.phi = phi;
+          phi += 0.01;
+        },
+      });
+    } catch (error) {
+      console.error("Error creating globe:", error);
+      setHasError(true);
+      return;
+    }
 
     return () => {
-      globe.destroy();
+      if (globeInstance) {
+        try {
+          globeInstance.destroy();
+        } catch (error) {
+          console.error("Error destroying globe:", error);
+        }
+      }
     };
   }, []);
+
+  if (hasError) {
+    return (
+      <div className={`${className} flex items-center justify-center`} 
+           style={{ width: 600, height: 600, maxWidth: "100%" }}>
+        <div className="text-center text-gray-500">
+          <p>Globe visualization unavailable</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <canvas
