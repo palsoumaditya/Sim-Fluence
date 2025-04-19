@@ -7,11 +7,6 @@
   "github": {
     "silent": true
   },
-  "functions": {
-    "middleware": {
-      "maxDuration": 10
-    }
-  },
   "headers": [
     {
       "source": "/(.*)",
