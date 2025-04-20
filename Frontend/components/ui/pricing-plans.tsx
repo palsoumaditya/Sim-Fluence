@@ -75,9 +75,6 @@ export function PricingPlans() {
   const [billingCycle, setBillingCycle] = useState<"monthly" | "yearly">("monthly");
   const [hoveredPlan, setHoveredPlan] = useState<number | null>(null);
 
-  const toggleBillingCycle = () => {
-    setBillingCycle(billingCycle === "monthly" ? "yearly" : "monthly");
-  };
 
   const getAdjustedPrice = (price: number) => {
     if (billingCycle === "yearly") {
