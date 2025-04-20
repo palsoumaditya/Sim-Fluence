@@ -28,6 +28,10 @@
   <img src="flow_diagram.png" alt="Sim-Fluence Platform Flow Diagram" width="100%"/>
 </p>
 
+## 🌍 Flow diagram
+
+![Flow](./Flow.png)
+
 ---
 
 ## 🚀 Features
