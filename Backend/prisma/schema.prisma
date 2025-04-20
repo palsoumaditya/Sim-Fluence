@@ -1,3 +1,8 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
 
 generator client {
   provider = "prisma-client-js"
@@ -22,18 +27,14 @@ model User {
 
 model Simulation {
   id               String          @id @default(uuid())
-  title            String          
-  content          String          
+  content          String   
+  postUrl          String[]       
   status           Status          @default(PENDING) 
   createdAt        DateTime        @default(now())
   userId           String
   user             User            @relation(fields: [userId], references: [id])
   
   platform         Platform          
-  impressions      Int             @default(0)
-  likesEstimate    Int             @default(0)
-  commentsEstimate Int             @default(0)
-
   agentReactions   AgentReaction[]
   summary          Summary?
   summaryId        String?

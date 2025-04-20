@@ -4,13 +4,12 @@ import { prisma } from "../config/prismaClient";
 // Create a new simulation
 export const createSimulation = async (req: Request, res: Response) => {
   try {
-    const { title, content, status, userId, platform } = req.body;
+    const {content, status, userId, platform } = req.body;
 
     const simulation = await prisma.simulation.create({
       data: {
-        title,
         content,
-        status, // Optional, defaults to PENDING if not provided
+        status, 
         userId,
         platform,
       },
