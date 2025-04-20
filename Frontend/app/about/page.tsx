@@ -125,7 +125,7 @@ export default function AboutPage() {
                 <h3 className="text-lg leading-6 font-medium text-gray-900 dark:text-white">Our Mission</h3>
                 <div className="mt-2 max-w-xl text-sm text-gray-500 dark:text-gray-300">
                   <p>
-                    At Sim-Fluence, we're on a mission to help content creators, marketers, and businesses understand how their content will perform before it goes live. By leveraging advanced AI and machine learning, we simulate real audience reactions to provide actionable insights.
+                    At Sim-Fluence, we&apos;re on a mission to help content creators, marketers, and businesses understand how their content will perform before it goes live. By leveraging advanced AI and machine learning, we simulate real audience reactions to provide actionable insights.
                   </p>
                 </div>
               </div>
@@ -174,7 +174,7 @@ export default function AboutPage() {
           >
             <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white">Our Team</h2>
             <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500 dark:text-gray-300">
-              We're a passionate team of AI researchers, data scientists, and content strategists dedicated to transforming how content is created and shared.
+              We&apos;re a passionate team of AI researchers, data scientists, and content strategists dedicated to transforming how content is created and shared.
             </p>
           </motion.div>
         </div>
