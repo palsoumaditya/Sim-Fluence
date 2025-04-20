@@ -72,13 +72,13 @@ const Footer = dynamic(
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
   
+  // Update the navItems array in your home page
   const navItems = [
     { name: "Home", link: "/" },
-    { name: "Analytics", link: "/analytics" },
     { name: "Simulation", link: "/simulation" },
     { name: "About", link: "/about" },
   ];
-
+  
   
   const testimonials = [
     {
