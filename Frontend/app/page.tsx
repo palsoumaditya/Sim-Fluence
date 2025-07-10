@@ -15,7 +15,7 @@ import { useState, Suspense } from "react";
 import Link from "next/link";
 import Image from "next/image"; 
 import dynamic from 'next/dynamic';
-import { SignInButton, SignUpButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
+import { useRouter } from "next/navigation";
 
 import person1 from "../public/testimonial/Soumaditya.jpg";
 import person2 from "../public/testimonial/Akash.jpg"; 
@@ -71,6 +71,7 @@ const Footer = dynamic(
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
+  const router = useRouter();
   
   // Update the navItems array in your home page
   const navItems = [
@@ -114,21 +115,8 @@ export default function Home() {
           <CustomNavbarLogo />
           <NavItems items={navItems} />
           <div className="relative z-20 flex flex-row items-center justify-end gap-2">
-            <SignedOut>
-              <SignInButton mode="modal">
-                <NavbarButton as="button" variant="secondary">
-                  Login
-                </NavbarButton>
-              </SignInButton>
-              <SignUpButton mode="modal">
-                <NavbarButton as="button">
-                  Get Started
-                </NavbarButton>
-              </SignUpButton>
-            </SignedOut>
-            <SignedIn>
-              <UserButton afterSignOutUrl="/simulation" />
-            </SignedIn>
+            <NavbarButton as="button" variant="secondary" onClick={() => router.push("/simulation")}>Login</NavbarButton>
+            <NavbarButton as="button" onClick={() => router.push("/simulation")}>Get Started</NavbarButton>
           </div>
         </NavBody>
         
@@ -150,23 +138,8 @@ export default function Home() {
                 {item.name}
               </NavbarButton>
             ))}
-            <SignedOut>
-              <SignInButton mode="modal">
-                <NavbarButton as="button" variant="secondary" className="w-full justify-start">
-                  Login
-                </NavbarButton>
-              </SignInButton>
-              <SignUpButton mode="modal">
-                <NavbarButton as="button" className="w-full justify-start">
-                  Get Started
-                </NavbarButton>
-              </SignUpButton>
-            </SignedOut>
-            <SignedIn>
-              <div className="flex justify-center py-2">
-                <UserButton afterSignOutUrl="/simulation" />
-              </div>
-            </SignedIn>
+            <NavbarButton as="button" variant="secondary" className="w-full justify-start" onClick={() => router.push("/simulation")}>Login</NavbarButton>
+            <NavbarButton as="button" className="w-full justify-start" onClick={() => router.push("/simulation")}>Get Started</NavbarButton>
           </MobileNavMenu>
         </MobileNav>
       </Navbar>
