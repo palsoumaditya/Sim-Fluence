@@ -4,7 +4,7 @@ import { prisma } from "../config/prismaClient";
 // Create a new simulation
 export const createSimulation = async (req: Request, res: Response) => {
   try {
-    const {content, status, userId, platform } = req.body;
+    const { content, status, userId, platform, postUrl } = req.body;
 
     const simulation = await prisma.simulation.create({
       data: {
@@ -12,6 +12,7 @@ export const createSimulation = async (req: Request, res: Response) => {
         status, 
         userId,
         platform,
+        postUrl, // Cloudinary image URL
       },
     });
 
@@ -110,5 +111,63 @@ export const deleteSimulation = async (req: Request, res: Response) => {
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "Failed to delete simulation" });
+  }
+};
+
+// Start simulation with image upload
+export const startSimulationWithUpload = async (req: Request, res: Response) => {
+  try {
+    const { content, userId, platform, imageUrl } = req.body;
+    let postUrl = null;
+
+    // If imageUrl is provided in the request body, use it
+    if (imageUrl) {
+      postUrl = imageUrl;
+    }
+
+    // Create simulation with PENDING status
+    const simulation = await prisma.simulation.create({
+      data: {
+        content,
+        userId,
+        platform,
+        postUrl,
+        status: 'PENDING',
+      },
+    });
+
+    // TODO: Trigger AI simulation process here
+    // This could involve calling the AI service to analyze the content and image
+
+    res.status(201).json({
+      success: true,
+      simulation,
+      message: 'Simulation started successfully'
+    });
+  } catch (error) {
+    console.error('Error starting simulation:', error);
+    res.status(500).json({ error: "Failed to start simulation" });
+  }
+};
+
+// Update simulation status
+export const updateSimulationStatus = async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+    const { status } = req.body;
+
+    const simulation = await prisma.simulation.update({
+      where: { id },
+      data: { status },
+    });
+
+    res.json({
+      success: true,
+      simulation,
+      message: 'Simulation status updated successfully'
+    });
+  } catch (error) {
+    console.error('Error updating simulation status:', error);
+    res.status(500).json({ error: "Failed to update simulation status" });
   }
 };
