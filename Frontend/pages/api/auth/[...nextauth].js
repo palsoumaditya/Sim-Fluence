@@ -31,18 +31,15 @@ export default NextAuth({
               profileImageUrl: user.image,
               redditId: user.id,
               redditUsername: profile?.name,
-              // Social media analytics data
-              followers: profile?.subreddit?.subscribers || 0,
-              following: 0, // Reddit doesn't provide following count in basic profile
-              averagePostImpressions: 0, // Will be updated later with actual data
-              totalPosts: profile?.num_posts || 0,
-              engagementRate: 0.0, // Will be calculated based on actual engagement
-              averageLikes: profile?.upvote_ratio ? Math.round(profile.upvote_ratio * 100) : 0,
-              averageComments: 0, // Will be updated with actual data
-              averageShares: 0, // Reddit doesn't have shares like other platforms
-              accountAge: accountAge,
+              // Reddit-specific analytics data
               redditKarma: profile?.total_karma || 0,
               redditAccountAge: accountAge,
+              totalPostKarma: profile?.link_karma || 0,
+              commentKarma: profile?.comment_karma || 0,
+              averageUpvotes: profile?.upvote_ratio ? Math.round(profile.upvote_ratio * 100) : 0,
+              averageComments: 0, // Will be updated with detailed analytics
+              engagementRate: 0.0, // Will be calculated based on actual engagement
+              totalPosts: profile?.num_posts || 0,
               verified: profile?.verified || false,
             }),
           });
@@ -54,6 +51,30 @@ export default NextAuth({
 
           const userData = await response.json();
           user.databaseId = userData.id;
+
+          // After storing basic user data, fetch detailed Reddit analytics
+          if (account?.access_token && userData.id) {
+            try {
+              const analyticsResponse = await fetch(`${process.env.BACKEND_URL}/api/v1/user/${userData.id}/reddit-analytics`, {
+                method: 'PUT',
+                headers: {
+                  'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                  accessToken: account.access_token,
+                }),
+              });
+
+              if (analyticsResponse.ok) {
+                console.log('Detailed Reddit analytics updated successfully');
+              } else {
+                console.error('Failed to update detailed Reddit analytics:', await analyticsResponse.text());
+              }
+            } catch (analyticsError) {
+              console.error('Error updating detailed Reddit analytics:', analyticsError);
+            }
+          }
+
           return true;
         } catch (error) {
           console.error('Error storing user in database:', error);
