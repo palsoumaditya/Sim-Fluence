@@ -26,6 +26,50 @@ def predict_likes(new_input: dict):
     prediction = model.predict(input_df)
     return prediction[0]
 
+def predict_comments(new_input: dict):
+    model, feature_columns = load_comments_model()
+
+    # Create dataframe with expected feature columns
+    input_df = pd.DataFrame([new_input])
+
+    # Ensure all feature columns exist
+    for col in feature_columns:
+        if col not in input_df.columns:
+            input_df[col] = 0  # fill missing with 0
+
+    input_df = input_df[feature_columns]  # reorder to match training
+
+    # Predict
+    prediction = model.predict(input_df)
+    return prediction[0]
+
+def predict_shares(new_input: dict):
+    model, feature_columns = load_shares_model()
+
+    # Create dataframe with expected feature columns
+    input_df = pd.DataFrame([new_input])
+
+    # Ensure all feature columns exist
+    for col in feature_columns:
+        if col not in input_df.columns:
+            input_df[col] = 0  # fill missing with 0
+
+    input_df = input_df[feature_columns]  # reorder to match training
+
+    # Predict
+    prediction = model.predict(input_df)
+    return prediction[0]
+
+def load_comments_model():
+    print("📦 Loading comments model...")
+    model_data = joblib.load(os.path.join("models", "comments_predictor.pkl"))
+    return model_data["model"], model_data["features"]
+
+def load_shares_model():
+    print("📦 Loading shares model...")
+    model_data = joblib.load(os.path.join("models", "shares_predictor.pkl"))
+    return model_data["model"], model_data["features"]
+
 if __name__ == "__main__":
     # 🧪 Example input (must match feature format used in training)
     example_input = {
@@ -56,4 +100,8 @@ if __name__ == "__main__":
     }
 
     predicted_likes = predict_likes(example_input)
+    predicted_comments = predict_comments(example_input)
+    predicted_shares = predict_shares(example_input)
     print(f"🔮 Predicted Likes: {predicted_likes:.1f}")
+    print(f"🔮 Predicted Comments: {predicted_comments:.1f}")
+    print(f"🔮 Predicted Shares: {predicted_shares:.1f}")

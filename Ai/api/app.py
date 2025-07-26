@@ -1,15 +1,23 @@
-from sentiment_analyzer import analyze_sentiment
-from caption_generator import generate_caption
-from predict import predict_likes
-from flask import Flask, request, jsonify
-from flask_cors import CORS
 import sys
 import os
-import logging
-from datetime import datetime
-
 # Add the src directory to the path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
+
+from sentiment_analyzer import analyze_sentiment
+from caption_generator import generate_caption
+from predict import predict_likes, predict_comments, predict_shares
+from flask import Flask, request, jsonify
+from flask_cors import CORS
+import logging
+from datetime import datetime
+from routes.engagement import engagement_bp
+from routes.comments import comments_bp
+from routes.shares import shares_bp
+from routes.sentiment import sentiment_bp
+from routes.caption import caption_bp
+from routes.optimize import optimize_bp
+from utils import transform_input_features, generate_optimization_recommendations
+from logger import logger
 
 
 # LangChain integration (optional - graceful fallback if not available)
@@ -21,12 +29,15 @@ except ImportError as e:
     LANGCHAIN_AVAILABLE = False
     logger.warning(f"LangChain integration not available: {str(e)}")
 
-# Configure logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
 app = Flask(__name__)
 CORS(app)  # Enable CORS for frontend integration
+
+app.register_blueprint(engagement_bp)
+app.register_blueprint(comments_bp)
+app.register_blueprint(shares_bp)
+app.register_blueprint(sentiment_bp)
+app.register_blueprint(caption_bp)
+app.register_blueprint(optimize_bp)
 
 
 @app.route('/health', methods=['GET'])
@@ -38,293 +49,6 @@ def health_check():
         "version": "1.0.0"
     })
 
-
-@app.route('/predict/engagement', methods=['POST'])
-def predict_engagement():
-    """
-    Predict likes and comments for a given post
-
-    Expected input:
-    {
-        "length": 35,
-        "containsImage": 1,
-        "userFollowers": 1200,
-        "userKarma": 4500,
-        "accountAgeDays": 700,
-        "avgEngagementRate": 0.06,
-        "avgLikes": 20,
-        "avgComments": 5,
-        "dayOfWeek": "Friday",
-        "postTimeOfDay": "Evening",
-        "topCommentSentiment": "Positive"
-    }
-    """
-    try:
-        data = request.get_json()
-
-        if not data:
-            return jsonify({"error": "No data provided"}), 400
-
-        # Transform categorical features to one-hot encoding
-        transformed_input = transform_input_features(data)
-
-        # Predict engagement
-        predicted_likes = predict_likes(transformed_input)
-
-        # Estimate comments based on likes (you can train a separate model for this)
-        predicted_comments = max(
-            0, int(predicted_likes * 0.1 + (predicted_likes * 0.02)))
-
-        logger.info(
-            f"Prediction successful: {predicted_likes:.1f} likes, {predicted_comments} comments")
-
-        return jsonify({
-            "predicted_likes": round(predicted_likes, 1),
-            "predicted_comments": predicted_comments,
-            "engagement_score": round((predicted_likes + predicted_comments * 2) / 10, 2),
-            "status": "success"
-        })
-
-    except Exception as e:
-        logger.error(f"Prediction error: {str(e)}")
-        return jsonify({"error": f"Prediction failed: {str(e)}"}), 500
-
-
-@app.route('/generate/caption', methods=['POST'])
-def generate_post_caption():
-    """
-    Generate AI-powered captions for social media posts
-
-    Expected input:
-    {
-        "prompt": "A sunset photo with mountains",
-        "platform": "reddit",
-        "tone": "casual",
-        "length": "medium",
-        "include_hashtags": true,
-        "target_audience": "general"
-    }
-    """
-    try:
-        data = request.get_json()
-
-        if not data or 'prompt' not in data:
-            return jsonify({"error": "Prompt is required"}), 400
-
-        # Generate caption using AI model
-        caption_result = generate_caption(
-            prompt=data['prompt'],
-            platform=data.get('platform', 'reddit'),
-            tone=data.get('tone', 'casual'),
-            length=data.get('length', 'medium'),
-            include_hashtags=data.get('include_hashtags', False),
-            target_audience=data.get('target_audience', 'general')
-        )
-
-        logger.info(
-            f"Caption generated successfully for prompt: {data['prompt'][:50]}...")
-
-        return jsonify({
-            "caption": caption_result['caption'],
-            "hashtags": caption_result.get('hashtags', []),
-            "confidence": caption_result.get('confidence', 0.8),
-            "suggestions": caption_result.get('suggestions', []),
-            "status": "success"
-        })
-
-    except Exception as e:
-        logger.error(f"Caption generation error: {str(e)}")
-        return jsonify({"error": f"Caption generation failed: {str(e)}"}), 500
-
-
-@app.route('/analyze/sentiment', methods=['POST'])
-def analyze_text_sentiment():
-    """
-    Analyze sentiment of text content
-
-    Expected input:
-    {
-        "text": "This is amazing content!"
-    }
-    """
-    try:
-        data = request.get_json()
-
-        if not data or 'text' not in data:
-            return jsonify({"error": "Text is required"}), 400
-
-        # Analyze sentiment
-        sentiment_result = analyze_sentiment(data['text'])
-
-        return jsonify({
-            "sentiment": sentiment_result['sentiment'],
-            "confidence": sentiment_result['confidence'],
-            "scores": sentiment_result['scores'],
-            "status": "success"
-        })
-
-    except Exception as e:
-        logger.error(f"Sentiment analysis error: {str(e)}")
-        return jsonify({"error": f"Sentiment analysis failed: {str(e)}"}), 500
-
-
-@app.route('/optimize/post', methods=['POST'])
-def optimize_post():
-    """
-    Complete post optimization combining all AI services
-
-    Expected input:
-    {
-        "content": "My vacation photo",
-        "user_data": {
-            "userFollowers": 1200,
-            "userKarma": 4500,
-            "accountAgeDays": 700,
-            "avgEngagementRate": 0.06
-        },
-        "post_settings": {
-            "containsImage": true,
-            "dayOfWeek": "Friday",
-            "postTimeOfDay": "Evening"
-        },
-        "optimization_goals": ["engagement", "caption", "sentiment"]
-    }
-    """
-    try:
-        data = request.get_json()
-
-        if not data:
-            return jsonify({"error": "No data provided"}), 400
-
-        content = data.get('content', '')
-        user_data = data.get('user_data', {})
-        post_settings = data.get('post_settings', {})
-        goals = data.get('optimization_goals', ['engagement'])
-
-        results = {}
-
-        # 1. Generate optimized caption if requested
-        if 'caption' in goals and content:
-            caption_result = generate_caption(
-                prompt=content,
-                platform='reddit',
-                tone='engaging'
-            )
-            results['optimized_caption'] = caption_result
-
-        # 2. Analyze sentiment if requested
-        if 'sentiment' in goals and content:
-            sentiment_result = analyze_sentiment(content)
-            results['sentiment_analysis'] = sentiment_result
-
-        # 3. Predict engagement if requested
-        if 'engagement' in goals:
-            # Prepare input for engagement prediction
-            engagement_input = {
-                "length": len(content),
-                "containsImage": 1 if post_settings.get('containsImage') else 0,
-                "userFollowers": user_data.get('userFollowers', 0),
-                "userKarma": user_data.get('userKarma', 0),
-                "accountAgeDays": user_data.get('accountAgeDays', 365),
-                "avgEngagementRate": user_data.get('avgEngagementRate', 0.05),
-                "avgLikes": user_data.get('avgLikes', 10),
-                "avgComments": user_data.get('avgComments', 2),
-                "dayOfWeek": post_settings.get('dayOfWeek', 'Friday'),
-                "postTimeOfDay": post_settings.get('postTimeOfDay', 'Evening'),
-                "topCommentSentiment": "Positive"
-            }
-
-            transformed_input = transform_input_features(engagement_input)
-            predicted_likes = predict_likes(transformed_input)
-            predicted_comments = max(0, int(predicted_likes * 0.1))
-
-            results['engagement_prediction'] = {
-                "predicted_likes": round(predicted_likes, 1),
-                "predicted_comments": predicted_comments,
-                "engagement_score": round((predicted_likes + predicted_comments * 2) / 10, 2)
-            }
-
-        # 4. Generate optimization recommendations
-        results['recommendations'] = generate_optimization_recommendations(
-            results)
-
-        return jsonify({
-            "results": results,
-            "status": "success"
-        })
-
-    except Exception as e:
-        logger.error(f"Post optimization error: {str(e)}")
-        return jsonify({"error": f"Post optimization failed: {str(e)}"}), 500
-
-
-def transform_input_features(data):
-    """Transform user-friendly input to model-ready features"""
-    transformed = {
-        "length": data.get("length", 0),
-        "containsImage": data.get("containsImage", 0),
-        "userFollowers": data.get("userFollowers", 0),
-        "userKarma": data.get("userKarma", 0),
-        "accountAgeDays": data.get("accountAgeDays", 365),
-        "avgEngagementRate": data.get("avgEngagementRate", 0.05),
-        "avgLikes": data.get("avgLikes", 10),
-        "avgComments": data.get("avgComments", 2),
-        "shouldImprove": 0,
-    }
-
-    # One-hot encode day of week
-    days = ["Monday", "Tuesday", "Wednesday",
-            "Thursday", "Friday", "Saturday", "Sunday"]
-    day = data.get("dayOfWeek", "Friday")
-    for d in days[:-1]:  # Drop Sunday as reference
-        transformed[f"dayOfWeek_{d}"] = 1 if day == d else 0
-
-    # One-hot encode time of day
-    times = ["Morning", "Afternoon", "Evening", "Night"]
-    time = data.get("postTimeOfDay", "Evening")
-    for t in times[:-1]:  # Drop Night as reference
-        transformed[f"postTimeOfDay_{t}"] = 1 if time == t else 0
-
-    # One-hot encode sentiment
-    sentiments = ["Negative", "Neutral", "Positive"]
-    sentiment = data.get("topCommentSentiment", "Positive")
-    for s in sentiments[1:]:  # Drop Negative as reference
-        transformed[f"topCommentSentiment_{s}"] = 1 if sentiment == s else 0
-
-    return transformed
-
-
-def generate_optimization_recommendations(results):
-    """Generate actionable recommendations based on AI analysis"""
-    recommendations = []
-
-    if 'engagement_prediction' in results:
-        engagement = results['engagement_prediction']
-        if engagement['engagement_score'] < 3:
-            recommendations.append(
-                "Consider posting at peak hours (evening) for better engagement")
-            recommendations.append("Add an image to increase visual appeal")
-
-        if engagement['predicted_likes'] < 50:
-            recommendations.append(
-                "Try using trending hashtags relevant to your content")
-            recommendations.append(
-                "Engage with your audience in comments to boost interaction")
-
-    if 'sentiment_analysis' in results:
-        sentiment = results['sentiment_analysis']
-        if sentiment['sentiment'] == 'negative':
-            recommendations.append(
-                "Consider rephrasing content with more positive language")
-        elif sentiment['sentiment'] == 'neutral':
-            recommendations.append(
-                "Add more emotional words to create stronger engagement")
-
-    if 'optimized_caption' in results:
-        recommendations.append(
-            "Use the AI-generated caption for better performance")
-
-    return recommendations
 
 # LangChain + Gemini Integration Endpoints
 

@@ -1,8 +1,3 @@
-"""
-LangChain integration for SimFluence AI
-Combines custom XGBoost model with Google Gemini for advanced content optimization
-"""
-
 import os
 import sys
 from typing import Dict, List, Any, Optional
@@ -12,7 +7,7 @@ from datetime import datetime
 # LangChain imports
 from langchain_core.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
 from langchain_core.output_parsers import JsonOutputParser, PydanticOutputParser
-from langchain_core.pydantic_v1 import BaseModel, Field
+from pydantic import BaseModel, Field
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains import LLMChain
 from langchain.agents import Tool, AgentExecutor, create_react_agent
