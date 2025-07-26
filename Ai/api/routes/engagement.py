@@ -13,13 +13,16 @@ def predict_engagement():
             return jsonify({"error": "No data provided"}), 400
         transformed_input = transform_input_features(data)
         predicted_likes = predict_likes(transformed_input)
+        # Convert to integer
+        predicted_likes = max(0, int(float(predicted_likes)))
         predicted_comments = max(0, int(predicted_likes * 0.1 + (predicted_likes * 0.02)))
-        engagement_category = predict_engagement_category(predicted_likes)
-        logger.info(f"Prediction successful: {predicted_likes:.1f} likes, {predicted_comments} comments")
+        engagement_category = predict_engagement_category(float(predicted_likes))  # Pass as float for category calculation
+        engagement_score = int((predicted_likes + predicted_comments * 2) / 10)
+        logger.info(f"Prediction successful: {predicted_likes} likes, {predicted_comments} comments")
         return jsonify({
-            "predicted_likes": round(predicted_likes, 1),
+            "predicted_likes": predicted_likes,
             "predicted_comments": predicted_comments,
-            "engagement_score": round((predicted_likes + predicted_comments * 2) / 10, 2),
+            "engagement_score": engagement_score,
             "engagement_category": engagement_category,
             "status": "success"
         })

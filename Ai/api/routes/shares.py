@@ -13,9 +13,11 @@ def predict_shares_endpoint():
             return jsonify({"error": "No data provided"}), 400
         transformed_input = transform_input_features(data)
         predicted_shares = predict_shares(transformed_input)
-        logger.info(f"Shares prediction successful: {predicted_shares:.1f} shares")
+        # Convert numpy float32 to integer
+        predicted_shares = max(0, int(float(predicted_shares)))
+        logger.info(f"Shares prediction successful: {predicted_shares} shares")
         return jsonify({
-            "predicted_shares": round(predicted_shares, 1),
+            "predicted_shares": predicted_shares,
             "status": "success"
         })
     except Exception as e:

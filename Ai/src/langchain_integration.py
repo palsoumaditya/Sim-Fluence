@@ -69,7 +69,7 @@ class SimFluenceLangChainAgent:
 
         # Initialize Gemini model
         self.llm = ChatGoogleGenerativeAI(
-            model="gemini-pro",
+            model="gemini-2.0-flash",
             google_api_key=self.google_api_key,
             temperature=0.7,
             convert_system_message_to_human=True

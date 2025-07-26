@@ -13,9 +13,11 @@ def predict_comments_endpoint():
             return jsonify({"error": "No data provided"}), 400
         transformed_input = transform_input_features(data)
         predicted_comments = predict_comments(transformed_input)
-        logger.info(f"Comments prediction successful: {predicted_comments:.1f} comments")
+        # Convert to integer
+        predicted_comments = max(0, int(float(predicted_comments)))
+        logger.info(f"Comments prediction successful: {predicted_comments} comments")
         return jsonify({
-            "predicted_comments": round(predicted_comments, 1),
+            "predicted_comments": predicted_comments,
             "status": "success"
         })
     except Exception as e:

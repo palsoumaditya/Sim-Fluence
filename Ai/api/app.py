@@ -1,5 +1,10 @@
 import sys
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
+
 # Add the src directory to the path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
@@ -39,6 +44,24 @@ app.register_blueprint(sentiment_bp)
 app.register_blueprint(caption_bp)
 app.register_blueprint(optimize_bp)
 
+
+@app.route('/', methods=['GET'])
+def root():
+    """Root endpoint - API documentation"""
+    return jsonify({
+        "service": "Sim-Fluence AI API",
+        "version": "1.0.0",
+        "description": "AI-powered content optimization and analysis API",
+        "endpoints": {
+            "health": "/health",
+            "ai": {
+                "gemini_optimize": "/ai/gemini/optimize",
+                "gemini_caption": "/ai/gemini/caption",
+                "comprehensive": "/ai/comprehensive",
+                "models_status": "/ai/models/status"
+            }
+        }
+    })
 
 @app.route('/health', methods=['GET'])
 def health_check():
