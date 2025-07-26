@@ -26,7 +26,7 @@ def validate_model_files():
 
     missing_files = []
     for file_path in required_files:
-        full_path = os.path.join('..', file_path)
+        full_path = file_path
         if not os.path.exists(full_path):
             missing_files.append(file_path)
         else:
@@ -44,7 +44,7 @@ def validate_data_format():
     print("\n📊 Validating Data Format...")
 
     try:
-        csv_path = os.path.join('..', 'data', 'simfluence_reddit_training.csv')
+        csv_path = os.path.join('data', 'simfluence_reddit_training.csv')
         df = pd.read_csv(csv_path)
 
         print(f"   📈 Dataset shape: {df.shape}")
@@ -66,12 +66,14 @@ def validate_data_format():
 
         # Check data types
         print(f"   📊 Sample data:")
-        print(
-            f"      Likes range: {df['receivedLikes'].min()} - {df['receivedLikes'].max()}")
-        print(
-            f"      Comments range: {df['receivedComments'].min()} - {df['receivedComments'].max()}")
-        print(
-            f"      Length range: {df['length'].min()} - {df['length'].max()}")
+        # Convert to numeric for range calculation
+        likes_numeric = pd.to_numeric(df['receivedLikes'], errors='coerce')
+        comments_numeric = pd.to_numeric(df['receivedComments'], errors='coerce')
+        length_numeric = pd.to_numeric(df['length'], errors='coerce')
+        
+        print(f"      Likes range: {likes_numeric.min():.0f} - {likes_numeric.max():.0f}")
+        print(f"      Comments range: {comments_numeric.min():.0f} - {comments_numeric.max():.0f}")
+        print(f"      Length range: {length_numeric.min():.0f} - {length_numeric.max():.0f}")
 
         return True
 
@@ -85,11 +87,16 @@ def validate_preprocessing():
     print("\n⚙️ Validating Preprocessing...")
 
     try:
-        from preprocess import load_and_preprocess_data
+        from src.preprocess import load_and_preprocess_data
 
-        csv_path = os.path.join('..', 'data', 'simfluence_reddit_training.csv')
-        X_train, X_test, y_train, y_test, feature_columns = load_and_preprocess_data(
-            csv_path)
+        csv_path = os.path.join('data', 'simfluence_reddit_training.csv')
+        df, feature_columns = load_and_preprocess_data(csv_path)
+        
+        # Split the data manually for validation
+        from sklearn.model_selection import train_test_split
+        X = df[feature_columns]
+        y = df['receivedLikes']
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
         print(f"   📊 Training set shape: {X_train.shape}")
         print(f"   📊 Test set shape: {X_test.shape}")
@@ -115,7 +122,7 @@ def validate_model_loading():
     print("\n🤖 Validating Model Loading...")
 
     try:
-        from predict import load_model, predict_likes
+        from src.predict import load_model, predict_likes
 
         # Test model loading
         model, feature_columns = load_model()
@@ -167,7 +174,7 @@ def validate_training():
 
     try:
         # Import training function
-        sys.path.append(os.path.join('..', 'src'))
+        sys.path.append('src')
         from train_model import train_and_save_model
 
         print("   ✅ Training module imported successfully")
