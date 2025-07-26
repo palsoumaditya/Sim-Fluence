@@ -18,11 +18,34 @@ model User {
   email            String          @unique
   name             String?
   profileImageUrl  String?         
+  redditId         String?         @unique
+  redditUsername   String?
   createdAt        DateTime        @default(now())
+  
+  // Social Media Analytics Data
+  followers        Int?            @default(0)
+  following        Int?            @default(0)
+  averagePostImpressions Int?      @default(0)
+  totalPosts       Int?            @default(0)
+  engagementRate   Float?          @default(0.0)
+  averageLikes     Int?            @default(0)
+  averageComments  Int?            @default(0)
+  averageShares    Int?            @default(0)
+  accountAge       Int?            // in days
+  lastActive       DateTime?
+  verified         Boolean         @default(false)
+  
+  // Platform-specific data
+  redditKarma      Int?            @default(0)
+  redditAccountAge  Int?           // in days
+  
   simulations      Simulation[]
 
   @@index([email])
   @@index([id])
+  @@index([redditId])
+  @@index([followers])
+  @@index([engagementRate])
 }
 
 model Simulation {

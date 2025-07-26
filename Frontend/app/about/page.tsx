@@ -12,16 +12,18 @@ import {
   MobileNavToggle, 
   NavbarButton 
 } from "@/components/ui/resizable-navbar";
-import { UserButton, SignedIn, SignedOut, SignInButton, SignUpButton } from "@clerk/nextjs";
+import { signIn, signOut, useSession } from "next-auth/react";
 import { useState } from "react";
 import { Footer } from "@/components/ui/footer";
 
 export default function AboutPage() {
   const [isOpen, setIsOpen] = useState(false);
+  const { data: session } = useSession();
   
   const navItems = [
     { name: "Home", link: "/" },
     { name: "Simulation", link: "/simulation" },
+    { name: "Analytics", link: "/analytics" },
     { name: "About", link: "/about" },
   ];
 
@@ -34,21 +36,21 @@ export default function AboutPage() {
           </div>
           <NavItems items={navItems} />
           <div className="relative z-20 flex flex-row items-center justify-end gap-2">
-            <SignedOut>
-              <SignInButton mode="modal">
-                <NavbarButton as="button" variant="secondary">
-                  Login
-                </NavbarButton>
-              </SignInButton>
-              <SignUpButton mode="modal">
-                <NavbarButton as="button">
-                  Get Started
-                </NavbarButton>
-              </SignUpButton>
-            </SignedOut>
-            <SignedIn>
-              <UserButton afterSignOutUrl="/" />
-            </SignedIn>
+            {session ? (
+              <button 
+                onClick={() => signOut()}
+                className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+              >
+                Sign Out
+              </button>
+            ) : (
+              <button 
+                onClick={() => signIn("reddit")}
+                className="px-4 py-2 text-sm font-medium text-white bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+              >
+                Login with Reddit
+              </button>
+            )}
           </div>
         </NavBody>
         
@@ -72,23 +74,21 @@ export default function AboutPage() {
                 {item.name}
               </NavbarButton>
             ))}
-            <SignedOut>
-              <SignInButton mode="modal">
-                <NavbarButton as="button" variant="secondary" className="w-full justify-start">
-                  Login
-                </NavbarButton>
-              </SignInButton>
-              <SignUpButton mode="modal">
-                <NavbarButton as="button" className="w-full justify-start">
-                  Get Started
-                </NavbarButton>
-              </SignUpButton>
-            </SignedOut>
-            <SignedIn>
-              <div className="flex justify-center py-2">
-                <UserButton afterSignOutUrl="/" />
-              </div>
-            </SignedIn>
+            {session ? (
+              <button 
+                onClick={() => signOut()}
+                className="w-full px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+              >
+                Sign Out
+              </button>
+            ) : (
+              <button 
+                onClick={() => signIn("reddit")}
+                className="w-full px-4 py-2 text-sm font-medium text-white bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+              >
+                Login with Reddit
+              </button>
+            )}
           </MobileNavMenu>
         </MobileNav>
       </Navbar>

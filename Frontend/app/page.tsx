@@ -15,14 +15,15 @@ import { useState, Suspense } from "react";
 import Link from "next/link";
 import Image from "next/image"; 
 import dynamic from 'next/dynamic';
-import { useRouter } from "next/navigation";
+import { signIn, signOut, useSession } from "next-auth/react";
 
 import person1 from "../public/testimonial/Soumaditya.jpg";
 import person2 from "../public/testimonial/Akash.jpg"; 
 import person3 from "../public/testimonial/Nachiketa.jpg";
 import person4 from "../public/testimonial/MU.jpg"
 import { OrbitingCircles } from "@/components/ui/circle";
-import heroImage from "../public/hero/dashboard.jpeg"; // 
+import heroImage from "../public/hero/dashboard.jpeg"; //
+import QuickAnalytics from "@/components/QuickAnalytics"; 
 
 const AnimatedTestimonials = dynamic(
   () => import('@/components/ui/animated-testimonials').then(mod => mod.AnimatedTestimonials),
@@ -71,12 +72,13 @@ const Footer = dynamic(
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
-  const router = useRouter();
+  const { data: session } = useSession();
   
   // Update the navItems array in your home page
   const navItems = [
     { name: "Home", link: "/" },
     { name: "Simulation", link: "/simulation" },
+    { name: "Analytics", link: "/analytics" },
     { name: "About", link: "/about" },
   ];
   
@@ -115,8 +117,11 @@ export default function Home() {
           <CustomNavbarLogo />
           <NavItems items={navItems} />
           <div className="relative z-20 flex flex-row items-center justify-end gap-2">
-            <NavbarButton as="button" variant="secondary" onClick={() => router.push("/simulation")}>Login</NavbarButton>
-            <NavbarButton as="button" onClick={() => router.push("/simulation")}>Get Started</NavbarButton>
+            {session ? (
+              <button onClick={() => signOut()}>Sign Out</button>
+            ) : (
+              <button onClick={() => signIn("reddit")}>Login with Reddit</button>
+            )}
           </div>
         </NavBody>
         
@@ -138,13 +143,17 @@ export default function Home() {
                 {item.name}
               </NavbarButton>
             ))}
-            <NavbarButton as="button" variant="secondary" className="w-full justify-start" onClick={() => router.push("/simulation")}>Login</NavbarButton>
-            <NavbarButton as="button" className="w-full justify-start" onClick={() => router.push("/simulation")}>Get Started</NavbarButton>
+            {session ? (
+              <button className="w-full justify-start" onClick={() => signOut()}>Sign Out</button>
+            ) : (
+              <button className="w-full justify-start" onClick={() => signIn("reddit")}>Login with Reddit</button>
+            )}
           </MobileNavMenu>
         </MobileNav>
       </Navbar>
       
       <main className="flex flex-col gap-[32px] row-start-2 items-center text-center">
+        <QuickAnalytics />
         <div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-4">
             Analyze your Post Reach

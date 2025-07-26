@@ -1,5 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
+import SessionProviderWrapper from "@/components/SessionProviderWrapper";
 
 export const metadata: Metadata = {
   title: 'Sim-Fluence',
@@ -13,7 +14,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <SessionProviderWrapper>
+          {children}
+        </SessionProviderWrapper>
+      </body>
     </html>
   );
 }

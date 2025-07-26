@@ -3,8 +3,8 @@
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { SimulationSection } from "./Section/Simulation";
 import UserAnalytics from "@/components/UserAnalytics";
+import Leaderboard from "@/components/Leaderboard";
 import { 
   Navbar, 
   NavBody, 
@@ -17,10 +17,11 @@ import {
 } from "@/components/ui/resizable-navbar";
 import { motion } from "framer-motion";
 
-export default function SimulationPage() {
+export default function AnalyticsPage() {
   const [isOpen, setIsOpen] = useState(false);
   const { data: session, status } = useSession();
   const router = useRouter();
+  const [activeTab, setActiveTab] = useState<'analytics' | 'leaderboard'>('analytics');
 
   useEffect(() => {
     if (status === "loading") return;
@@ -87,21 +88,54 @@ export default function SimulationPage() {
         </MobileNav>
       </Navbar>
       
-      {/* User Analytics Dashboard */}
       <div className="container mx-auto px-4 py-8">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-            Welcome back, {session?.user?.name || 'User'}!
+            Social Media Analytics
           </h1>
           <p className="text-gray-600 dark:text-gray-300">
-            Here&apos;s your social media analytics dashboard
+            Track your social media performance and compare with others
           </p>
         </div>
-        
-        <UserAnalytics />
+
+        {/* Tab Navigation */}
+        <div className="flex space-x-1 mb-8 bg-gray-100 dark:bg-gray-800 rounded-lg p-1">
+          <button
+            onClick={() => setActiveTab('analytics')}
+            className={`flex-1 py-2 px-4 rounded-md text-sm font-medium transition-colors ${
+              activeTab === 'analytics'
+                ? 'bg-white dark:bg-gray-700 text-gray-900 dark:text-white shadow-sm'
+                : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
+            }`}
+          >
+            My Analytics
+          </button>
+          <button
+            onClick={() => setActiveTab('leaderboard')}
+            className={`flex-1 py-2 px-4 rounded-md text-sm font-medium transition-colors ${
+              activeTab === 'leaderboard'
+                ? 'bg-white dark:bg-gray-700 text-gray-900 dark:text-white shadow-sm'
+                : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
+            }`}
+          >
+            Leaderboard
+          </button>
+        </div>
+
+        {/* Tab Content */}
+        <motion.div
+          key={activeTab}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3 }}
+        >
+          {activeTab === 'analytics' ? (
+            <UserAnalytics />
+          ) : (
+            <Leaderboard sortBy="followers" limit={10} />
+          )}
+        </motion.div>
       </div>
-      
-      <SimulationSection />
     </main>
   );
-}
+} 
