@@ -41,8 +41,13 @@ export const createUser = async (req: Request, res: Response) => {
       },
     });
     res.status(201).json(user);
-  } catch (error) {
-    res.status(500).json({ error: "Error creating user" });
+  } catch (error: any) {
+    console.error('Error creating user:', error);
+    res.status(500).json({ 
+      error: "Error creating user",
+      details: error.message,
+      code: error.code
+    });
   }
 };
 
@@ -294,5 +299,56 @@ export const getUsersWithAnalytics = async (req: Request, res: Response) => {
   } catch (error) {
     console.error('Error fetching users with analytics:', error);
     res.status(500).json({ error: "Error fetching users with analytics" });
+  }
+};
+
+// create simple test user (for testing)
+export const createTestUser = async (req: Request, res: Response): Promise<void> => {
+  const { name, email } = req.body;
+  
+  try {
+    // Validate required fields
+    if (!email) {
+      res.status(400).json({ error: "Email is required" });
+      return;
+    }
+
+    const user = await prisma.user.create({
+      data: {
+        name: name || "Test User",
+        email,
+        redditKarma: 0,
+        totalPostKarma: 0,
+        commentKarma: 0,
+        averageUpvotes: 0,
+        averageComments: 0,
+        engagementRate: 0.0,
+        totalPosts: 0,
+        verified: false,
+        lastActive: new Date(),
+      },
+    });
+    
+    res.status(201).json({
+      success: true,
+      user,
+      message: "Test user created successfully"
+    });
+  } catch (error: any) {
+    console.error('Error creating test user:', error);
+    
+    // Handle specific database errors
+    if (error.code === 'P2002') {
+      res.status(400).json({ 
+        error: "User with this email already exists",
+        details: error.message
+      });
+    } else {
+      res.status(500).json({ 
+        error: "Error creating test user",
+        details: error.message,
+        code: error.code
+      });
+    }
   }
 };

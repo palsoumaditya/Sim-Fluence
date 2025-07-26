@@ -46,7 +46,7 @@ model User {
 model Simulation {
   id               String          @id @default(uuid())
   content          String   
-  postUrl          String[]       
+  postUrl          String?         // Cloudinary image URL
   status           Status          @default(PENDING) 
   createdAt        DateTime        @default(now())
   userId           String
