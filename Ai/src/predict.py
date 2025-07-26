@@ -60,6 +60,16 @@ def predict_shares(new_input: dict):
     prediction = model.predict(input_df)
     return prediction[0]
 
+def predict_engagement_category(predicted_likes):
+    if predicted_likes < 10:
+        return "low"
+    elif predicted_likes < 50:
+        return "medium"
+    elif predicted_likes < 200:
+        return "high"
+    else:
+        return "viral"
+
 def load_comments_model():
     print("📦 Loading comments model...")
     model_data = joblib.load(os.path.join("models", "comments_predictor.pkl"))
