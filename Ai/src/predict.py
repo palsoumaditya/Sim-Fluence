@@ -39,10 +39,20 @@ if __name__ == "__main__":
         "avgLikes": 20,
         "avgComments": 5,
         "shouldImprove": 0,
-        "dayOfWeek_Friday": 1,
+        # dayOfWeek (Friday is the dropped category, so all 0)
+        "dayOfWeek_Monday": 0,
+        "dayOfWeek_Saturday": 0,
+        "dayOfWeek_Sunday": 0,
+        "dayOfWeek_Thursday": 0,
+        "dayOfWeek_Tuesday": 0,
+        "dayOfWeek_Wednesday": 0,
+        # postTimeOfDay
         "postTimeOfDay_Evening": 1,
+        "postTimeOfDay_Morning": 0,
+        "postTimeOfDay_Night": 0,
+        # topCommentSentiment
+        "topCommentSentiment_Neutral": 0,
         "topCommentSentiment_Positive": 1
-        # All other one-hot columns will be set to 0 automatically
     }
 
     predicted_likes = predict_likes(example_input)
