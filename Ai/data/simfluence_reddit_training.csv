@@ -109,3 +109,911 @@ Best time to post,"#Timing,#Social",42,True,932,215,6918,769,0.04,37,4,Afternoon
 Freelancing secrets,"#Freelance,#Secrets",26,False,266,607,1961,878,0.07,18,8,Night,Sunday,22,7,2,Neutral,True,
 Tactics for niche growth,"#Growth,#Niche",39,True,4923,1915,9622,906,0.05,246,4,Evening,Wednesday,249,6,3,Positive,False,
 AI-generated memes,#AIMemes,42,True,1732,840,3001,577,0.08,138,11,Night,Saturday,148,9,6,Neutral,True,Use more hashtags
+postText,hashtags,length,containsImage,userFollowers,userFollowing,userKarma,accountAgeDays,avgEngagementRate,avgLikes,avgComments,postTimeOfDay,dayOfWeek,receivedLikes,receivedComments,receivedShares,topCommentSentiment,shouldImprove,suggestions
+"Found this Orgain Protein Shake mentioned on Reddit!","#Grocery,#ProteinShake",54,True,850,320,1540,450,0.04,18,3,Evening,Tuesday,22,4,1,Positive,True,Add a personal review to increase engagement.
+"A must-read: 'Mrs. Sherlock Holmes' from the Books category.","#Books,#TrueCrime",67,False,420,150,880,280,0.06,15,2,Morning,Sunday,19,3,1,Positive,True,Share a favorite quote from the book.
+"WWI history buffs, check out 'Poilu: The World War I Notebooks'.","#Books,#History",70,False,910,450,2100,600,0.02,12,2,Afternoon,Friday,15,3,0,Positive,True,Ask a question to spark discussion.
+"Book recommendation from Reddit: 'Wilson's Ghost'.","#Books,#History",49,False,670,210,1150,320,0.04,16,3,Night,Wednesday,20,4,1,Neutral,True,Timing may be off; try posting mid-day.
+"This Bushnell TRS-25 Red Dot Sight is getting a lot of buzz.","#Sports,#Outdoors,#Shooting",70,True,2500,800,4500,950,0.02,45,8,Morning,Monday,55,10,3,Positive,False,
+"For the Ruger 10/22: Tech Sight's TSR200 Adjustable Sight.","#Sports,#Guns",68,True,1800,650,3200,710,0.02,28,4,Afternoon,Saturday,32,5,2,Positive,True,Include a photo of the product in use.
+"The Primary Arms MD-AD Micro Dot is another popular choice.","#Sports,#Outdoors",64,True,1650,550,2900,680,0.02,25,3,Evening,Thursday,29,4,1,Neutral,True,Use more targeted hashtags for visibility.
+"The US Army Survival Manual FM 21-76 keeps popping up!","#Books,#Survival",66,False,3100,900,5200,1100,0.02,50,9,Morning,Tuesday,62,11,4,Positive,False,
+"A classic D-Cell Flashlight, as seen on Reddit.","#Tools,#HomeImprovement",55,True,980,410,1800,530,0.03,24,3,Night,Friday,28,4,1,Neutral,True,Add a 'why you need this' angle.
+"Need to kill some time? Try these Northern Lights Lightsticks.","#Toys,#Games",67,True,750,300,1400,410,0.04,22,4,Afternoon,Wednesday,26,5,2,Positive,True,Create a poll about favorite colors.
+"The simple but essential P-38 GI Can Opener. A must-have.","#Sports,#Camping",65,True,2200,780,4150,890,0.01,20,2,Morning,Sunday,24,3,1,Positive,True,Post a video demonstrating its use.
+"A fun one: White Mountain Puzzles Cat Fish Jigsaw.","#Toys,#Games,#Puzzles",60,True,1100,450,2300,610,0.03,28,4,Evening,Monday,33,5,2,Positive,True,Show the finished puzzle!
+"The SE 881MA 3-in-1 Multi-Function Hatchet is trending.","#Sports,#CampingGear",69,True,1900,680,3600,750,0.02,30,5,Afternoon,Thursday,36,6,2,Positive,True,Compare it with another popular tool.
+"This USB Flash Drive shaped like a bottle opener is clever!","#Electronics,#Gadgets",65,True,1450,520,2800,640,0.02,26,4,Night,Saturday,31,5,1,Positive,False,
+"The UST 4-in-1 Survival Tool. Compact and useful.","#Sports,#Survival",56,True,2600,950,4800,1020,0.01,22,3,Morning,Tuesday,27,4,1,Neutral,True,Ask followers what their go-to survival tool is.
+"The Eiffel Tower 250 Piece Puzzle mentioned for a relaxing time.","#Toys,#Puzzles",72,True,880,340,1700,490,0.03,23,3,Evening,Friday,28,4,2,Positive,True,Add a time-lapse video of the build.
+"Looking to build grip strength? Check this hand exerciser out.","#Sports,#Fitness",69,True,1300,500,2600,620,0.02,21,3,Afternoon,Wednesday,26,4,1,Positive,False,
+"Make your own snow cones with this VICTORIO Manual Maker.","#Home,#Kitchen",66,True,950,400,1950,540,0.03,25,4,Morning,Monday,30,5,2,Positive,True,Share a recipe for a unique syrup flavor.
+"The Ozeri Digital Kitchen Scale is a huge favorite on Reddit.","#Home,#Kitchen,#Cooking",72,True,5200,1500,9800,1250,0.06,300,55,Evening,Friday,345,60,25,Positive,False,
+"A highly recommended Bento Box for meal prep.","#Home,#Kitchen,#MealPrep",54,True,3800,1100,6500,980,0.03,110,18,Morning,Sunday,130,22,10,Positive,False,
+"Seeing 'Appetite for Reduction' everywhere for vegan recipes.","#Books,#Vegan,#Cooking",73,False,4100,1250,7200,1050,0.04,155,25,Afternoon,Tuesday,180,30,12,Positive,False,
+"The Paderno Spiralizer is a game-changer for veggie lovers.","#Home,#Kitchen,#HealthyEating",69,True,4200,1300,7500,1100,0.04,160,28,Night,Thursday,190,32,15,Positive,False,
+"Protein Plus Peanut Flour is a top pick for 'Grocery & Gourmet Food'.","#Grocery,#Fitness",80,False,3500,1000,5800,920,0.03,100,15,Morning,Saturday,115,18,8,Positive,False,
+"Dr. McDougall's Vegan Soup is perfect for a quick, healthy meal.","#Grocery,#Vegan",76,False,2800,850,4900,800,0.02,58,10,Evening,Monday,70,12,5,Positive,False,
+"The Master Pan Divided Skillet simplifies cooking a whole meal.","#Home,#Kitchen",70,True,4000,1200,7000,1020,0.04,150,24,Afternoon,Wednesday,175,28,11,Positive,False,
+"Explore Asia's Organic Black Bean Spaghetti is a healthy alternative.","#Grocery,#Healthy",79,False,3300,980,5600,900,0.03,95,14,Night,Friday,110,16,7,Positive,False,
+"Hoosier Hill Farm's Cheddar Cheese Powder for all your cheesy needs.","#Grocery,#Snacks",79,False,3450,1050,5900,940,0.03,98,16,Morning,Tuesday,118,19,9,Positive,False,
+"WillPowder Sodium Citrate: a secret ingredient for perfect cheese sauce.","#Grocery,#Cooking",84,False,3400,1020,5850,930,0.03,96,15,Evening,Sunday,115,18,8,Neutral,False,
+"For building self-control, 'The Willpower Instinct' is the book to get.","#Books,#SelfHelp",82,False,3600,1150,6200,970,0.03,105,17,Afternoon,Thursday,125,20,9,Positive,False,
+"Cuisinart's Smart Stick Hand Blender is a kitchen essential.","#Home,#Kitchen,#Appliances",69,True,3700,1180,6400,990,0.03,110,18,Morning,Monday,130,21,10,Positive,False,
+"This Spiral Slicer bundle makes zucchini noodles so easy.","#Home,#Kitchen,#Gadgets",65,True,3150,950,5400,880,0.03,85,13,Night,Saturday,100,15,6,Positive,False,
+"A key ingredient for many recipes: NOW Foods Xanthan Gum.","#Grocery,#Baking",64,False,3200,960,5500,890,0.03,88,14,Evening,Tuesday,105,16,7,Positive,False,
+"JFC's Nori Komi Furikake is the ultimate rice seasoning.","#Grocery,#Seasoning",65,False,3000,920,5300,870,0.03,80,12,Afternoon,Friday,95,14,5,Positive,False,
+postText,hashtags,length,containsImage,userFollowers,userFollowing,userKarma,accountAgeDays,avgEngagementRate,avgLikes,avgComments,postTimeOfDay,dayOfWeek,receivedLikes,receivedComments,receivedShares,topCommentSentiment,shouldImprove,suggestions
+"The Presto PopLite Hot Air Popper is a Reddit favorite! 🍿","#Home,#Kitchen,#Snacks",66,True,2100,750,2800,650,0.03,55,8,Evening,Friday,68,10,3,Positive,False,
+"Ka-Me Rice Crackers are a popular snack find.","#Grocery,#Snacks",48,False,1900,600,1950,510,0.02,38,5,Morning,Tuesday,45,6,2,Positive,True,Pair with a recommended dip to boost interest.
+"PB2 Powdered Peanut Butter Bundle getting lots of mentions.","#Health,#Household,#Fitness",68,True,2450,810,2300,590,0.02,40,6,Afternoon,Sunday,52,8,3,Positive,False,
+"A must-have seasoning according to Reddit: Tajín Clásico.","#Grocery,#Seasoning",63,False,2300,720,2250,570,0.02,42,7,Night,Wednesday,50,9,2,Positive,True,Share a recipe that uses this seasoning.
+"PB2 Powdered Peanut Butter is a consistent top product.","#Grocery,#Fitness",58,True,2550,850,2400,610,0.02,45,7,Morning,Monday,55,9,4,Positive,False,
+"Polar Ice Jello Shot Cups for perfect portion control!","#Home,#Kitchen",59,True,1800,550,1800,480,0.03,48,6,Evening,Saturday,54,7,2,Neutral,True,Suggest creative uses beyond jello shots.
+"The Chicago Metallic Lasagna Trio Pan is perfect for meal prep.","#Home,#Kitchen,#Baking",70,True,2600,900,2500,640,0.02,46,8,Afternoon,Thursday,56,10,3,Positive,False,
+"Making sushi at home is easy with the Camp Chef Sushezi Roller.","#AmazonLaunchpad,#Kitchen",77,True,2150,680,2100,550,0.02,41,6,Night,Tuesday,49,8,2,Positive,False,
+"The AccuWeight Digital Food Scale is a top recommendation.","#Home,#Kitchen,#Cooking",64,True,2800,950,2900,700,0.02,50,9,Morning,Wednesday,60,11,4,Positive,False,
+"This PB2 Powdered Peanut Butter 2-pack bundle is a great deal.","#Grocery,#Fitness,#Deal",74,True,2700,910,2750,680,0.02,49,8,Evening,Sunday,58,10,5,Positive,False,
+"Marukome Miso Easy Original makes for a quick, delicious soup.","#Grocery,#Soup",68,False,1400,450,1100,320,0.02,20,3,Afternoon,Friday,25,4,1,Positive,True,Ask followers for their favorite miso additions.
+"The Progressive International Multi Slicer is a handy kitchen tool.","#Home,#Kitchen,#Gadgets",72,True,1250,400,980,300,0.02,18,2,Morning,Monday,23,3,1,Neutral,True,Show a video of it in action.
+"For Indian food lovers: Roland's Tikka Masala curry sauce.","#Grocery,#Cooking",67,False,1500,510,1250,380,0.02,22,4,Night,Thursday,28,5,2,Positive,True,Suggest a simple recipe using the sauce.
+"Kernel Season's Parmesan & Garlic is the ultimate popcorn topping.","#Grocery,#Snacks",74,False,1600,550,1400,410,0.02,24,4,Evening,Tuesday,30,5,2,Positive,False,
+"Quest Nutrition Protein Chips are a high-protein, savory snack.","#Health,#Snacks",70,True,1750,600,1650,450,0.01,21,3,Afternoon,Saturday,26,4,1,Positive,True,Create a poll for the best flavor.
+"Magic Noodles Shirataki: a low-carb, no-boil pasta alternative.","#Grocery,#Healthy,#LowCarb",77,True,1900,680,1850,500,0.01,19,3,Morning,Wednesday,24,4,1,Positive,False,
+"This Milumia Vintage Floral Maxi Dress is getting great reviews.","#Clothing,#Fashion,#Style",76,True,1300,420,1050,310,0.02,20,2,Night,Friday,25,3,1,Positive,False,
+"Earth Balance Vegan Cheddar Squares are a tasty Cheez-It alternative.","#Grocery,#Vegan,#Snacks",80,False,1850,620,1800,490,0.01,18,3,Evening,Sunday,22,4,1,Positive,False,
+"PB Trimmed's Salted Caramel Powdered Peanut Butter sounds delicious!","#Grocery,#Fitness,#Flavor",82,False,1650,530,1500,420,0.02,23,3,Afternoon,Monday,29,4,2,Positive,True,Ask what people would make with it.
+"A classic for a reason: 'Frog and Toad Are Friends'. 🐸","#Books,#KidsBooks",61,False,950,300,750,250,0.02,14,2,Morning,Thursday,18,3,1,Positive,False,
+"The Yoctosun Head Mount Magnifier is great for detailed hobbies.","#Toys,#Games,#Crafts",74,True,1150,380,920,290,0.02,16,2,Night,Tuesday,21,3,1,Neutral,True,Highlight a specific use case, like model building.
+"This Silicone Microwave Popcorn Popper is a game-changer.","#Home,#Kitchen,#Gadgets",67,True,1700,580,1600,440,0.02,25,4,Evening,Saturday,32,5,2,Positive,False,
+"Relax with a cup of Yogi Tea Chai Rooibos, caffeine-free.","#Health,#Tea",65,False,1450,480,1150,350,0.02,21,3,Afternoon,Wednesday,27,4,1,Positive,False,
+"Mushroom House Dried Shiitake Slices add amazing umami flavor.","#Grocery,#Cooking",70,False,1550,520,1300,390,0.02,22,4,Morning,Monday,28,5,2,Positive,False,
+"Miyasaka Miso Soup Value Pack: quick, easy, and authentic.","#Grocery,#Soup",66,False,1350,430,1080,330,0.02,19,3,Night,Friday,24,4,1,Positive,False,
+"VEGi vegan bacon bits are a hit for salads and dips.","#Grocery,#Vegan",59,False,1200,390,950,280,0.02,17,2,Evening,Sunday,22,3,1,Positive,False,
+"Jovial Foods Organic Einkorn Wheat Berries are a healthy grain option.","#Grocery,#Organic",78,False,1100,360,880,270,0.02,16,2,Afternoon,Tuesday,20,3,1,Neutral,True,Share a recipe to show how to use them.
+"Joseph's Lavash Bread is a low-carb wrap essential.","#Grocery,#LowCarb",57,True,1950,690,1900,520,0.01,18,3,Morning,Thursday,23,4,1,Positive,False,
+"The TrimDish Portion Control Plate helps manage meal sizes.","#Home,#Kitchen,#Health",69,True,1050,350,850,260,0.02,15,2,Night,Saturday,19,3,1,Positive,True,Combine with a healthy eating tip.
+"A vintage find: 'Sugar Spoon Recipes' from Domino Sugar.","#Books,#Cooking,#Vintage",68,False,850,280,650,210,0.02,12,1,Evening,Monday,16,2,0,Neutral,True,Share a photo of a retro recipe from the book.
+"Explore Asia's Red Adzuki Bean Spaghetti is another great pasta swap.","#Grocery,#Organic,#GlutenFree",80,False,1400,470,1120,340,0.02,20,3,Afternoon,Wednesday,26,4,1,Positive,False,
+"Sea Tangle Kelp Noodles are a crunchy, low-calorie noodle choice.","#Grocery,#Healthy",73,False,1500,500,1200,370,0.02,22,3,Morning,Friday,28,4,2,Positive,False,
+"A kitchen staple: Alessi Balsamic Vinegar. 🍇","#Grocery,#Cooking",50,False,900,290,700,220,0.02,14,2,Night,Sunday,18,3,1,Positive,False,
+"Vermont Sugar Free Syrup for a guilt-free pancake breakfast.","#Grocery,#SugarFree",69,False,1600,540,1350,400,0.02,23,4,Evening,Tuesday,29,5,2,Positive,False,
+"The Vitamix Accelerator/Tamper Tool is a must-have for Vitamix owners.","#Home,#Kitchen,#Vitamix",81,True,1250,410,1000,300,0.02,17,2,Afternoon,Thursday,22,3,1,Neutral,False,
+"This non-stick pan lets you bake 4 mini loaves or tarts at once!","#Home,#Kitchen,#Baking",76,True,1100,370,900,280,0.02,16,2,Morning,Saturday,21,3,1,Positive,True,Post a recipe for mini banana bread.
+"Make perfect popsicles every time with Zoku Classic Pop Molds. 🍦","#Home,#Kitchen",72,True,1300,430,1050,320,0.02,19,3,Night,Monday,24,4,1,Positive,False,
+"Chocolove's 77% Extra Strong Dark Chocolate is for serious chocoholics.","#Grocery,#Chocolate",85,True,1450,490,1180,360,0.02,21,3,Evening,Wednesday,27,4,2,Positive,False,
+"This Soft 'n Style 3-piece spray bottle set is surprisingly useful.","#Health,#Household",77,True,950,310,780,240,0.02,15,2,Afternoon,Friday,19,3,1,Neutral,True,List a few clever uses for them.
+"The Veggetti Pro makes spiralizing vegetables effortless.","#Home,#Kitchen,#HealthyEating",63,True,1550,530,1300,390,0.02,22,4,Morning,Sunday,28,5,2,Positive,False,
+"Get that smoky bacon flavor with crunchy Coconut Bacon chips.","#Grocery,#Vegan,#Snacks",72,True,1200,400,980,290,0.02,17,2,Night,Tuesday,22,3,1,Positive,False,
+"Bob's Red Mill Soy Protein Powder is a great smoothie booster.","#Grocery,#Fitness,#Vegan",72,False,1350,460,1100,330,0.02,19,3,Evening,Thursday,24,4,1,Positive,False,
+"For cheese lovers: Hoosier Hill Farm's Blue Cheese Powder.","#Grocery,#Cheese",69,False,1400,480,1150,350,0.02,20,3,Afternoon,Saturday,26,4,2,Positive,False,
+"Sparkling Ice Strawberry Watermelon is a refreshing, zero-sugar drink.","#Grocery,#Drinks",78,True,1650,560,1400,410,0.02,24,4,Morning,Monday,30,5,2,Positive,False,
+"FiberAdvance Weight Management Gummies are an easy way to get fiber.","#Health,#Supplements",76,True,1150,390,950,280,0.02,16,2,Night,Wednesday,21,3,1,Neutral,False,
+"The Stay Fit Deluxe Salad Kit makes taking salads to-go a breeze.","#Home,#Kitchen,#MealPrep",76,True,1250,420,1020,310,0.02,18,3,Evening,Friday,23,4,1,Positive,False,
+"Walden Farms Calorie Free Pancake Syrup is a diet game-changer.","#Grocery,#SugarFree",70,False,1800,610,1750,480,0.02,26,4,Afternoon,Sunday,33,5,2,Positive,False,
+"Ole Mexican High Fiber Low Carb Tortillas are perfect for wraps.","#Grocery,#LowCarb",70,True,1750,590,1700,470,0.02,25,4,Morning,Tuesday,31,5,2,Positive,False,
+"How cute is this 12-Owls Silicone Baking Mold? 🦉","#Home,#Kitchen,#Baking",56,True,1000,340,820,250,0.02,15,2,Night,Thursday,20,3,1,Positive,True,Show off some cute owl-shaped treats!
+"The Norpro Glass Froth Master for making cafe-style drinks at home.","#Home,#Kitchen,#Coffee",76,True,1300,440,1080,330,0.02,19,3,Evening,Saturday,24,4,1,Positive,False,
+"CoolBites Bento Box has a built-in freezable gel ice pack! ❄️","#AmazonLaunchpad,#Lunch",73,True,1450,490,1200,370,0.02,21,3,Afternoon,Monday,27,4,2,Positive,False,
+"Dr. McDougall's Vegan Split Pea Soup is a healthy instant meal.","#Grocery,#Vegan,#Soup",73,False,1900,650,1880,510,0.01,17,2,Morning,Wednesday,22,3,1,Positive,False,
+"Cali'flour Foods Cauliflower Pizza Crusts are low-carb & gluten-free.","#Grocery,#LowCarb,#Pizza",85,True,1550,530,1350,400,0.02,22,3,Night,Friday,28,4,2,Positive,False,
+"The Salbree Microwave Popcorn Popper is collapsible for easy storage.","#Home,#Kitchen,#Gadgets",79,True,1600,550,1450,420,0.02,23,4,Evening,Sunday,29,5,2,Positive,False,
+"Tracking workouts? The Polar FT4 Heart Rate Monitor is a solid choice.","#Sports,#Fitness,#Tech",81,True,1350,460,1150,340,0.02,19,3,Afternoon,Tuesday,25,4,1,Positive,False,
+"How elegant are these Hues & Brews Gold Plated Stars Spoons? ✨","#Home,#Kitchen",73,True,900,300,750,230,0.02,14,2,Morning,Thursday,18,3,1,Positive,True,Show them in a styled tablescape.
+"Dr. McDougall's Lower Sodium Split Pea Soup is another great option.","#Grocery,#Vegan,#Healthy",79,False,1850,630,1800,490,0.01,17,2,Night,Saturday,22,3,1,Positive,False,
+"Pirate's Booty Aged White Cheddar is an addictively good snack.","#Grocery,#Snacks",71,True,1700,580,1650,460,0.02,25,4,Evening,Monday,32,5,2,Positive,False,
+"The Gourmia Electric Food Slicer for deli-thin cuts at home.","#Home,#Kitchen,#Appliances",72,True,1200,410,1000,300,0.02,16,2,Afternoon,Wednesday,21,3,1,Neutral,False,
+"The UberChef Julienne Peeler makes perfect veggie noodles.","#Home,#Kitchen,#Gadgets",65,True,1400,480,1180,360,0.02,20,3,Morning,Friday,26,4,2,Positive,False,
+"Kikkoman Instant Tofu Miso Soup for a quick umami fix.","#Grocery,#Soup",62,False,1500,510,1250,380,0.02,22,3,Night,Sunday,28,4,2,Positive,False,
+"Another beautiful set: Hues & Brews Gold Plated Cocktail Forks.","#Home,#Kitchen",72,True,850,290,700,220,0.02,13,2,Evening,Tuesday,17,3,1,Positive,True,Suggest a cocktail and appetizer pairing.
+"Three Ladies Spring Roll Rice Paper Wrappers are super versatile.","#Grocery,#Cooking",71,False,1150,390,950,280,0.02,16,2,Afternoon,Thursday,21,3,1,Positive,False,
+"Tamanoi Sushinoko Rice Mix makes seasoning sushi rice foolproof.","#Grocery,#Sushi",73,False,1050,360,880,270,0.02,15,2,Morning,Saturday,20,3,1,Positive,False,
+"Trim Healthy Mama's Defatted Peanut Flour is great for low-fat baking.","#Grocery,#Baking,#Healthy",82,False,1300,440,1100,330,0.02,18,3,Night,Monday,23,4,1,Positive,False,
+"This Improved Spiralizer makes zucchini pasta in a flash!","#Home,#Kitchen,#Gadgets",64,True,1450,490,1220,370,0.02,21,3,Evening,Wednesday,27,4,2,Positive,False,
+"Sometimes all you need is a simple, reliable Digital Scale.","#Home,#Kitchen",66,True,950,320,800,240,0.02,14,2,Afternoon,Friday,19,3,1,Neutral,False,
+"ARCTIC ZERO's Chocolate Peanut Butter is a guilt-free frozen dessert.","#Grocery,#Dessert,#Healthy",83,True,1600,550,1400,410,0.02,23,4,Morning,Sunday,29,5,2,Positive,False,
+"Soothe your throat with Traditional Medicinals Organic Throat Coat Tea.","#Health,#Tea",79,False,1700,580,1680,470,0.02,24,4,Night,Tuesday,30,5,2,Positive,False,
+"The Fine Life Olive Oil Mister is a healthy alternative to cooking sprays.","#Home,#Kitchen,#Cooking",84,True,1250,420,1050,320,0.02,18,3,Evening,Thursday,23,4,1,Positive,False,
+"The Wilton Whoopie Pie Pan is great for uniform cookies or cakes.","#Home,#Kitchen,#Baking",73,True,2200,750,2200,580,0.02,40,6,Afternoon,Saturday,50,8,3,Positive,False,
+"Cello Whisps Parmesan Cheese Crisps are pure, crunchy goodness.","#Grocery,#Snacks,#Keto",73,True,2400,810,2500,620,0.02,42,7,Morning,Monday,53,9,4,Positive,False,
+"Frontier's Peppermint Flavor is perfect for holiday baking.","#Grocery,#Baking,#Flavor",67,False,1300,440,1100,330,0.02,18,3,Night,Wednesday,23,4,1,Positive,True,Ask for followers' favorite peppermint recipes.
+"Watkins Imitation Caramel Extract for adding rich flavor.","#Grocery,#Baking",62,False,1200,410,1000,300,0.02,17,2,Evening,Friday,22,3,1,Positive,True,Suggest using it in coffee or oatmeal.
+"Hikari Organic White Miso Paste is a high-quality staple.","#Grocery,#Organic,#Cooking",64,False,1400,470,1180,360,0.02,20,3,Afternoon,Sunday,26,4,2,Positive,False,
+"A high-protein treat: Nuts 'N More Chocolate Maple Pretzel Peanut Butter.","#Health,#Fitness,#Snacks",90,True,1500,510,1300,390,0.02,21,3,Morning,Tuesday,27,4,2,Positive,False,
+"Burton Impact Wrist Guards for protection while skating or snowboarding.","#Sports,#Safety",80,True,1100,370,920,280,0.02,16,2,Night,Thursday,21,3,1,Positive,False,
+"A throwback! Maxell UR-60 Blank Audio Cassettes. 📼","#Electronics,#Retro,#Music",63,True,1000,340,850,260,0.02,15,2,Evening,Saturday,20,3,1,Positive,False,
+"The Katadyn Hiker Pro Microfilter is essential for safe backcountry water.","#Sports,#Outdoors,#Hiking",85,True,1350,460,1150,350,0.02,19,3,Afternoon,Monday,24,4,1,Positive,False,
+"This slim Digital Kitchen Scale is a must for accurate cooking.","#Home,#Kitchen",67,True,2900,980,3100,750,0.03,75,12,Morning,Wednesday,90,15,7,Positive,False,
+"A Mini Bluetooth Earphone for hands-free calls and music.","#CellPhones,#Accessories,#Tech",68,True,1250,420,1050,320,0.02,17,2,Night,Friday,22,3,1,Neutral,False,
+"A thought-provoking read: 'The Greatest Book You've Never Read'.","#Books,#Religion",73,False,900,300,750,230,0.02,14,2,Evening,Sunday,18,3,1,Positive,True,Ask a question about the book's premise.
+"The TRENDnet USB to Serial Converter is a tech essential.","#Electronics,#Tech",61,True,3200,1050,4500,900,0.02,70,11,Afternoon,Tuesday,85,14,5,Neutral,False,
+"This Heavy Duty Load Leveler is for serious garage projects.","#AllDepartments,#Tools,#Auto",70,True,1150,390,980,290,0.02,16,2,Morning,Thursday,21,3,1,Neutral,False,
+"A Male Bed Pee Urinal Bottle for travel or medical needs.","#Home,#Health",64,True,800,270,600,200,0.02,12,1,Night,Saturday,15,2,0,Neutral,True,This is a very niche item; targeting is key.
+"Studying for your A+ cert? Check out this all-in-one exam guide.","#Books,#Tech,#Certification",79,False,2800,940,3000,720,0.03,72,11,Evening,Monday,88,14,6,Positive,False,
+"This red metal folding chair is surprisingly popular.","#Home,#Furniture",60,True,1050,360,900,270,0.02,15,2,Afternoon,Wednesday,20,3,1,Neutral,False,
+"SGT KNOTS Twisted Sisal Rope for crafts or household use.","#Tools,#HomeImprovement",65,True,950,320,800,240,0.02,14,2,Morning,Friday,19,3,1,Neutral,False,
+"A poignant question from a book title: 'When I Die, Will I Get Better?'.","#Books,#Philosophy",80,False,850,290,700,220,0.02,13,2,Night,Sunday,17,3,1,Negative,True,Handle this topic with sensitivity.
+"This Gold Fish Dog Costume is hilarious and adorable. 🐠","#PetSupplies,#Costumes",63,True,1400,470,1200,370,0.02,20,3,Evening,Tuesday,26,4,2,Positive,False,
+"The Lee Precision Universal Flaring Die for ammo reloading.","#Sports,#Outdoors,#Reloading",66,True,1300,440,1120,340,0.02,18,3,Afternoon,Thursday,23,4,1,Neutral,False,
+"Getting started with reloading? Check out the Lee Precision Challenger Kit.","#Sports,#Outdoors,#Reloading",88,True,1450,490,1250,380,0.02,21,3,Morning,Saturday,27,4,2,Positive,False,
+"The Hada Labo Gokujun Hyaluronic Lotion is a skincare superstar. ✨","#Beauty,#Skincare,#JapaneseBeauty",82,True,6500,2100,15000,1300,0.07,430,70,Night,Monday,525,85,40,Positive,False,
+"Another massive favorite: the Hada Labo Hyaluronic Acid Lotion.","#Beauty,#Skincare",70,True,5800,1950,11000,1150,0.06,340,55,Evening,Wednesday,410,65,30,Positive,False,
+"Biore's Aqua Rich Watery Essence Sunscreen is a holy grail for many.","#Health,#Skincare,#Sunscreen",86,True,7200,2400,18000,1500,0.08,550,90,Afternoon,Friday,680,110,55,Positive,False,
+"CeraVe Moisturizing Cream is a go-to for dry skin.","#Beauty,#Skincare",59,True,6100,2000,12500,1200,0.06,360,60,Morning,Sunday,450,75,35,Positive,False,
+"Hada Labo's Hyaluronic Acid Cleansing Foam gets rave reviews.","#Beauty,#Skincare",68,True,6000,1980,12000,1180,0.06,350,58,Night,Tuesday,435,70,33,Positive,False,
+"The CeraVe Foaming Facial Cleanser is a top pick for normal to oily skin.","#Beauty,#Skincare,#Cleanser",85,True,5500,1850,10500,1100,0.05,290,48,Evening,Thursday,365,60,28,Positive,False,
+postText,hashtags,length,containsImage,userFollowers,userFollowing,userKarma,accountAgeDays,avgEngagementRate,avgLikes,avgComments,postTimeOfDay,dayOfWeek,receivedLikes,receivedComments,receivedShares,topCommentSentiment,shouldImprove,suggestions
+"Hada Labo's UV Creamy Gel is a popular sunscreen choice on Reddit.","#Health,#Skincare,#Sunscreen",78,True,4800,1600,6500,1050,0.04,180,30,12,Positive,False,
+"EltaMD UV Clear Broad-Spectrum SPF 46 is another top-rated sunscreen.","#Beauty,#Skincare",75,True,3100,1050,2900,710,0.03,85,13,Evening,Wednesday,98,15,6,Positive,False,
+"Reviva Labs DMAE Firming Fluid is getting some buzz for skincare.","#Health,#Skincare",69,False,1450,480,1200,380,0.02,22,4,Morning,Saturday,26,5,2,Positive,True,Ask for before and after experiences.
+"The EltaMD PM Therapy Facial Moisturizer is a nightly favorite.","#Beauty,#Skincare",66,True,1600,530,1450,420,0.02,24,4,Night,Monday,29,5,2,Positive,True,Compare with their AM moisturizer.
+"Cosrx Honey Ceramide Full Moisture Cream for deep hydration. 🍯","#Beauty,#Skincare,#KBeauty",70,True,1700,580,1550,450,0.02,26,4,Afternoon,Friday,31,5,2,Positive,False,
+"A highly rated deadbolt for home security: the Schlage B62N505.","#Tools,#HomeImprovement,#Security",80,True,1100,350,900,290,0.02,18,2,Morning,Tuesday,22,3,1,Neutral,True,A video installation guide would be helpful.
+"These 15-inch Catnip Kicker Toys seem to be a hit with cats! 🐈","#PetSupplies,#Cats,#Toys",77,True,1250,400,1050,330,0.02,20,3,Evening,Sunday,25,4,1,Positive,False,
+"Spotted 'Elementary Linear Algebra' being recommended for math students.","#Books,#Math,#Education",80,False,2100,700,2150,550,0.02,38,6,Afternoon,Thursday,48,8,3,Neutral,False,
+"The Cyber Gadget Grip for the New 3DS XL is a must-have accessory.","#VideoGames,#Nintendo,#3DS",80,True,5900,2000,11500,1100,0.05,280,45,Morning,Saturday,350,56,25,Positive,False,
+"Keep your games safe with the Nintendo 3DS Game Card Case 24.","#VideoGames,#Accessories",73,True,4500,1500,5800,950,0.04,155,25,Night,Wednesday,190,30,14,Positive,False,
+"The SanDisk Ultra 32GB Micro SDHC card is essential for expanding 3DS storage.","#Electronics,#Storage,#3DS",90,True,5500,1850,9500,1050,0.05,250,40,Evening,Monday,310,50,22,Positive,False,
+"The AmazonBasics Carrying Case for 3DS XL is a very popular choice.","#VideoGames,#Nintendo,#Accessories",77,True,4100,1350,4900,900,0.04,135,22,Afternoon,Friday,165,26,11,Positive,False,
+"The Super Mario White Edition of the New Nintendo 3DS looks amazing.","#VideoGames,#Nintendo,#Mario",80,True,3600,1200,3800,800,0.03,100,16,Morning,Sunday,120,20,9,Positive,False,
+"The Animal Crossing Happy Home Designer New 3DS Bundle is adorable.","#VideoGames,#AnimalCrossing",75,True,3700,1250,3900,820,0.03,105,17,Night,Tuesday,125,21,10,Positive,False,
+"Protect your screen with the HORI Duraflexi Clear Protector for New 3DS XL.","#VideoGames,#Accessories",88,True,3300,1100,3100,740,0.03,88,14,Evening,Thursday,105,17,8,Positive,False,
+"This Cyber Premium Slide Pad Cover improves the 3DS controls.","#VideoGames,#Accessories",68,True,3250,1080,3050,730,0.03,85,13,Afternoon,Saturday,100,16,7,Positive,False,
+"The HORI Screen Protective Filter is another top choice for the 3DS.","#VideoGames,#Accessories",74,True,3400,1150,3200,760,0.03,90,15,Morning,Monday,110,18,8,Positive,False,
+"A popular grip for the 3DS LL: the CYBER rubber-coated grip.","#VideoGames,#3DS,#Accessories",69,True,3150,1050,2950,720,0.03,82,13,Night,Wednesday,95,15,6,Positive,False,
+"The dreamGEAR Comfort GRIP adds protection and comfort to your 3DS XL.","#VideoGames,#Accessories",83,True,3500,1180,3400,780,0.03,92,15,Evening,Friday,115,19,9,Positive,False,
+"The HORI Hard Pouch is a sturdy case for the New 3DS XL.","#VideoGames,#Accessories",65,True,3350,1120,3150,750,0.03,86,14,Afternoon,Sunday,108,18,8,Positive,False,
+"A legendary RPG getting love on Reddit: Chrono Trigger for DS.","#VideoGames,#RPG,#Retro",76,True,4200,1400,5100,920,0.04,145,23,Morning,Tuesday,180,28,12,Positive,False,
+"Animal Crossing: New Leaf Welcome amiibo is a fan favorite.","#VideoGames,#AnimalCrossing",64,True,3800,1280,4100,840,0.03,110,18,Night,Thursday,130,22,10,Positive,False,
+"The Legend of Zelda Ocarina of Time 3D is a timeless classic.","#VideoGames,#Zelda",70,True,3900,1300,4300,860,0.03,115,19,Evening,Saturday,140,23,11,Positive,False,
+"This YUYIKES USB charging cable for 3DS is a handy accessory.","#Electronics,#3DS,#Cables",69,True,3050,1020,2850,700,0.03,80,12,Afternoon,Monday,95,15,6,Neutral,False,
+"The GAMETECH 3DS Power Adapter lets you charge with a micro-B cable.","#VideoGames,#Accessories",80,True,3100,1040,2900,710,0.03,82,13,Morning,Wednesday,100,16,7,Positive,False,
+"This CYBER accessory for the New 3DS is getting some attention.","#VideoGames,#Accessories",68,True,2950,990,2750,680,0.03,78,12,Night,Friday,90,14,5,Neutral,True,The product name is unclear; a better description is needed.
+"The Super Mario Black Edition for the New Nintendo 3DS is sleek.","#VideoGames,#Nintendo,#Mario",74,True,3450,1160,3350,770,0.03,91,15,Evening,Sunday,112,18,8,Positive,False,
+"The Fire Emblem Fates - Special Edition is a must-have for fans.","#VideoGames,#FireEmblem",72,True,3550,1190,3550,790,0.03,95,16,Afternoon,Tuesday,118,20,9,Positive,False,
+"Monster Hunter Generations is a huge hit with 3DS players.","#VideoGames,#MonsterHunter",64,True,2850,950,2650,650,0.03,65,10,Morning,Thursday,80,12,5,Positive,False,
+"A surprisingly useful office item: Swingline Rubber Finger Tips.","#OfficeProducts",71,True,2250,750,2350,600,0.03,55,8,Night,Saturday,70,10,4,Neutral,False,
+"The iLLumiShield Screen Protector for the New 3DS is highly rated.","#Tools,#HomeImprovement,#3DS",76,True,2750,920,2550,640,0.03,62,10,Evening,Monday,75,12,5,Positive,False,
+"These Analog Joystick Stick Caps are great for repairing a PSP-1000.","#VideoGames,#PSP,#Repair",79,True,2650,880,2450,620,0.03,60,9,Afternoon,Wednesday,72,11,4,Positive,False,
+"The dreamGEAR Wii U Grip Stylus 4 Pack offers better comfort and control.","#VideoGames,#WiiU,#Accessories",88,True,2550,850,2350,610,0.03,58,9,Morning,Friday,70,11,4,Positive,False,
+"The Sony 32GB SDHC Class 10 card is a reliable storage option.","#Electronics,#Storage",69,True,2900,970,2700,670,0.03,68,11,Night,Sunday,85,13,6,Positive,False,
+"Monster Hunter 4 Ultimate with the Felyne Pin is a great collector's item.","#VideoGames,#MonsterHunter",86,True,2950,990,2800,690,0.03,70,11,Evening,Tuesday,88,14,6,Positive,False,
+"The TPU Duraflexi Cover for New 3DS LL offers flexible protection.","#VideoGames,#Accessories",73,True,2800,930,2600,650,0.03,64,10,Afternoon,Thursday,78,12,5,Positive,False,
+"The New 3DS XL in Lime Green is a vibrant and fun special edition.","#VideoGames,#Nintendo",74,True,2950,990,2850,700,0.03,72,12,Morning,Saturday,90,15,7,Positive,False,
+"The Monster Hunter Cross Kisekae plate adds awesome art to your 3DS.","#VideoGames,#MonsterHunter",81,True,2700,900,2500,630,0.03,61,9,Night,Monday,75,11,4,Positive,False,
+"The Samsung EVO 64GB Micro SDXC is a top choice for speed and capacity.","#Electronics,#Storage",79,True,5100,1700,8000,1000,0.05,230,38,Evening,Wednesday,285,46,20,Positive,False,
+"SanDisk's Ultra 32GB microSDHC is another excellent storage card.","#Electronics,#Storage",70,True,5200,1750,8200,1020,0.05,235,39,Afternoon,Friday,290,48,21,Positive,False,
+"Anker's Astro E4 13000mAh Power Bank is perfect for charging on the go.","#Electronics,#PowerBank",87,True,4900,1650,7000,980,0.04,195,32,Morning,Sunday,240,40,18,Positive,False,
+"The SanDisk Ultra 64GB microSDXC is a consistently popular pick.","#Electronics,#Storage",69,True,4600,1550,6200,960,0.04,175,28,Night,Tuesday,215,35,15,Positive,False,
+"The PDP Nintendo Switch Elite Player Backpack for taking your console anywhere.","#VideoGames,#Switch,#Accessories",89,True,4300,1450,5400,940,0.04,155,25,Evening,Thursday,195,32,14,Positive,False,
+"Remember the 'Cory in the House' game for Nintendo DS? A true classic. 😂","#VideoGames,#Retro,#Meme",85,True,3950,1320,4600,880,0.04,140,22,Afternoon,Saturday,170,27,11,Positive,False,
+"Transcend's USB 3.0 Card Reader is a versatile tool for data transfer.","#Electronics,#Gadgets",79,True,4050,1350,4800,890,0.04,145,24,Morning,Monday,180,29,13,Positive,False,
+postText,hashtags,length,containsImage,userFollowers,userFollowing,userKarma,accountAgeDays,avgEngagementRate,avgLikes,avgComments,postTimeOfDay,dayOfWeek,receivedLikes,receivedComments,receivedShares,topCommentSentiment,shouldImprove,suggestions
+"Give your 3DS XL a cool retro look with this NES vinyl skin.","#VideoGames,#Retro,#Skins",75,True,1550,500,1300,400,0.02,23,4,Morning,Monday,28,5,2,Positive,True,Show a before-and-after picture.
+"The BRENDO Hard Case for the Nintendo 2DS keeps it safe and holds 24 games.","#Electronics,#Gaming,#2DS",86,True,1650,550,1400,430,0.02,24,4,Night,Thursday,30,5,2,Positive,False,
+"This ADVcer Hard Case for the 2DS offers waterproof protection.","#VideoGames,#Accessories,#2DS",70,True,1500,490,1250,390,0.02,22,3,Evening,Saturday,27,4,1,Positive,False,
+"The Austor Travel Carrying Case is another solid option for 2DS owners.","#Electronics,#2DS,#Travel",80,True,1450,480,1200,380,0.02,21,3,Afternoon,Tuesday,26,4,1,Neutral,True,Compare its features to other cases.
+"Story of Seasons: Trio of Towns is a must-play for farming sim fans.","#VideoGames,#FarmingSim",76,True,1700,560,1500,440,0.02,25,4,Morning,Friday,31,5,2,Positive,False,
+"The MAGICMAI Protective Travel Case for the Nintendo 2DS.","#VideoGames,#Accessories,#2DS",62,True,1350,440,1100,350,0.02,20,3,Night,Sunday,24,4,1,Positive,False,
+"Final Fantasy Explorers for Nintendo 3DS is getting some great mentions.","#VideoGames,#FinalFantasy,#RPG",83,True,2400,800,2300,600,0.03,58,9,Evening,Wednesday,70,11,4,Positive,False,
+"SanDisk's 32GB microSDHC card is a top deal for expanding your 3DS storage.","#Electronics,#Storage,#Deals",87,True,5300,1800,8500,1050,0.05,240,40,Afternoon,Monday,300,50,22,Positive,False,
+"The classic black Nintendo New 3DS XL is a popular deal item.","#VideoGames,#Nintendo,#Deals",66,True,3300,1100,3200,750,0.03,88,14,Morning,Thursday,105,17,8,Positive,False,
+"Samsung's 32GB EVO SDHC card is another great deal for storage needs.","#Electronics,#Storage,#Deals",75,True,3200,1050,3000,730,0.03,85,13,Night,Saturday,100,16,7,Positive,False,
+"This 64GB Micro SD card is perfect for your GoPro or other devices.","#Electronics,#Storage,#GoPro",75,True,2500,820,2400,610,0.03,60,9,Evening,Tuesday,72,11,4,Neutral,False,
+"Check out 'The Art of Fire Emblem: Awakening' for beautiful concept art.","#Books,#ArtBook,#FireEmblem",81,False,2600,850,2500,640,0.03,62,10,Afternoon,Friday,75,12,5,Positive,False,
+"A timeless classic on the 3DS: Super Mario 3D Land. 🍄","#VideoGames,#Mario,#Nintendo",63,True,1800,600,1600,480,0.02,28,4,Morning,Sunday,34,5,2,Positive,False,
+"The Pokemon Moon edition with the bonus Lunala Figure is a great find.","#VideoGames,#Pokemon",78,True,1900,630,1750,500,0.02,29,5,Night,Wednesday,35,6,2,Positive,False,
+"Monster Hunter 4 Ultimate is a top recommendation for action RPG fans.","#VideoGames,#MonsterHunter",79,True,1750,580,1550,460,0.02,27,4,Evening,Monday,33,5,2,Positive,False,
+"Kirby Triple Deluxe for the 3DS is pure, colorful fun.","#VideoGames,#Kirby,#Nintendo",60,True,1650,550,1450,430,0.02,26,4,Afternoon,Thursday,32,5,2,Positive,False,
+"The digital code for Zelda: Ocarina of Time is a convenient deal.","#VideoGames,#Zelda,#Digital",72,False,1850,610,1650,490,0.02,28,5,Morning,Saturday,34,6,2,Positive,False,
+"A must-have for 3D printers: Borosilicate Glass Plate for the heated bed.","#Industrial,#Scientific,#3Dprinting",90,True,3900,1300,4500,850,0.03,110,18,Night,Tuesday,135,22,10,Positive,False,
+"3M 468MP Adhesive Transfer Tape is perfect for securing a PEI sheet.","#Industrial,#Scientific,#3Dprinting",82,False,3500,1150,3700,800,0.03,95,15,Evening,Friday,115,19,9,Positive,False,
+"Neiko's Electronic Digital Caliper for precise 3D printing measurements.","#Tools,#HomeImprovement,#3Dprinting",82,True,3600,1200,3800,820,0.03,100,16,Afternoon,Sunday,120,20,9,Positive,False,
+"This ZIRO Marble Color PLA filament creates amazing-looking prints. 🏛️","#Industrial,#Scientific,#3Dprinting",79,True,3100,1030,3000,720,0.03,80,12,Morning,Wednesday,95,15,6,Positive,False,
+"The Noctua A-Series Cooling Fan is a quiet upgrade for your 3D printer.","#Electronics,#3Dprinting,#DIY",84,True,3200,1060,3100,740,0.03,82,13,Night,Monday,100,16,7,Positive,False,
+"The iGaging IP54 Digital Caliper is another top choice for makers.","#Industrial,#Scientific,#3Dprinting",74,True,2700,900,2600,650,0.03,65,10,Evening,Thursday,80,12,5,Positive,False,
+"A quality Nema 17 Stepper Motor is crucial for reliable 3D printing.","#Tools,#HomeImprovement,#3Dprinting",83,True,2800,930,2700,670,0.03,68,11,Afternoon,Saturday,85,13,6,Positive,False,
+"The Monoprice Maker Select 3D Printer v2 is a popular entry-level machine.","#Industrial,#Scientific,#3Dprinting",88,True,2900,960,2800,690,0.03,70,11,Morning,Tuesday,88,14,6,Positive,False,
+"Gizmo Dorks PEI Sheet for a reliable, easy-to-use print surface.","#Industrial,#Scientific,#3Dprinting",77,True,2650,880,2550,640,0.03,64,10,Night,Friday,78,12,5,Positive,False,
+"Using a Silicone Thermal Pad helps with heat distribution on your print bed.","#Electronics,#3Dprinting,#DIY",86,True,2550,850,2450,620,0.03,62,10,Evening,Sunday,75,12,5,Neutral,False,
+"A 50mm Cooling Blower Fan is essential for printing PLA overhangs.","#Electronics,#3Dprinting,#DIY",76,True,2600,860,2500,630,0.03,63,10,Afternoon,Wednesday,76,12,5,Positive,False,
+"This 3D Print Removal Tool makes getting prints off the bed much easier.","#Industrial,#Scientific,#3Dprinting",83,True,2450,810,2350,600,0.03,60,9,Morning,Monday,72,11,4,Positive,False,
+"This set of 2 Foreasy 3D Print Removal Tools is a great value.","#Industrial,#Scientific,#3Dprinting",74,True,2500,830,2400,610,0.03,61,9,Night,Thursday,74,11,4,Positive,False,
+"A powerful 12V 30A Regulated Switching Power Supply for DIY projects.","#Electronics,#DIY,#3Dprinting",81,True,1600,530,1400,410,0.02,24,4,Evening,Saturday,30,5,2,Neutral,True,Missing engagement data, add project examples.
+"The Printrbot Simple Maker's Kit is a classic entry into 3D printing.","#Industrial,#Scientific,#3Dprinting",82,True,1700,560,1500,440,0.02,26,4,Afternoon,Tuesday,32,5,2,Positive,True,Missing engagement data, share a beginner project.
+"The most hilarious and useful book for new parents: 'The Baby Owner's Manual'. 👶","#Books,#Parenting,#Humor",93,False,4800,1600,6800,980,0.04,190,32,Morning,Friday,230,38,18,Positive,False,
+"The Hakko FX888D Digital Soldering Station is a maker community favorite.","#Tools,#Soldering,#Electronics",88,True,4600,1530,6000,950,0.04,170,28,Night,Sunday,210,35,15,Positive,False,
+"Weller's WLC100 40-Watt Soldering Station is a reliable workhorse.","#Tools,#HomeImprovement,#Soldering",79,True,4500,1500,5800,930,0.04,165,27,Evening,Wednesday,205,34,14,Positive,False,
+"A 'Helping Hand with Magnifying Glass' is essential for detailed soldering.","#Tools,#Soldering,#Electronics",88,True,4700,1560,6200,960,0.04,175,29,Afternoon,Monday,215,36,16,Positive,False,
+"The Walnut Hollow Creative Versa Tool for woodburning and more. 🔥","#Toys,#Games,#Crafts",72,True,3800,1260,4400,840,0.03,125,20,Morning,Thursday,150,25,11,Positive,False,
+"When a bolt is stuck, PB B'laster Penetrating Catalyst is the answer.","#Automotive,#Tools,#DIY",80,True,3300,1100,3300,760,0.03,90,15,Night,Saturday,110,18,8,Positive,False,
+"Super Lube Synthetic Grease is perfect for lubricating 3D printer rods.","#Industrial,#Scientific,#3Dprinting",83,True,3400,1130,3400,780,0.03,92,15,Evening,Tuesday,115,19,9,Positive,False,
+"The AUTOJECT 2 is a specialized self-injection device.","#Industrial,#Scientific,#Medical",59,True,3150,1050,3150,730,0.03,85,13,Afternoon,Friday,105,17,8,Neutral,False,
+"Light up your space with this SUPERNIGHT RGB LED color-changing kit.","#Tools,#HomeImprovement,#Lighting",85,True,3350,1120,3350,770,0.03,91,15,Morning,Sunday,112,18,8,Positive,False,
+"The Iot Relay makes it easy to control high-power devices with an Arduino.","#Electronics,#DIY,#Arduino",86,True,3450,1150,3450,790,0.03,94,16,Night,Wednesday,118,20,9,Positive,False,
+"Lucas Oil White Lithium Grease is another great lubricant for mechanical parts.","#Automotive,#3Dprinting",85,True,3250,1080,3250,750,0.03,88,14,Evening,Monday,108,18,8,Positive,False,
+"A Giant Novelty Penny makes for a fun and surprising 3D print scale comparison.","#Toys,#Games,#3Dprinting",88,True,2500,830,2450,620,0.03,62,10,Afternoon,Thursday,75,12,5,Positive,False,
+"The Monoprice Select Mini 3D Printer is a compact and capable machine.","#AllDepartments,#3Dprinting",78,True,2600,860,2550,640,0.03,64,10,Morning,Saturday,78,12,5,Positive,False,
+"The Soyan 3D Printing Pen is a fun way to draw in three dimensions.","#Home,#Kitchen,#3Dpen",77,True,2700,900,2650,660,0.03,66,11,Night,Tuesday,82,13,6,Positive,False,
+"A 12x12 PEI Sheet is a popular upgrade for larger 3D printers.","#Industrial,#Scientific,#3Dprinting",70,True,2800,930,2750,680,0.03,69,11,Evening,Friday,86,14,6,Positive,False,
+"The Presto Electric Multi-Cooker is great for finishing 3D prints with acetone.","#Home,#Kitchen,#3Dprinting",90,True,2550,850,2500,630,0.03,63,10,Afternoon,Sunday,76,12,5,Neutral,False,
+"BuildTak's 3D Printing Build Surface offers excellent print adhesion.","#Industrial,#Scientific,#3Dprinting",79,True,2900,970,2850,700,0.03,72,12,Morning,Wednesday,90,15,7,Positive,False,
+"Keep your filament dry with the Eva-dry Renewable Mini Dehumidifier.","#Home,#Kitchen,#3Dprinting",78,True,2850,950,2800,690,0.03,70,11,Night,Monday,88,14,6,Positive,False,
+"HATCHBOX Wood PLA filament gives prints a real wood-like finish.","#Industrial,#Scientific,#3Dprinting",76,True,2950,980,2900,710,0.03,74,12,Evening,Thursday,92,15,7,Positive,False,
+"A mini wire brush set is handy for cleaning 3D printer nozzles.","#Tools,#HomeImprovement,#3Dprinting",72,True,2750,910,2700,670,0.03,68,11,Afternoon,Saturday,84,13,6,Positive,False,
+"You can even buy a live Venus Flytrap on Amazon!  carnivorousplant","#Patio,#LawnGarden",80,True,2650,880,2600,650,0.03,65,10,Morning,Tuesday,80,12,5,Positive,False,
+"The Mitutoyo Digital Caliper is a high-precision tool for serious makers.","#Industrial,#Scientific,#Tools",85,True,2950,980,2950,720,0.03,75,12,Night,Friday,94,15,7,Positive,False,
+"The LulzBot Mini is a reliable, high-quality desktop 3D printer.","#Industrial,#Scientific,#3Dprinting",75,True,2800,930,2750,680,0.03,70,11,Evening,Sunday,88,14,6,Positive,False,
+postText,hashtags,length,containsImage,userFollowers,userFollowing,userKarma,accountAgeDays,avgEngagementRate,avgLikes,avgComments,postTimeOfDay,dayOfWeek,receivedLikes,receivedComments,receivedShares,topCommentSentiment,shouldImprove,suggestions
+"99% PURE Copper Sulfate Pentahydrate Crystals (2 lb)","#3DPrinting,#Materials",60,True,450,220,1250,365,0.04,12,3,Afternoon,Tuesday,18,4,2,Neutral,True,"Add use case or demo photo"
+"Printrbot Assembled Printrbot Simple with Aluminum Handle and Spool Rack 3D Printer","#3DPrinting,#3DPrinter",83,True,500,300,1350,400,0.05,14,3,Morning,Wednesday,21,5,2,Positive,False,
+"Printrbot Printrbot Play 1505 - White Assembled 3D Printer, White","#3DPrinting,#3DPrinter",72,True,480,290,1300,390,0.05,13,3,Evening,Thursday,20,5,2,Positive,False,
+"RepRap Champion Z-Brace Frame Support Upgrade Kit for Wanhao Duplicator i3 and Monoprice Maker Select","#3DPrinting,#UpgradeKit",97,True,420,210,1200,380,0.04,11,2,Night,Friday,17,4,2,Neutral,True,"Include compatibility details"
+"Lazery Collections Gripped Bottom Cabinet Turntable Lazy Susan (9-Inch)","#3DPrinting,#Accessories",68,True,300,180,950,300,0.03,9,2,Afternoon,Monday,14,3,1,Neutral,True,"Explain unique advantage"
+"Warner 182 DIY Series Flex Putty Knife, 1-1/4-Inch","#3DPrinting,#Tools",53,True,310,150,980,310,0.03,9,2,Morning,Tuesday,13,3,1,Neutral,True,"Show usage in 3D printing context"
+"MG Chemicals Wood 3D Printer Filament, 1.75mm, 0.5 Kg (1.1 lbs.) - Wood","#3DPrinting,#Filament",80,True,350,200,1050,320,0.04,10,2,Evening,Wednesday,16,4,2,Positive,False,
+"Kollea Stainless Steel Reusable Ice Cubes Chilling Stones with Tongs for Whiskey Wine, Pack of 6","#Home,#Gadgets",97,True,250,120,800,280,0.03,8,2,Night,Thursday,12,2,1,Neutral,True,"Connect to 3D printing hobbyist lifestyle"
+"Bare Conductive Pen","#3DPrinting,#Electronics",28,True,280,130,850,290,0.03,9,2,Morning,Friday,13,3,1,Positive,False,
+"PEI (Polyetherimide) Sheet, Opaque Off-White, Standard Tolerance, ASTM D5205 PEI0113","#3DPrinting,#BuildSurface",87,True,320,160,950,310,0.04,10,2,Afternoon,Saturday,15,3,1,Neutral,False,
+"Elmer's Disappearing Purple School Glue, Washable, 6 Pack, 0.21-ounce sticks","#3DPrinting,#Glue",83,True,310,140,900,290,0.03,8,2,Evening,Sunday,11,2,1,Neutral,True,"Explain why it's useful for 3D printing"
+"Gowoops MKS SBASE V1.3 3D Printer Control Board, 32bit Arm Platform Smooth Open Source MCU-LPC1768","#3DPrinting,#ControlBoard",102,True,350,180,1000,320,0.04,10,2,Night,Monday,14,3,1,Positive,False,
+"Micro Swiss MK10 All Metal Hotend Kit .4mm Nozzle WANHAO, FlashForge, Dremel Idea Builder","#3DPrinting,#Hotend",89,True,340,170,970,310,0.04,10,2,Morning,Tuesday,14,3,2,Positive,False,
+"HATCHBOX Glow in the Dark PLA 3D Printer Filament, 1 kg Spool, 1.75 mm - Blue","#3DPrinting,#Filament",93,True,360,190,1050,330,0.04,11,2,Afternoon,Wednesday,16,4,2,Positive,False,
+"Auto-Out","#HomeSafety,#Kitchen",8,True,200,100,700,250,0.02,6,1,Evening,Thursday,9,1,1,Neutral,True,"Provide context of why useful to 3D printer users"
+"Mitutoyo Steel Rectangular Gage Block, ASME Grade AS-1, Inch","#3DPrinting,#PrecisionTools",84,True,300,140,880,280,0.03,8,2,Night,Friday,12,2,1,Neutral,True,"Explain measuring use case"
+"Glarks 280-Pieces M3 Pan Head Phillips Stainless Steel Screws Kit","#3DPrinting,#Hardware",72,True,310,160,900,290,0.03,9,2,Morning,Saturday,13,3,1,Neutral,False,
+"Aztek A220 Beginner Basic External Mix Airbrush","#3DPrinting,#Painting",56,True,280,150,850,280,0.03,8,2,Afternoon,Sunday,12,2,1,Neutral,True,"Show painted model examples"
+"Inland 3mm Red PLA 3D Printer Filament - 1kg Spool (2.2 lbs)","#3DPrinting,#Filament",73,True,320,170,930,300,0.04,10,2,Evening,Monday,14,3,2,Positive,False,
+"Steelex D3385 Vernier Caliper, 5-Inch","#3DPrinting,#Measurement",51,True,280,140,820,270,0.03,8,2,Night,Tuesday,11,2,1,Neutral,True,"Show how to measure print accuracy"
+"3D MARS Wood-Infused PLA 1.75mm 3D Printing Filament, Dimensional Accuracy +/- 0.05mm","#3DPrinting,#Filament",91,True,330,180,950,310,0.04,10,2,Morning,Wednesday,14,3,2,Positive,False,
+"uxcell Metric Thickness Feeler Gage Gauge (0.02-1.00mm)","#3DPrinting,#Tools",67,True,260,130,800,260,0.03,7,2,Afternoon,Thursday,10,2,1,Neutral,True,"Explain why useful for print calibration"
+"Darice 1635-85 Mirror-Square-12\"","#DIY,#Mirror",32,True,220,100,750,240,0.02,6,1,Evening,Friday,9,1,1,Neutral,True,"Link to creative prints or projects"
+"Monoprice Maker Select Plus 3D Printer","#3DPrinting,#3DPrinter",44,True,400,200,1100,340,0.05,12,3,Night,Saturday,18,4,2,Positive,False,
+postText,hashtags,length,containsImage,userFollowers,userFollowing,userKarma,accountAgeDays,avgEngagementRate,avgLikes,avgComments,postTimeOfDay,dayOfWeek,receivedLikes,receivedComments,receivedShares,topCommentSentiment,shouldImprove,suggestions
+"For the Faithful! A look back at team history with 'San Francisco 49ers: The Complete History'.","#Movies,#TV,#49ers,#NFL",109,True,1800,650,1650,510,0.02,28,4,Night,Saturday,34,5,2,Positive,False,
+"A read for football tacticians: 'Controlled Chaos: Chip Kelly's Football Revolution'.","#Books,#Football,#49ers",92,False,1750,590,1580,480,0.02,27,4,Afternoon,Monday,33,5,2,Positive,True,Ask for thoughts on Kelly's coaching style.
+"A true collector's item: a Colin Kaepernick signed custom jersey.","#SportsCollectibles,#49ers,#Autograph",84,True,1950,710,1820,550,0.01,25,3,Morning,Wednesday,30,4,1,Positive,False,
+"This 'Feed Me And Tell Me I'm Pretty' bear t-shirt is getting some laughs.","#Clothing,#FunnyTees,#Memes",87,True,1600,540,1430,420,0.02,23,3,Evening,Friday,29,4,1,Positive,False,
+"A popular DIY mod for 4Runner owners: this stitch-on steering wheel wrap.","#Automotive,#4Runner,#CarMods,#DIY",92,True,2800,950,2770,680,0.03,69,11,Night,Tuesday,85,14,5,Positive,False,
+"Keep your ride clean with this 50-pack of microfiber cleaning cloths.","#Automotive,#CarCare,#4Runner",81,True,2750,910,2650,650,0.03,66,10,Afternoon,Sunday,81,13,6,Positive,False,
+"A book about sexuality for young men with autism, 'Things Tom Likes', was mentioned.","#Books,#SexEd,#AutismAwareness",98,False,2900,980,2880,710,0.03,71,11,Morning,Thursday,88,14,6,Neutral,False,
+"A book about sexuality for young women with autism, 'Things Ellie Likes', was also mentioned.","#Books,#SexEd,#AutismAwareness",104,False,2850,960,2810,700,0.03,68,11,Evening,Saturday,84,13,5,Neutral,False,
+"The Astor Bidet is a legendary find on Reddit, with mentions off the charts. A true classic.","#Tools,#HomeImprovement,#Bidet",107,True,8500,2800,25000,1800,0.1,800,130,Afternoon,Wednesday,980,160,75,Positive,False,
+"The bizarro fiction book 'Ass Goblins of Auschwitz' by Cameron Pierce was noted.","#Books,#BizarroFiction",92,False,4800,1600,7100,990,0.04,185,30,Night,Monday,225,36,16,Negative,False,
+"The Intel Compute Stick CS125 turns any HDMI display into a basic PC.","#Electronics,#Intel,#PC",87,True,4100,1350,4950,910,0.04,140,23,Morning,Friday,175,28,12,Positive,False,
+"The Skip Hop Zoo Feeding Set for kids is a surprisingly popular mention.","#Baby,#Kids,#Parenting",83,True,3300,1100,3400,780,0.03,92,15,Evening,Sunday,115,19,9,Positive,False,
+"This Non-Coated Ammonium Nitrate fertilizer was mentioned on Reddit.","#Patio,#LawnGarden,#Fertilizer",79,False,3250,1080,3250,750,0.03,88,14,Afternoon,Tuesday,108,18,8,Neutral,False,
+"Dave Cullen's comprehensive book 'Columbine' was discussed.","#Books,#TrueCrime,#History",68,False,3450,1150,3550,810,0.03,94,16,Night,Thursday,118,20,9,Negative,False,
+"The Kimber PepperBlaster II, a non-aerosol pepper spray, was recommended.","#Sports,#Outdoors,#SelfDefense",88,True,3500,1180,3650,830,0.03,96,16,Morning,Saturday,120,20,9,Neutral,False,
+"Ben Garrison's book 'Rogue Cartoonist' is a topic of conversation.","#Books,#Politics,#InternetCulture",78,False,2750,910,2700,670,0.03,68,11,Evening,Monday,84,13,6,Neutral,False,
+"A classic Pasta Maker Machine for making fresh spaghetti and fettuccine.","#Home,#Kitchen,#Cooking",87,True,2650,880,2600,650,0.03,65,10,Afternoon,Wednesday,80,12,5,Positive,False,
+"A 2014-2015 textbook for 'Writing At Virginia Tech' was mentioned.","#Books,#Textbooks,#College",75,False,2550,850,2500,630,0.03,63,10,Night,Friday,76,12,5,Neutral,True,Very niche item, context is everything.
+"This bulk 2-pound container of Aluminum Powder was a notable find.","#Industrial,#Scientific,#Chemicals",78,False,2800,930,2750,680,0.03,69,11,Morning,Sunday,86,14,6,Neutral,False,
+"LOCK LACES are a popular 'no tie' solution for running shoes.","#Sports,#Outdoors,#Running",72,True,2950,980,2900,710,0.03,74,12,Evening,Tuesday,92,15,7,Positive,False,
+"Matt Furie's 'Boy's Club', origin of the Pepe the Frog character, was mentioned.","#Books,#Comics,#InternetCulture",96,False,2980,1000,3100,740,0.03,75,12,Afternoon,Thursday,94,15,7,Neutral,False,
+"These Dual Option Wall Switch Guards are great for preventing accidental flips.","#Tools,#HomeImprovement",88,True,2450,810,2350,600,0.03,60,9,Morning,Saturday,72,11,4,Positive,False,
+postText,hashtags,length,containsImage,userFollowers,userFollowing,userKarma,accountAgeDays,avgEngagementRate,avgLikes,avgComments,postTimeOfDay,dayOfWeek,receivedLikes,receivedComments,receivedShares,topCommentSentiment,shouldImprove,suggestions
+"99% PURE Copper Sulfate Pentahydrate Crystals (2 lb)","#3DPrinting,#Materials",60,True,450,220,1250,365,0.04,12,3,Afternoon,Tuesday,18,4,2,Neutral,True,"Add use case or demo photo"
+"Printrbot Assembled Printrbot Simple with Aluminum Handle and Spool Rack 3D Printer","#3DPrinting,#3DPrinter",83,True,500,300,1350,400,0.05,14,3,Morning,Wednesday,21,5,2,Positive,False,
+"Printrbot Printrbot Play 1505 - White Assembled 3D Printer, White","#3DPrinting,#3DPrinter",72,True,480,290,1300,390,0.05,13,3,Evening,Thursday,20,5,2,Positive,False,
+"RepRap Champion Z-Brace Frame Support Upgrade Kit for Wanhao Duplicator i3 and Monoprice Maker Select","#3DPrinting,#UpgradeKit",97,True,420,210,1200,380,0.04,11,2,Night,Friday,17,4,2,Neutral,True,"Include compatibility details"
+"Lazery Collections Gripped Bottom Cabinet Turntable Lazy Susan (9-Inch)","#3DPrinting,#Accessories",68,True,300,180,950,300,0.03,9,2,Afternoon,Monday,14,3,1,Neutral,True,"Explain unique advantage"
+"Warner 182 DIY Series Flex Putty Knife, 1-1/4-Inch","#3DPrinting,#Tools",53,True,310,150,980,310,0.03,9,2,Morning,Tuesday,13,3,1,Neutral,True,"Show usage in 3D printing context"
+"MG Chemicals Wood 3D Printer Filament, 1.75mm, 0.5 Kg (1.1 lbs.) - Wood","#3DPrinting,#Filament",80,True,350,200,1050,320,0.04,10,2,Evening,Wednesday,16,4,2,Positive,False,
+"Kollea Stainless Steel Reusable Ice Cubes Chilling Stones with Tongs for Whiskey Wine, Pack of 6","#Home,#Gadgets",97,True,250,120,800,280,0.03,8,2,Night,Thursday,12,2,1,Neutral,True,"Connect to 3D printing hobbyist lifestyle"
+"Bare Conductive Pen","#3DPrinting,#Electronics",28,True,280,130,850,290,0.03,9,2,Morning,Friday,13,3,1,Positive,False,
+"PEI (Polyetherimide) Sheet, Opaque Off-White, Standard Tolerance, ASTM D5205 PEI0113","#3DPrinting,#BuildSurface",87,True,320,160,950,310,0.04,10,2,Afternoon,Saturday,15,3,1,Neutral,False,
+"Elmer's Disappearing Purple School Glue, Washable, 6 Pack, 0.21-ounce sticks","#3DPrinting,#Glue",83,True,310,140,900,290,0.03,8,2,Evening,Sunday,11,2,1,Neutral,True,"Explain why it's useful for 3D printing"
+"Gowoops MKS SBASE V1.3 3D Printer Control Board, 32bit Arm Platform Smooth Open Source MCU-LPC1768","#3DPrinting,#ControlBoard",102,True,350,180,1000,320,0.04,10,2,Night,Monday,14,3,1,Positive,False,
+"Micro Swiss MK10 All Metal Hotend Kit .4mm Nozzle WANHAO, FlashForge, Dremel Idea Builder","#3DPrinting,#Hotend",89,True,340,170,970,310,0.04,10,2,Morning,Tuesday,14,3,2,Positive,False,
+"HATCHBOX Glow in the Dark PLA 3D Printer Filament, 1 kg Spool, 1.75 mm - Blue","#3DPrinting,#Filament",93,True,360,190,1050,330,0.04,11,2,Afternoon,Wednesday,16,4,2,Positive,False,
+"Auto-Out","#HomeSafety,#Kitchen",8,True,200,100,700,250,0.02,6,1,Evening,Thursday,9,1,1,Neutral,True,"Provide context of why useful to 3D printer users"
+"Mitutoyo Steel Rectangular Gage Block, ASME Grade AS-1, Inch","#3DPrinting,#PrecisionTools",84,True,300,140,880,280,0.03,8,2,Night,Friday,12,2,1,Neutral,True,"Explain measuring use case"
+"Glarks 280-Pieces M3 Pan Head Phillips Stainless Steel Screws Kit","#3DPrinting,#Hardware",72,True,310,160,900,290,0.03,9,2,Morning,Saturday,13,3,1,Neutral,False,
+"Aztek A220 Beginner Basic External Mix Airbrush","#3DPrinting,#Painting",56,True,280,150,850,280,0.03,8,2,Afternoon,Sunday,12,2,1,Neutral,True,"Show painted model examples"
+"Inland 3mm Red PLA 3D Printer Filament - 1kg Spool (2.2 lbs)","#3DPrinting,#Filament",73,True,320,170,930,300,0.04,10,2,Evening,Monday,14,3,2,Positive,False,
+"Steelex D3385 Vernier Caliper, 5-Inch","#3DPrinting,#Measurement",51,True,280,140,820,270,0.03,8,2,Night,Tuesday,11,2,1,Neutral,True,"Show how to measure print accuracy"
+"3D MARS Wood-Infused PLA 1.75mm 3D Printing Filament, Dimensional Accuracy +/- 0.05mm","#3DPrinting,#Filament",91,True,330,180,950,310,0.04,10,2,Morning,Wednesday,14,3,2,Positive,False,
+"uxcell Metric Thickness Feeler Gage Gauge (0.02-1.00mm)","#3DPrinting,#Tools",67,True,260,130,800,260,0.03,7,2,Afternoon,Thursday,10,2,1,Neutral,True,"Explain why useful for print calibration"
+"Darice 1635-85 Mirror-Square-12\"","#DIY,#Mirror",32,True,220,100,750,240,0.02,6,1,Evening,Friday,9,1,1,Neutral,True,"Link to creative prints or projects"
+"Monoprice Maker Select Plus 3D Printer","#3DPrinting,#3DPrinter",44,True,400,200,1100,340,0.05,12,3,Night,Saturday,18,4,2,Positive,False,
+postText,hashtags,length,containsImage,userFollowers,userFollowing,userKarma,accountAgeDays,avgEngagementRate,avgLikes,avgComments,postTimeOfDay,dayOfWeek,receivedLikes,receivedComments,receivedShares,topCommentSentiment,shouldImprove,suggestions
+"A recommended supplement on slow-carb diet forums: NOW Super Odorless Garlic.","#Health,#Supplements,#SlowCarb",95,True,1700,580,1550,460,0.02,26,4,Midnight,Sunday,32,5,2,Positive,True,Ask about people's experiences with it.
+"NOW Green Tea Extract is another popular supplement for the 4-Hour Body.","#Health,#Supplements,#Diet",86,True,1850,620,1700,500,0.02,28,5,Early Morning,Monday,35,6,2,Positive,True,Mention the caffeine content for clarity.
+"For cellular support, NOW Alpha Lipoic Acid gets a mention.","#Health,#Supplements",65,True,1650,550,1480,440,0.02,25,4,Afternoon,Tuesday,31,5,2,Positive,True,Explain the benefits in simpler terms.
+"NOW Policosanol is another supplement noted in the community.","#Health,#Supplements",62,True,1550,510,1350,410,0.02,22,3,Evening,Wednesday,28,4,1,Neutral,True,Clarify what Policosanol is used for.
+"The ARB Recovery Strap is an essential piece of gear for any 4x4 rig.","#Automotive,#4x4,#Offroad",83,True,1900,680,1800,530,0.02,29,5,Morning,Thursday,36,6,2,Positive,False,
+"JKS Quicker Disconnects for the Jeep WJ are a popular suspension mod.","#Automotive,#Jeep,#4x4,#DIY",80,True,1800,610,1650,490,0.02,28,4,Night,Friday,34,5,2,Positive,False,
+"The MasterFlow MF-1050 Air Compressor is a top pick for airing up tires.","#Automotive,#4x4,#Tools",84,True,1700,570,1520,450,0.02,26,4,Afternoon,Saturday,32,5,2,Positive,False,
+"Another great option for an onboard air compressor: the SuperFlow MV-90.","#Automotive,#4x4,#Tools",82,True,1750,590,1580,470,0.02,27,4,Early Morning,Sunday,33,5,2,Positive,False,
+"The Ultima Waterless Wash Plus+ Concentrate is great for cleaning on the go.","#Automotive,#CarCare,#Cleaning",89,True,1600,540,1430,420,0.02,24,4,Midnight,Monday,30,4,1,Positive,False,
+"A simple metal wire cage to protect your regulator gauge. Smart idea.","#Home,#Kitchen,#Tools,#DIY",76,True,1400,450,1150,380,0.02,20,3,Evening,Tuesday,25,4,1,Neutral,True,Show it installed on a CO2 tank.
+"A popular book club pick: 'The Happiness Hypothesis' by Jonathan Haidt.","#Books,#ReadingList,#Psychology,#52book",101,False,3400,1150,3450,790,0.03,94,16,Morning,Wednesday,118,20,9,Positive,False,
+"Struggling with time management? Check out '168 Hours: You Have More Time Than You Think'.","#Books,#Productivity,#SelfHelp",104,False,2900,980,2900,710,0.03,72,12,Night,Thursday,90,15,7,Positive,False,
+"A motivational read for creators: 'Create Or Hate: Successful People Make Things'.","#Books,#Motivation,#Creativity",91,False,1800,610,1650,490,0.02,28,4,Afternoon,Friday,34,5,2,Positive,False,
+"Post-it Flags are an essential tool for any serious reader or student.","#OfficeProducts,#Reading,#StudyHacks",89,True,1750,590,1580,470,0.02,27,4,Early Morning,Saturday,33,5,2,Positive,False,
+"Ready Player One is a must-read for anyone who loves video games and 80s pop culture.","#Books,#SciFi,#Gaming,#ReadyPlayerOne",107,False,3500,1180,3650,830,0.03,96,16,Midnight,Sunday,120,20,9,Positive,False,
+"A true classic of love and high adventure: 'The Princess Bride'. Inconceivable!","#Books,#Fantasy,#Classic",93,False,1950,690,1850,540,0.02,30,5,Evening,Monday,38,6,2,Positive,False,
+"Cormac McCarthy's intense thriller 'No Country for Old Men' is a popular pick.","#Books,#Thriller,#Classic",91,False,1850,620,1700,500,0.02,28,5,Morning,Tuesday,35,6,2,Positive,False,
+"Journey to the ocean's depths with Jules Verne's '20,000 Leagues Under the Sea'.","#Books,#Classic,#Adventure",95,False,1700,570,1520,450,0.02,26,4,Night,Wednesday,32,5,2,Positive,False,
+"Jack London's 'The Call of the Wild' is a timeless adventure story.","#Books,#Classic,#Adventure",78,False,1600,540,1430,420,0.02,24,4,Afternoon,Thursday,30,4,1,Positive,False,
+"For the bakers out there, Rodelle Gourmet Baking Cocoa comes highly recommended.","#Grocery,#Baking,#Chocolate",93,False,1500,500,1250,390,0.02,21,3,Early Morning,Friday,27,4,1,Positive,False,
+"The cookbook 'A16: Food + Wine' for lovers of Italian cuisine.","#Books,#Cookbook,#ItalianFood",72,False,1450,480,1200,380,0.02,20,3,Midnight,Saturday,26,4,1,Positive,False,
+"The legendary 55-gallon drum of Passion Lubes. An absolute icon of weird Amazon finds.","#Health,#AmazonFinds,#Meme",105,True,9200,3100,35000,2100,0.11,950,160,Evening,Sunday,1250,210,95,Positive,False,
+"An unexpected but popular find: the Citizen Men's Eco-Drive watch. Simple, reliable, stylish.","#Clothing,#Watches,#Style",105,True,4200,1400,5300,920,0.04,150,25,Morning,Monday,185,30,13,Positive,False,
+"A realistic squirting dildo with vibration was... also mentioned.","#Health,#Adult",74,True,1900,650,1800,520,0.01,25,3,Night,Tuesday,30,4,1,Negative,True,This is a niche adult product; target carefully.
+"The HyperIce Vyper 3-speed vibrating foam roller for serious muscle recovery.","#Health,#Fitness,#Recovery",91,True,1800,600,1650,490,0.02,28,4,Afternoon,Wednesday,34,5,2,Positive,False,
+"A handbook for designers: 'Light: The Complete Handbook of Lighting Design'.","#Books,#Design,#Lighting",89,False,1300,430,1050,360,0.02,18,3,Early Morning,Thursday,23,4,1,Neutral,True,Showcase an example from the book.
+"A true blast from the past, Hi-C Ecto Cooler is getting mentions. 👻","#Grocery,#90s,#Nostalgia",80,True,1700,580,1550,460,0.02,26,4,Midnight,Friday,32,5,2,Positive,False,
+"A throwback design: the Reebok Pump Blacktop Battleground sneakers.","#Clothing,#Sneakers,#90s,#Retro",86,True,1650,550,1480,440,0.02,25,4,Evening,Saturday,31,5,2,Positive,False,
+"The book 'Women at Ground Zero: Stories of Courage and Compassion' was mentioned.","#Books,#History",89,False,1500,500,1250,390,0.02,21,3,Morning,Sunday,27,4,1,Neutral,True,Handle this topic with sensitivity and respect.
+archive.zip,top-things/reddits/9/911truth.csv,Women at Ground Zero: Stories of Courage and Compassion,Books,https://www.amazon.com/Women-Ground-Zero-Stories-Compassion/dp/0028644220,1,1
+archive.zip,top-things/reddits/a/AAdiscussions.csv,The Politics of Heroin: CIA Complicity in the Global Drug Trade,Books,https://www.amazon.com/The-Politics-Heroin-Complicity-Global/dp/1556524838,9,1
+archive.zip,top-things/reddits/a/AAdiscussions.csv,Rogue State: A Guide to the World's Only Superpower,Books,https://www.amazon.com/Rogue-State-Guide-Worlds-Superpower/dp/1567513743/,4,1
+archive.zip,top-things/reddits/a/AAdiscussions.csv,The Genius of China: 3,000 Years of Science, Discovery, and Invention,Books,https://www.amazon.com/Genius-China-Science-Discovery-Invention/dp/1594772177/,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Why We Get Fat: And What to Do About It,Books,https://www.amazon.com/Why-We-Get-Fat-About/dp/0307474259/,9,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The In-Between World of Vikram Lall,Books,https://www.amazon.com/The-In-Between-World-Vikram-Lall/dp/1400076560,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Meditation for Beginners,Books,https://www.amazon.com/Meditation-for-Beginners/dp/B00005498V/,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Meditation for Beginners,Books,https://www.amazon.com/Meditation-Beginners-Jack-Kornfield/dp/1591799422/,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Raising Up A Prophet: The African-American Encounter With Gandhi,Books,https://www.amazon.com/Raising-Up-Prophet-African-American-Encounter/dp/0807009156,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Colored Cosmopolitanism: The Shared Struggle for Freedom in the United States and India,Books,https://www.amazon.com/Colored-Cosmopolitanism-Shared-Struggle-Freedom/dp/0674059670,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Bengali Harlem and the Lost Histories of South Asian America,Books,https://www.amazon.com/Bengali-Harlem-Histories-South-America/dp/0674066669,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The End of Empires: African Americans and India,Books,https://www.amazon.com/The-End-Empires-African-Americans/dp/1592139000,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The Twentieth Wife: A Novel,Books,https://www.amazon.com/The-Twentieth-Wife-A-Novel/dp/0743428188,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The Feast of Roses: A Novel,Books,https://www.amazon.com/The-Feast-Roses-A-Novel/dp/0743456416,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The Inheritance of Loss,Books,https://www.amazon.com/The-Inheritance-Loss-Kiran-Desai/dp/0802142818,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Everybody Was Kung Fu Fighting: Afro-Asian Connections and the Myth of Cultural Purity,Books,https://www.amazon.com/Everybody-Was-Kung-Fighting-Connections/dp/0807050113,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Midnight's Children: A Novel (Modern Library 100 Best Novels),Books,https://www.amazon.com/Midnights-Children-Modern-Library-Novels/dp/0812976533,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The Karma of Brown Folk,Books,https://www.amazon.com/Karma-Brown-Folk-Vijay-Prashad/dp/0816634394,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The White Tiger: A Novel,Books,https://www.amazon.com/The-White-Tiger-A-Novel/dp/1416562605,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Secret Daughter,Books,https://www.amazon.com/Secret-Daughter-Shilpi-Somaya-Gowda/dp/1501262564,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Nite Ize Meteorlight LED Dog Ball Toy Disco,Pet Supplies,https://www.amazon.com/Nite-Ize-Meteorlight-Ball-Disco/dp/B001B8A7JY,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Maggi Hot & Sweet Tomato Chilli Sauce - 600g,Grocery & Gourmet Food,https://www.amazon.com/Maggi-Sweet-Tomato-Chilli-Sauce/dp/B004XTDK38,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Read and Write Urdu Script: A Teach Yourself Guide (Teach Yourself: Reference),Books,https://www.amazon.com/Read-Write-Urdu-Script-Reference/dp/007174746X/ref=dp_ob_title_bk,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Braun Silk-  pilHair Removal Tool and Electric Epilator for Women,Beauty & Personal Care,https://www.amazon.com/Braun-Silk-%C3%A9pilHair-Removal-Electric-Epilator/dp/B0077PLO06,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Unaccustomed Earth (Vintage Contemporaries),Books,https://www.amazon.com/Unaccustomed-Vintage-Contemporaries-Jhumpa-Lahiri/dp/0307278255,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The Lowland (Vintage Contemporaries),Books,https://www.amazon.com/Lowland-Vintage-Contemporaries-Jhumpa-Lahiri/dp/0307278263,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Maximum City: Bombay Lost and Found,Books,https://www.amazon.com/Maximum-City-Bombay-Lost-Found/dp/0375703403,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Sister of My Heart: A Novel,Books,https://www.amazon.com/Sister-My-Heart-A-Novel/dp/038548951X,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Interpreter of Maladies,Books,https://www.amazon.com/Interpreter-Maladies-Jhumpa-Lahiri/dp/039592720X,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Born Confused,Books,https://www.amazon.com/Born-Confused-Tanuja-Desai-Hidier/dp/0545664519,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The Namesake: A Novel,Books,https://www.amazon.com/The-Namesake-Novel-Jhumpa-Lahiri/dp/0618485228,1,1
+archive.zip,top-things/reddits/9/911truth.csv,Women at Ground Zero: Stories of Courage and Compassion,Books,https://www.amazon.com/Women-Ground-Zero-Stories-Compassion/dp/0028644220,1,1
+archive.zip,top-things/reddits/a/AAdiscussions.csv,The Politics of Heroin: CIA Complicity in the Global Drug Trade,Books,https://www.amazon.com/The-Politics-Heroin-Complicity-Global/dp/1556524838,9,1
+archive.zip,top-things/reddits/a/AAdiscussions.csv,Rogue State: A Guide to the World's Only Superpower,Books,https://www.amazon.com/Rogue-State-Guide-Worlds-Superpower/dp/1567513743/,4,1
+archive.zip,top-things/reddits/a/AAdiscussions.csv,The Genius of China: 3,000 Years of Science, Discovery, and Invention,Books,https://www.amazon.com/Genius-China-Science-Discovery-Invention/dp/1594772177/,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Why We Get Fat: And What to Do About It,Books,https://www.amazon.com/Why-We-Get-Fat-About/dp/0307474259/,9,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The In-Between World of Vikram Lall,Books,https://www.amazon.com/The-In-Between-World-Vikram-Lall/dp/1400076560,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Meditation for Beginners,Books,https://www.amazon.com/Meditation-for-Beginners/dp/B00005498V/,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Meditation for Beginners,Books,https://www.amazon.com/Meditation-Beginners-Jack-Kornfield/dp/1591799422/,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Raising Up A Prophet: The African-American Encounter With Gandhi,Books,https://www.amazon.com/Raising-Up-Prophet-African-American-Encounter/dp/0807009156,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Colored Cosmopolitanism: The Shared Struggle for Freedom in the United States and India,Books,https://www.amazon.com/Colored-Cosmopolitanism-Shared-Struggle-Freedom/dp/0674059670,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Bengali Harlem and the Lost Histories of South Asian America,Books,https://www.amazon.com/Bengali-Harlem-Histories-South-America/dp/0674066669,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The End of Empires: African Americans and India,Books,https://www.amazon.com/The-End-Empires-African-Americans/dp/1592139000,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The Twentieth Wife: A Novel,Books,https://www.amazon.com/The-Twentieth-Wife-A-Novel/dp/0743428188,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The Feast of Roses: A Novel,Books,https://www.amazon.com/The-Feast-Roses-A-Novel/dp/0743456416,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The Inheritance of Loss,Books,https://www.amazon.com/The-Inheritance-Loss-Kiran-Desai/dp/0802142818,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Everybody Was Kung Fu Fighting: Afro-Asian Connections and the Myth of Cultural Purity,Books,https://www.amazon.com/Everybody-Was-Kung-Fighting-Connections/dp/0807050113,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Midnight's Children: A Novel (Modern Library 100 Best Novels),Books,https://www.amazon.com/Midnights-Children-Modern-Library-Novels/dp/0812976533,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The Karma of Brown Folk,Books,https://www.amazon.com/Karma-Brown-Folk-Vijay-Prashad/dp/0816634394,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The White Tiger: A Novel,Books,https://www.amazon.com/The-White-Tiger-A-Novel/dp/1416562605,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Secret Daughter,Books,https://www.amazon.com/Secret-Daughter-Shilpi-Somaya-Gowda/dp/1501262564,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Nite Ize Meteorlight LED Dog Ball Toy Disco,Pet Supplies,https://www.amazon.com/Nite-Ize-Meteorlight-Ball-Disco/dp/B001B8A7JY,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Maggi Hot & Sweet Tomato Chilli Sauce - 600g,Grocery & Gourmet Food,https://www.amazon.com/Maggi-Sweet-Tomato-Chilli-Sauce/dp/B004XTDK38,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Read and Write Urdu Script: A Teach Yourself Guide (Teach Yourself: Reference),Books,https://www.amazon.com/Read-Write-Urdu-Script-Reference/dp/007174746X/ref=dp_ob_title_bk,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Braun Silk-  pilHair Removal Tool and Electric Epilator for Women,Beauty & Personal Care,https://www.amazon.com/Braun-Silk-%C3%A9pilHair-Removal-Electric-Epilator/dp/B0077PLO06,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Unaccustomed Earth (Vintage Contemporaries),Books,https://www.amazon.com/Unaccustomed-Vintage-Contemporaries-Jhumpa-Lahiri/dp/0307278255,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The Lowland (Vintage Contemporaries),Books,https://www.amazon.com/Lowland-Vintage-Contemporaries-Jhumpa-Lahiri/dp/0307278263,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Maximum City: Bombay Lost and Found,Books,https://www.amazon.com/Maximum-City-Bombay-Lost-Found/dp/0375703403,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Sister of My Heart: A Novel,Books,https://www.amazon.com/Sister-My-Heart-A-Novel/dp/038548951X,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Interpreter of Maladies,Books,https://www.amazon.com/Interpreter-Maladies-Jhumpa-Lahiri/dp/039592720X,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,Born Confused,Books,https://www.amazon.com/Born-Confused-Tanuja-Desai-Hidier/dp/0545664519,1,1
+archive.zip,top-things/reddits/a/ABCDesis.csv,The Namesake: A Novel,Books,https://www.amazon.com/The-Namesake-Novel-Jhumpa-Lahiri/dp/0618485228,1,1
+postText,hashtags,length,containsImage,userFollowers,userFollowing,userKarma,accountAgeDays,avgEngagementRate,avgLikes,avgComments,postTimeOfDay,dayOfWeek,receivedLikes,receivedComments,receivedShares,topCommentSentiment,shouldImprove,suggestions
+"This Tespo 12-Cube Storage Organizer is a versatile option for home organization.","#Home,#Kitchen,#Storage",1600,540,1430,420,0.02,24,4,Early Morning,Sunday,30,4,1,Neutral,True,Show it in use with different items stored inside.
+"MoliCare Disposable Super Plus Briefs for incontinence care were mentioned.","#Industrial,#Scientific,#Health",89,True,1550,510,1350,410,0.02,22,3,Afternoon,Monday,28,4,1,Neutral,True,Focus on product features and benefits.
+"Johnson's Baby Powder with Pure Cornstarch, Aloe & Vitamin E was noted.","#Health,#BabyCare",84,True,1750,590,1580,470,0.02,27,4,Evening,Tuesday,33,5,2,Positive,True,Mention its various uses beyond baby care.
+"A portable compact washer and spin dryer, useful for small apartments.","#Appliances,#Home",74,True,1650,550,1480,440,0.02,25,4,Morning,Wednesday,31,5,2,Positive,True,A video demo would be very effective.
+"The GaryWear Active Brief, a reusable cover for incontinence products.","#Health,#PersonalCare",82,True,1450,480,1200,380,0.02,20,3,Night,Thursday,26,4,1,Neutral,True,Highlight the 'active' aspect in marketing.
+"Happy Endings Teen/Adult Reusable Cloth Diaper with an airplanes pattern.","#Health,#PersonalCare",87,True,1700,570,1520,450,0.02,26,4,Afternoon,Friday,32,5,2,Neutral,True,Emphasize the reusable and eco-friendly angle.
+"The book 'The Big Book for Littles' was mentioned by the age play community.","#Books,#Lifestyle",84,False,1300,430,1050,360,0.02,18,3,Early Morning,Saturday,23,4,1,Neutral,True,Target niche communities with precision.
+"Devrom internal deodorant tablets were a noted product.","#Beauty,#PersonalCare",55,True,1250,410,980,330,0.02,17,2,Midnight,Sunday,22,3,1,Neutral,True,Explain what the product does clearly and discreetly.
+"A Feit Electric blue compact fluorescent bulb was mentioned, for mood lighting.","#Tools,#HomeImprovement,#Lighting",89,True,1400,460,1180,370,0.02,20,3,Evening,Monday,25,4,1,Neutral,True,Showcase a room using this lighting.
+"A Satco blacklight CFL bulb, another option for special lighting effects.","#Tools,#HomeImprovement,#Lighting",84,True,1350,440,1100,350,0.02,19,3,Morning,Tuesday,24,4,1,Neutral,True,Compare the effect with the blue bulb.
+"Baby Pants Adult Training Pants in a blue dinosaur print were mentioned.","#Beauty,#PersonalCare",82,True,1500,500,1250,390,0.02,21,3,Night,Wednesday,27,4,1,Neutral,True,Marketing should be targeted to its specific niche.
+"LOCK LACES, the popular elastic no-tie shoelaces, were mentioned again.","#Sports,#Outdoors,#Running",87,True,1900,630,1750,500,0.02,29,5,Afternoon,Thursday,35,6,2,Positive,False,
+"The Joovy Boob Nipple Stage 2, a product for baby feeding.","#Baby,#Parenting",65,True,1600,530,1400,410,0.02,24,4,Early Morning,Friday,30,4,1,Positive,False,
+"A bulk lot of 10 rolls of printed Duck Brand Duct Tape, including Hello Kitty.","#OfficeProducts,#Crafts,#DIY",93,True,1550,520,1380,420,0.02,23,3,Midnight,Saturday,29,4,2,Positive,False,
+"The book 'Crinkle Shorts', another product noted by a niche community.","#Books,#Lifestyle",78,False,1200,400,950,320,0.02,16,2,Evening,Sunday,21,3,1,Neutral,True,Context is crucial for marketing this item.
+"From /r/ABoringDystopia: 'Rise Up!', a tribute to the Women's Marches.","#Books,#SocialCommentary,#Politics",91,False,1800,600,1650,490,0.02,28,4,Morning,Monday,34,5,2,Positive,False,
+"A popular recommendation on /r/ABraThatFits: reusable silicone nipple covers.","#Clothing,#Lingerie,#FashionHack",96,True,3300,1100,3350,770,0.03,91,15,Night,Tuesday,112,18,8,Positive,False,
+"The Cleo Juna Balconnet Bra is a frequently recommended style.","#Clothing,#Lingerie,#ABraThatFits",66,True,2900,970,2850,700,0.03,71,11,Afternoon,Wednesday,88,14,6,Positive,False,
+"A holy grail for skin issues on /r/ABraThatFits: Noble Formula Zinc Soap.","#Beauty,#Skincare,#ABraThatFits",92,True,5500,1850,9800,1100,0.05,250,40,Early Morning,Thursday,310,50,22,Positive,False,
+"A must-read for young girls, 'The Care and Keeping of You' is highly recommended.","#Books,#Health,#Parenting",94,False,5400,1800,9600,1080,0.05,245,39,Midnight,Friday,305,49,21,Positive,False,
+"The follow-up book, 'The Care and Keeping of You 2' for older girls, is also a top pick.","#Books,#Health,#Teens",99,False,4300,1430,5500,930,0.04,155,25,Evening,Friday,195,32,14,Positive,False,
+"Nippies Skin non-adhesive nipple covers are a popular choice for smooth coverage.","#Clothing,#Lingerie,#FashionHack",91,True,3800,1260,4500,880,0.04,130,21,Morning,Saturday,160,26,11,Positive,False,
+"The Panache Underwire Sports Bra is a go-to for high-impact support.","#Sports,#Outdoors,#ABraThatFits",81,True,3900,1300,4700,900,0.04,135,22,Night,Sunday,168,27,11,Positive,False,
+"For washing delicate lingerie, Soakwash liquid laundry soap is a favorite.","#ArtsCrafts,#LingerieCare,#Laundry",86,False,3700,1230,4300,860,0.04,125,20,Afternoon,Monday,155,25,10,Positive,False,
+"Hollywood Fashion Secrets Silicone CoverUps are another top-rated pasty.","#Beauty,#PersonalCare,#FashionHack",87,True,3400,1130,3550,810,0.03,94,16,Early Morning,Tuesday,118,20,9,Positive,False,
+"Nippies Skin's non-adhesive pasties are a popular alternative for sensitive skin.","#Clothing,#Lingerie,#ABraThatFits",90,True,2800,930,2750,680,0.03,69,11,Midnight,Wednesday,86,14,6,Positive,False,
+"These simple bra strap clips are a game-changer for racerback tops.","#Clothing,#FashionHack,#Lingerie",82,True,2700,900,2650,660,0.03,66,11,Evening,Wednesday,82,13,6,Positive,False,
+"Forever New granular fabric wash is recommended for keeping lingerie like new.","#Health,#Household,#Laundry",92,False,2950,980,2950,720,0.03,75,12,Morning,Thursday,94,15,7,Positive,False,
+"Nippies Skin adhesive pasties in a caramel color for different skin tones.","#Clothing,#Lingerie,#FashionHack",88,True,2850,950,2800,690,0.03,70,11,Night,Friday,88,14,6,Positive,False,
+"A low back converter strap can make any bra work with a low-back dress.","#Clothing,#FashionHack,#Lingerie",89,True,2650,880,2600,650,0.03,65,10,Afternoon,Saturday,80,12,5,Positive,False,
+"Braza Petal Tops are disposable pasties for one-time use.","#Clothing,#Lingerie",68,True,1900,630,1800,520,0.02,29,5,Early Morning,Sunday,36,6,2,Positive,False,
+"Topstick hairpiece tape is a popular recommendation for securing clothing.","#Beauty,#PersonalCare,#FashionHack",86,True,2000,670,1950,550,0.02,31,5,Midnight,Monday,39,6,2,Positive,False,
+"No Shine double-sided tape is another great option for wardrobe security.","#Beauty,#PersonalCare,#FashionHack",84,True,1850,610,1700,500,0.02,28,5,Evening,Tuesday,35,6,2,Positive,False,
+"The Belly Bandit 'Don't Sweat It' bra liners for comfort in the heat.","#Clothing,#Lingerie,#Comfort",84,True,2100,700,2150,580,0.02,34,5,Morning,Wednesday,42,6,2,Positive,False,
+"The Underworks Gynecomastia Chest Binder is a recommended compression top.","#Clothing,#CompressionWear",81,True,2200,730,2300,600,0.02,35,6,Night,Thursday,44,7,3,Positive,False,
+"The Curvy Kate Smoothie Balconette Bra is praised for its smooth look.","#Clothing,#Lingerie,#ABraThatFits",81,True,2300,770,2450,620,0.02,38,6,Afternoon,Friday,48,8,3,Positive,False,
+"Freya's Deco Molded Plunge Bra is a longtime favorite in the community.","#Clothing,#Lingerie,#ABraThatFits",81,True,2400,800,2600,640,0.02,40,6,Early Morning,Saturday,50,8,3,Positive,False,
+"The Tutti Rouge Nichole bra is a mentioned non-padded, semi-sheer style.","#Clothing,#Lingerie",83,True,1700,560,1550,460,0.02,26,4,Midnight,Sunday,32,5,2,Neutral,True,Showcase the delicate design.
+"A chest binder vest for lesbians and tomboys, noted as a functional top.","#Clothing,#CompressionWear",81,True,1900,640,1850,530,0.02,30,5,Evening,Monday,37,6,2,Positive,False,
+"The BraBall is a patented device designed to protect bras in the washing machine.","#Health,#Household,#Laundry",92,True,1950,650,1900,540,0.02,31,5,Morning,Tuesday,39,6,2,Positive,False,
+"Band-Aid's Advanced Healing Blister Cushions are a lifesaver for breaking in new shoes.","#Health,#Household,#FirstAid",101,True,2050,680,2050,560,0.02,33,5,Night,Wednesday,41,6,2,Positive,False,
+"The Sendida reusable silicone pasties are another popular nipple cover option.","#Clothing,#Lingerie,#FashionHack",89,True,1800,600,1650,490,0.02,28,4,Afternoon,Thursday,34,5,2,Positive,False,
+"Glamorise's Complete Comfort Front Close Leisure Bra is built for comfort.","#Clothing,#Lingerie,#Comfort",86,True,1850,620,1750,510,0.02,29,5,Early Morning,Friday,36,6,2,Positive,False,
+"This Ruzishun push-up bra and lace underwear set was mentioned.","#Clothing,#Lingerie",71,True,1750,590,1600,480,0.02,27,4,Midnight,Saturday,33,5,2,Positive,True,Show the set on a mannequin for a classy look.
+"The elomi Imogen Underwire Padded Demi Bra is a choice for fuller busts.","#Clothing,#Lingerie,#PlusSize",85,True,1950,660,1950,550,0.02,31,5,Evening,Sunday,39,6,2,Positive,False,
+"Lady Anti-Monkey Butt Powder is a popular anti-chafing solution.","#Beauty,#PersonalCare,#Health",81,True,2150,720,2250,590,0.02,35,5,Morning,Monday,43,7,3,Positive,False,
+"An Under Armour compression top, mentioned as a comfortable binding alternative.","#Sports,#Outdoors,#Clothing",87,True,2250,750,2400,610,0.02,37,6,Night,Tuesday,46,7,3,Positive,False,
+"The Goddess Lace Bustier Bra is noted for formalwear and support.","#Clothing,#Lingerie,#FormalWear",79,True,2350,780,2550,630,0.02,39,6,Afternoon,Wednesday,49,8,3,Positive,False,
+postText,hashtags,length,containsImage,userFollowers,userFollowing,userKarma,accountAgeDays,avgEngagementRate,avgLikes,avgComments,postTimeOfDay,dayOfWeek,receivedLikes,receivedComments,receivedShares,topCommentSentiment,shouldImprove,suggestions
+"The Royce Lingerie Blossom Nursing Bra was mentioned for its comfort and style.","#Clothing,#Lingerie,#NursingBra,#ABraThatFits",107,True,1950,660,1900,540,0.01,25,3,Midnight,Sunday,30,4,1,Positive,True,Ask for reviews from mothers who have used it.
+"The Goddess Alice Underwire Full Cup Bra is a recommended style for support.","#Clothing,#Lingerie,#PlusSize,#ABraThatFits",96,True,1850,620,1750,510,0.01,23,3,Early Morning,Monday,28,4,1,Positive,True,Compare its fit to other Goddess models.
+"This 22-pack of assorted bra extenders is a versatile and economical solution.","#Clothing,#Lingerie,#FashionHack,#DIY",98,True,1700,570,1550,460,0.02,22,3,Afternoon,Tuesday,27,4,1,Positive,True,Show a quick demo of how to use them.
+"The Curvy Kate Portia Balcony Bra was a noted recommendation.","#Clothing,#Lingerie,#ABraThatFits",69,True,1600,540,1430,420,0.02,20,3,Evening,Wednesday,25,4,1,Positive,True,Mention the available color options.
+"Bravado! Designs' Essential Embrace Nursing Bra is another popular maternity option.","#Clothing,#Lingerie,#NursingBra,#Maternity",104,True,1900,640,1850,530,0.01,24,4,Morning,Thursday,29,5,2,Positive,True,Highlight its material and comfort features.
+"The Hanes Convertible Wire Free Bra is a versatile, comfortable choice.","#Clothing,#Lingerie,#Comfort",81,True,1750,590,1600,480,0.02,23,3,Night,Friday,28,4,1,Positive,True,Show the different ways it can be converted.
+"A book recommendation: 'The Girl's Guide' for navigating a complicated life.","#Books,#SelfHelp,#Teen",89,False,1650,550,1480,440,0.02,21,3,Afternoon,Saturday,26,4,1,Positive,True,Share a favorite quote or piece of advice from it.
+"For the DIY crowd, the 'Better Homes and Gardens Sewing Book' was mentioned.","#Books,#Sewing,#DIY,#Crafts",87,False,1500,500,1250,390,0.02,19,3,Early Morning,Sunday,24,4,1,Positive,True,Suggest a simple alteration project for beginners.
+"The Cleo Lucy Balconette Bra is a popular style from the brand.","#Clothing,#Lingerie,#ABraThatFits",69,True,1800,610,1680,500,0.02,24,4,Midnight,Monday,29,5,2,Positive,False,
+"Parfait by Affinitas' Charlotte Padded Push-Up Bra is a frequently seen style.","#Clothing,#Lingerie,#PushUp",92,True,1850,620,1730,510,0.02,25,4,Evening,Tuesday,30,5,1,Positive,False,
+"Another mention for the popular Parfait Charlotte Padded Push-Up Bra.","#Clothing,#Lingerie,#PushUp",76,True,1880,630,1780,520,0.02,26,4,Morning,Wednesday,31,5,2,Positive,False,
+"The Panache Underwire Sports Bra is a top pick for high-impact activities.","#Clothing,#Lingerie,#SportsBra,#Fitness",96,True,1980,670,1950,550,0.01,26,4,Night,Thursday,32,5,2,Positive,False,
+"The Cleo Maddie Molded Balconnet T-Shirt Bra for a smooth silhouette.","#Clothing,#Lingerie,#TShirtBra",84,True,1780,600,1630,490,0.02,23,3,Afternoon,Friday,28,4,1,Positive,False,
+"The b.tempt'd B.Wow'd Push-up Bra got a mention for its lift and style.","#Clothing,#Lingerie,#PushUp",89,True,1720,580,1570,470,0.02,22,3,Early Morning,Saturday,27,4,1,Positive,False,
+"The SYROKAN No-Bounce High Impact Sports Bra is a budget-friendly option.","#Clothing,#SportsBra,#Fitness",89,True,1820,615,1700,505,0.02,24,4,Midnight,Sunday,30,5,1,Positive,True,Compare its performance to more expensive brands.
+"Royce's Charlotte Wire-Free Cotton-Lined Bra is all about comfort.","#Clothing,#Lingerie,#Comfort,#WireFree",91,True,1680,560,1510,450,0.02,21,3,Evening,Monday,26,4,1,Positive,False,
+"The Panache Cleo Marcie Balconnet Bra is a well-known, colorful style.","#Clothing,#Lingerie,#ABraThatFits",83,True,1920,650,1820,525,0.01,25,4,Morning,Tuesday,30,5,2,Positive,False,
+"A helpful book for teens: 'The Girl's Guide to Absolutely Everything'.","#Books,#Teen,#SelfHelp",82,False,1620,545,1460,430,0.02,20,3,Night,Wednesday,25,4,1,Positive,True,Ask followers to share their favorite advice book.
+"The Curvy Kate Daisy Plunge Bra in Ruby is a vibrant choice.","#Clothing,#Lingerie,#ABraThatFits",69,True,1770,595,1610,485,0.02,23,3,Afternoon,Thursday,28,4,1,Positive,False,
+"Freya's Active Underwire Molded Sports Bra is another top fitness pick.","#Clothing,#SportsBra,#Fitness",85,True,1960,665,1920,545,0.01,26,4,Early Morning,Friday,31,5,2,Positive,False,
+"The Braza Reveal Clear Adhesive Bra for backless and strapless outfits.","#Clothing,#Lingerie,#FashionHack",86,True,1580,530,1400,415,0.02,19,3,Midnight,Saturday,24,4,1,Positive,True,Offer tips on application and removal.
+"Betsey Johnson's Retro Glamour Crochet Bra for a unique, vintage look.","#Clothing,#Lingerie,#VintageStyle",89,True,1740,585,1590,475,0.02,22,3,Evening,Sunday,27,4,1,Positive,False,
+"A trendy lace bralette cage top for layering or standalone wear.","#Clothing,#Lingerie,#Bralette",75,True,1640,550,1470,435,0.02,20,3,Morning,Monday,25,4,1,Positive,False,
+"Natori's Satin Fleur Full Figure Unlined Underwire Bra is an elegant option.","#Clothing,#Lingerie,#PlusSize",89,True,1840,620,1720,505,0.01,24,4,Night,Tuesday,29,5,1,Positive,False,
+"The b.tempt'd by Wacoal Ciao Bella Balconette Bra is a lacy, romantic style.","#Clothing,#Lingerie",91,True,1760,590,1610,480,0.02,23,3,Afternoon,Wednesday,28,4,1,Positive,False,
+"This Fitglam Strapless Adhesive Silicone Bra offers a backless solution.","#Clothing,#Lingerie,#FashionHack",86,True,1560,520,1380,410,0.02,19,3,Early Morning,Thursday,23,3,1,Positive,True,Compare adhesive bras to other strapless options.
+"Queenie Ke's Cross Back Wirefree Yoga Sports Bra for light support.","#Clothing,#SportsBra,#Yoga",84,True,1660,555,1490,445,0.02,21,3,Midnight,Friday,26,4,1,Positive,False,
+"A Halter Top Bralette with a floral lace overlay is a stylish piece.","#Clothing,#Lingerie,#Bralette",79,True,1690,565,1530,455,0.02,22,3,Evening,Saturday,27,4,1,Positive,False,
+"The Tidetell Strapless Self Adhesive Bra is another invisible option.","#Clothing,#Lingerie,#FashionHack",78,True,1540,515,1360,405,0.02,18,3,Morning,Sunday,22,3,1,Positive,True,Post a guide on which adhesive bra is best for which outfit.
+"Bali's Comfort Revolution Front-Close Shaping Bra for convenience and support.","#Clothing,#Lingerie,#Comfort",94,True,1810,610,1690,500,0.02,24,4,Night,Monday,29,5,1,Positive,False,
+"The Kindred Bravely Nursing Sleep Bra is designed for maternity comfort.","#Clothing,#Lingerie,#Maternity,#NursingBra",90,True,1890,635,1800,520,0.01,25,4,Afternoon,Tuesday,30,5,2,Positive,False,
+"Fashion First Aid's Low Back Bra Converters are a simple, effective hack.","#Clothing,#Lingerie,#FashionHack",91,True,1590,535,1410,418,0.02,19,3,Early Morning,Wednesday,24,4,1,Positive,False,
+"Amoena's Mara Molded Foam Wire Free Bra is a post-surgery comfort option.","#Clothing,#Lingerie,#Comfort",88,True,1670,560,1500,448,0.02,21,3,Midnight,Thursday,26,4,1,Positive,False,
+"Champion's Absolute Workout Bra 2-Pack is a great value for everyday fitness.","#Clothing,#SportsBra,#Fitness",90,True,1790,600,1650,495,0.02,23,3,Evening,Friday,28,4,1,Positive,False,
+"The Panache Envy Stretch Lace Full-Cup Bra is known for its great fit and support.","#Clothing,#Lingerie,#ABraThatFits",96,True,1940,655,1880,535,0.01,25,4,Morning,Saturday,30,5,2,Positive,False,
+"Another variation of the popular Panache Cleo Maddie Balconette Bra.","#Clothing,#Lingerie,#ABraThatFits",77,True,1830,615,1710,503,0.02,24,4,Night,Sunday,29,5,1,Positive,False,
+"The Panache Hepburn Full-Cup Underwire Bra offers a classic, supportive fit.","#Clothing,#Lingerie,#ABraThatFits",90,True,1910,640,1810,523,0.01,25,4,Afternoon,Monday,30,5,2,Positive,False,
+"Fantasie's Jana Underwire Bra with Side Support in Caramel.","#Clothing,#Lingerie",70,True,1860,625,1740,508,0.01,24,4,Early Morning,Tuesday,29,5,1,Positive,False,
+"The Elomi Anushka Underwire Plunge Bra is a beautiful plus-size option.","#Clothing,#Lingerie,#PlusSize",84,True,1930,650,1860,532,0.01,25,4,Midnight,Wednesday,30,5,1,Positive,False,
+"Calvin Klein's Perfectly Fit Wire-Free Contour Bra for a smooth, natural shape.","#Clothing,#Lingerie,#Comfort",96,True,1870,630,1760,512,0.01,24,4,Evening,Thursday,29,5,1,Positive,False,
+"The Cleo Millie Balconnet Bra in a fun Geo Print pattern.","#Clothing,#Lingerie,#ABraThatFits",64,True,1730,580,1580,473,0.02,22,3,Morning,Friday,27,4,1,Positive,False,
+"A mention for the Cleo Blake Balconnet bra style.","#Clothing,#Lingerie,#ABraThatFits",53,True,1710,570,1560,468,0.02,22,3,Night,Saturday,27,4,1,Positive,True,Showcase the design and color options.
+"The Cleo Maddie T-Shirt Bra, a molded balconnet style for everyday wear.","#Clothing,#Lingerie,#TShirtBra",88,True,1790,605,1670,498,0.02,23,3,Afternoon,Sunday,28,4,1,Positive,False,
+"Freya's Deco Molded Soft Cup Bra offers a seamless look without wires.","#Clothing,#Lingerie,#WireFree",84,True,1880,635,1780,518,0.01,24,4,Early Morning,Monday,29,5,1,Positive,False,
+"The Cleo Neve Plunge Bra is designed for lower necklines.","#Clothing,#Lingerie,#PlungeBra",66,True,1900,645,1800,520,0.01,25,4,Midnight,Tuesday,30,5,2,Positive,False,
+"Amoena's Ruth Cotton Wire-Free Bra is another great comfort-focused option.","#Clothing,#Lingerie,#Comfort",89,True,1690,565,1520,453,0.02,21,3,Evening,Wednesday,26,4,1,Positive,False,
+"A fantastic book for cosplay and design fans: 'Dressing a Galaxy: The Costumes of Star Wars'.","#Books,#StarWars,#Cosplay,#Design",110,False,1990,680,2000,560,0.01,26,4,Morning,Thursday,32,5,2,Positive,False,
+"The Panache Jasmine Balconnet Bra is a community favorite for its excellent lift and shape.","#Clothing,#Lingerie,#ABraThatFits",106,True,1970,670,1940,548,0.01,26,4,Night,Friday,31,5,2,Positive,False,
+"The Fantasie Alicia Underwire Side Support Bra was recommended.","#Clothing,#Lingerie",70,True,1860,625,1740,508,0.01,24,4,Afternoon,Saturday,29,5,1,Positive,True,Mention what makes its side support effective.
+postText,hashtags,length,containsImage,userFollowers,userFollowing,userKarma,accountAgeDays,avgEngagementRate,avgLikes,avgComments,postTimeOfDay,dayOfWeek,receivedLikes,receivedComments,receivedShares,topCommentSentiment,shouldImprove,suggestions
+"A cute swimwear option from a trusted brand: the Panache Cleo Tilly Balconnet Top.","#Clothing,#Swimwear,#ABraThatFits",103,True,1850,620,1730,508,0.01,24,4,Early Morning,Thursday,29,5,1,Positive,True,Show this on different body types.
+"The Le Mystere Soire Convertible Bustier is a versatile choice for formal wear.","#Clothing,#Lingerie,#FormalWear",94,True,1900,640,1810,523,0.01,25,4,Midnight,Friday,30,5,2,Positive,True,Demonstrate the different ways it can be converted.
+"The Panache Evie Bridal Basque is a beautiful option for wedding lingerie.","#Clothing,#Lingerie,#Bridal",86,True,1950,660,1890,538,0.01,25,4,Evening,Saturday,31,5,2,Positive,True,Style with other bridal accessories.
+"The Goddess Keira Underwire Banded Bra is a staple for plus-size support.","#Clothing,#Lingerie,#PlusSize",90,True,1980,670,1960,548,0.01,26,4,Morning,Sunday,32,5,2,Positive,False,
+"For wire-free comfort, the Wacoal Basic Beauty Soft Cup Bra was mentioned.","#Clothing,#Lingerie,#WireFree,#Comfort",94,True,1870,630,1760,512,0.01,24,4,Night,Monday,29,5,1,Positive,False,
+"Another mention for the popular Cleo Lucy Balconette Bra style.","#Clothing,#Lingerie,#ABraThatFits",66,True,1890,635,1790,518,0.01,25,4,Afternoon,Tuesday,30,5,2,Positive,False,
+"The Panache Jasmine Balconnet Bra continues to be a community favorite for its great fit.","#Clothing,#Lingerie,#ABraThatFits",100,True,1960,665,1920,545,0.01,26,4,Early Morning,Wednesday,31,5,2,Positive,False,
+"The Panache Andorra is another highly-regarded full-cup style.","#Clothing,#Lingerie,#ABraThatFits",66,True,1940,655,1880,535,0.01,25,4,Midnight,Thursday,30,5,1,Positive,False,
+"A second mention for the supportive Goddess Keira Underwire Banded Bra.","#Clothing,#Lingerie,#PlusSize",77,True,2000,680,2000,560,0.01,26,4,Evening,Friday,32,5,2,Positive,False,
+"The Elomi Caitlyn Underwire Bra offers excellent side-support.","#Clothing,#Lingerie,#PlusSize",72,True,1920,650,1840,528,0.01,25,4,Morning,Saturday,30,5,2,Positive,False,
+"Lunaire's Versailles Soft-Cup Bra is a comfortable plus-size, wire-free option.","#Clothing,#Lingerie,#PlusSize,#WireFree",98,True,1880,635,1780,518,0.01,24,4,Night,Sunday,29,5,1,Positive,False,
+"Eucalan No Rinse Delicate Wash is perfect for hand-washing lingerie.","#Home,#Kitchen,#Laundry,#LingerieCare",84,False,1810,610,1690,500,0.02,24,4,Afternoon,Monday,29,5,1,Positive,False,
+"The Curvy Kate Dreamcatcher Balcony Bra has a beautiful, intricate design.","#Clothing,#Lingerie,#ABraThatFits",86,True,1770,595,1620,488,0.02,23,3,Early Morning,Tuesday,28,4,1,Positive,False,
+"A sports bra and vest top in one: the Panache Sport vest.","#Clothing,#SportsBra,#Fitness",68,True,1990,680,1980,555,0.01,26,4,Midnight,Wednesday,32,5,2,Positive,True,Show how it looks during a workout.
+"The Fantasie Lois Underwire Bra provides great side support.","#Clothing,#Lingerie",70,True,1860,625,1740,508,0.01,24,4,Evening,Thursday,29,5,1,Positive,True,Explain what 'side support' does for fit.
+"Wacoal's 'How Perfect' Soft Cup Bra is designed for a seamless, natural look.","#Clothing,#Lingerie,#Comfort",91,True,1870,630,1760,512,0.01,24,4,Morning,Friday,29,5,1,Positive,False,
+"The Cleo Maya Balconnet Bra, a colorful and patterned option.","#Clothing,#Lingerie,#ABraThatFits",65,True,1730,580,1580,473,0.02,22,3,Night,Saturday,27,4,1,Positive,False,
+"A fun, vibrant style: the Cleo Lilly Balconnet Bra in a Parrot Print.","#Clothing,#Lingerie,#ABraThatFits",83,True,1710,570,1560,468,0.02,22,3,Afternoon,Sunday,27,4,1,Positive,False,
+"The Cleo by Panache Minnie Balconnet Bra is a cute and supportive style.","#Clothing,#Lingerie,#ABraThatFits",83,True,1740,585,1590,475,0.02,22,3,Early Morning,Monday,27,4,1,Positive,False,
+"A travel-size Eucalan Fine Fabric Wash for taking care of delicates on the go.","#ArtsCrafts,#Laundry,#Travel",91,False,1780,600,1650,495,0.02,23,3,Midnight,Tuesday,28,4,1,Positive,False,
+"A top book recommendation in the ADHD community: 'More Attention, Less Deficit'.","#Books,#ADHD,#SelfHelp",91,False,3300,1100,3350,770,0.03,91,15,Evening,Wednesday,112,18,8,Positive,False,
+"A classic book for adults with ADD: 'You Mean I'm Not Lazy, Stupid or Crazy?!'","#Books,#ADHD,#MentalHealth",94,False,3400,1130,3450,790,0.03,94,16,Morning,Thursday,118,20,9,Positive,False,
+"Dr. Hallowell's 'Driven to Distraction' is a foundational text on understanding ADHD.","#Books,#ADHD,#Psychology",94,False,2900,970,2850,700,0.03,71,11,Night,Friday,88,14,6,Positive,False,
+"TimerCaps automatically track when you last took your medication. A simple, brilliant tool.","#Health,#ADHD,#Medication",100,True,2950,980,2950,720,0.03,75,12,Afternoon,Saturday,94,15,7,Positive,False,
+"Understanding the 'ADHD Effect on Marriage' can be a relationship saver for many couples.","#Books,#ADHD,#Relationships",97,False,2850,950,2800,690,0.03,70,11,Early Morning,Sunday,88,14,6,Positive,False,
+"'100 Questions & Answers About ADHD In Women And Girls' is a vital resource.","#Books,#ADHD,#Women",87,False,2980,1000,3100,740,0.03,75,12,Midnight,Monday,94,15,7,Positive,False,
+"A stainless steel spinner ring can be a discreet and helpful fidget tool.","#Clothing,#Jewelry,#ADHD,#Fidget",83,True,2880,960,2830,695,0.03,72,12,Evening,Tuesday,90,15,7,Positive,False,
+"Russell Barkley's 'Taking Charge of Adult ADHD' is a highly recommended guide.","#Books,#ADHD,#SelfHelp",88,False,3000,1010,3150,745,0.03,76,12,Morning,Wednesday,95,15,7,Positive,False,
+"An Ezy Dose AM/PM pill planner helps keep medications organized.","#Health,#ADHD,#Organization",73,True,2780,925,2730,675,0.03,69,11,Night,Thursday,86,14,6,Positive,False,
+"Is It You, Me, or Adult A.D.D.? A book for navigating relationships with ADHD.","#Books,#ADHD,#Relationships",92,False,2920,975,2920,715,0.03,73,12,Afternoon,Friday,91,15,7,Positive,False,
+"A titan in mental health literature: 'Feeling Good: The New Mood Therapy'. A must-read.","#Books,#MentalHealth,#SelfHelp,#CBT",103,False,6200,2050,13500,1250,0.06,360,60,Early Morning,Saturday,450,75,35,Positive,False,
+"Doctor's Best High Absorption Magnesium is frequently recommended for sleep and focus.","#Health,#Supplements,#ADHD",97,True,5800,1930,10500,1150,0.05,280,45,Midnight,Sunday,350,56,25,Positive,False,
+"For heavy sleepers, the Sonic Bomb Alarm Clock with Bed Shaker is a game-changer.","#Electronics,#ADHD,#Hacks",94,True,5100,1700,7500,1000,0.04,195,32,Evening,Monday,240,40,18,Positive,False,
+"Sennheiser's CX 300-II earbuds are a top pick for noise-cancellation and focus.","#Electronics,#Headphones,#ADHD",93,True,4800,1600,6500,950,0.04,180,30,Morning,Tuesday,225,38,17,Positive,False,
+"A Guide to the Good Life applies ancient Stoic wisdom to modern problems.","#Books,#Philosophy,#Stoicism",89,False,4500,1500,5800,930,0.04,165,27,Night,Wednesday,205,34,14,Positive,False,
+"Cal Newport's 'How to Become a Straight-A Student' is full of unconventional strategies.","#Books,#StudyHacks,#Productivity",99,False,4600,1530,6000,940,0.04,170,28,Afternoon,Thursday,210,35,15,Positive,False,
+"Exploring 'Willpower: Rediscovering the Greatest Human Strength' is a popular topic.","#Books,#Psychology,#SelfHelp",91,False,3450,1150,3550,810,0.03,94,16,Early Morning,Friday,118,20,9,Positive,False,
+"An AmazonBasics High-Density Foam Roller can help with restlessness and sensory input.","#Sports,#Outdoors,#ADHDHacks",94,True,3350,1120,3350,770,0.03,91,15,Midnight,Saturday,112,18,8,Positive,False,
+"Uvex Skyper Blue Light Blocking Glasses may help with sleep hygiene and focus.","#Tools,#Health,#ADHDHacks",89,True,3550,1190,3750,820,0.03,98,16,Evening,Sunday,122,20,9,Positive,False,
+"Using mindfulness for ADHD? This book provides an 8-step program.","#Books,#ADHD,#Mindfulness",72,False,2940,985,2940,718,0.03,74,12,Morning,Monday,92,15,7,Positive,False,
+"A guide to Cognitive-Behavioral Therapy specifically for Adult ADHD.","#Books,#ADHD,#CBT,#Therapy",77,False,2840,945,2790,688,0.03,70,11,Night,Tuesday,88,14,6,Positive,False,
+"Feeling lost? 'I Could Do Anything If I Only Knew What It Was' is a classic guide.","#Books,#Career,#SelfHelp",94,False,2740,915,2690,668,0.03,68,11,Afternoon,Wednesday,84,13,6,Positive,False,
+"Audio-Technica's QuietPoint active noise-cancelling headphones are another solid choice.","#Electronics,#Headphones,#ADHD",97,True,2640,880,2590,648,0.03,66,11,Early Morning,Thursday,82,13,6,Positive,False,
+"Etymotic Research MC5 earphones are known for their high degree of noise isolation.","#Electronics,#Headphones",90,True,2540,845,2490,628,0.03,64,10,Midnight,Friday,78,12,5,Positive,False,
+"A career book for women: 'Nice Girls Don't Get the Corner Office'.","#Books,#Career,#WomenInBusiness",80,False,2440,815,2390,608,0.03,62,10,Evening,Saturday,76,12,5,Positive,False,
+"Dr. Kristin Neff's 'Self-Compassion' is a powerful tool for mental well-being.","#Books,#SelfCompassion,#MentalHealth",96,False,2680,895,2630,658,0.03,67,11,Morning,Sunday,83,13,6,Positive,False,
+"'Sizing Up the Universe' offers a unique perspective on the cosmos.","#Books,#Science,#Astronomy",74,False,1900,635,1820,525,0.02,24,4,Night,Monday,30,5,2,Positive,True,Share a fascinating fact from the book.
+"Tile Slim is a popular item finder for wallets, phones, and keys.","#CellPhones,#Accessories,#ADHDHacks",76,True,1950,650,1880,535,0.02,25,4,Afternoon,Tuesday,31,5,2,Positive,False,
+"A straightforward guide to Attention Deficit Disorder: 'Add 101'.","#Books,#ADHD",70,False,1850,620,1740,508,0.02,24,4,Early Morning,Wednesday,29,5,1,Positive,True,Who is this book best for?
+"Thich Nhat Hanh's 'Anger: Wisdom for Cooling the Flames' was recommended.","#Books,#Mindfulness,#AngerManagement",88,False,1990,670,1980,555,0.01,26,4,Midnight,Thursday,32,5,2,Positive,False,
+"Another mention for the classic 'Driven to Distraction' guide to ADHD.","#Books,#ADHD,#Psychology",79,False,1970,660,1940,545,0.02,25,4,Evening,Friday,31,5,2,Positive,False,
+"A clever diversion safe disguised as a Scotch Brite Lint Roller.","#Home,#Kitchen,#Security,#Hacks",80,True,1830,610,1710,503,0.02,23,3,Morning,Saturday,28,4,1,Neutral,False,
+"Another popular diversion safe option: a hollow Arizona Tea can.","#OfficeProducts,#Security,#Hacks",73,True,1860,620,1750,510,0.02,24,4,Night,Sunday,29,5,1,Neutral,False,
+"This Kikkerland Ladybug Kitchen Timer is a cute and simple focus tool.","#Home,#Kitchen,#Timers,#ADHDHacks",83,True,1760,585,1610,483,0.02,23,3,Afternoon,Monday,28,4,1,Positive,False,
+"A personalized stainless steel spinner ring offers a custom fidget option.","#Clothing,#Jewelry,#Fidget,#ADHD",86,True,1780,595,1630,488,0.02,23,3,Early Morning,Tuesday,28,4,1,Positive,False,
+"Naztech i9 Wireless Active Noise Cancelling Headphones were mentioned.","#Electronics,#Headphones,#NoiseCancelling",81,True,1680,560,1510,453,0.02,21,3,Midnight,Wednesday,26,4,1,Neutral,True,Compare their features to other headphones.
+"A Disney Vinylmation figure of a businessman was an interesting find.","#Toys,#Games,#Disney,#Collecting",81,True,1640,545,1470,443,0.02,20,3,Evening,Thursday,25,4,1,Positive,True,Ask what community this might appeal to.
+"CozyPhones Sleep Headphones are designed for comfort while lying down.","#Electronics,#Headphones,#Sleep",82,True,1790,600,1660,498,0.02,23,3,Morning,Friday,28,4,1,Positive,False,
+"'Smart But Stuck' explores the emotional side of living with ADHD.","#Books,#ADHD,#Emotions,#Psychology",78,False,1930,645,1850,530,0.02,25,4,Night,Saturday,31,5,2,Positive,False,
+"A highly visual guide: 'Stahl's Illustrated Attention Deficit Hyperactivity Disorder'.","#Books,#ADHD,#Medical",93,False,1820,610,1700,500,0.02,23,3,Afternoon,Sunday,28,4,1,Positive,True,Who is the target audience for this book?
+"'Making the Grades' is a book about achieving academic success with less stress.","#Books,#StudyHacks,#Education",91,False,1840,615,1720,505,0.02,24,4,Early Morning,Monday,29,5,1,Positive,True,Share one key tip from the book.
+postText,hashtags,length,containsImage,userFollowers,userFollowing,userKarma,accountAgeDays,avgEngagementRate,avgLikes,avgComments,postTimeOfDay,dayOfWeek,receivedLikes,receivedComments,receivedShares,topCommentSentiment,shouldImprove,suggestions
+"An absolute must-have for shooters: the Howard Leight Impact Sport electronic earmuffs. One of the most recommended items on Reddit.","#Tools,#ShootingSports,#AR10,#Safety",147,True,8100,2700,20000,1600,0.1,750,125,58,Positive,False,
+"A 5-round limiter for PMAGs, a specific accessory for rifle magazines.","#Sports,#Outdoors,#AR10,#Firearms",83,True,1800,600,1650,490,0.02,28,4,Midnight,Friday,34,5,2,Neutral,True,Explain what this limiter is used for.
+"The Makita Compact Router is a versatile tool for DIY projects, including firearm modifications.","#Tools,#HomeImprovement,#DIY",101,True,1750,580,1580,470,0.02,27,4,Early Morning,Saturday,33,5,2,Positive,True,Show an example of a project it can be used for.
+"The 'Kapow!' Extending Boxing Glove is a fun, goofy toy for ARMS video game fans.","#Toys,#Games,#ARMS,#NintendoSwitch",97,True,2600,860,2550,640,0.03,64,10,Afternoon,Sunday,78,12,5,Positive,False,
+"A Maclocks bracket to secure a MacBook Pro Retina, essential for campus life at ASU.","#Electronics,#Security,#ASU,#College",102,True,1700,560,1520,450,0.02,26,4,Evening,Monday,32,5,2,Positive,True,Show how it attaches to the laptop.
+"The SWAGTRON T1 Hoverboard, a popular mode of transport around campus.","#Sports,#Outdoors,#Hoverboard,#ASU",82,True,1850,620,1700,500,0.02,28,5,Morning,Tuesday,35,6,2,Positive,False,
+"A classic baking book, 'The Cake Bible', was an interesting mention.","#Books,#Baking,#Cooking",75,False,1600,530,1400,410,0.02,24,4,Night,Wednesday,30,5,2,Positive,True,Missing engagement data, share a sample recipe.
+"A perfect example of Awful Taste But Great Execution: the 'Senior Woman with Asthma Inhaler' wall decal. Truly baffling.","#Home,#Kitchen,#ATBGE,#WeirdFinds",149,True,5300,1760,9200,1050,0.05,240,40,Afternoon,Thursday,300,50,22,Negative,False,
+"An internet artifact in the wild: the 'dick butt' snapback cap. A true meme.","#Clothing,#Funny,#Meme,#ATBGE",89,True,1900,640,1810,523,0.01,25,4,Early Morning,Friday,30,5,1,Negative,False,
+"This 3D Lion Studded PU Leather Backpack is certainly a bold fashion choice.","#Clothing,#Fashion,#ATBGE",88,True,1800,600,1650,490,0.02,28,4,Midnight,Saturday,34,5,2,Negative,False,
+"A very unique find: the Transformers Alternity Starscream that turns into an Orochi sports car.","#Toys,#Games,#Transformers,#ATBGE",111,True,1700,570,1550,460,0.02,26,4,Evening,Sunday,32,5,2,Neutral,False,
+"A listing for a Samsung Galaxy S6, specifically for the AT&T network.","#CellPhones,#ATT,#Samsung",80,True,1650,550,1480,440,0.02,25,4,Morning,Monday,31,5,2,Neutral,False,
+"A certified refurbished unlocked Apple iPhone 5, compatible with AT&T.","#CellPhones,#ATT,#Apple,#Refurbished",86,True,1750,590,1600,480,0.02,27,4,Night,Tuesday,33,5,2,Positive,False,
+"A 9-in-1 replacement kit for the Samsung Galaxy S5, including the crucial USB charger port cover.","#CellPhones,#Repair,#DIY",112,True,1850,620,1750,510,0.02,28,5,Afternoon,Wednesday,35,6,2,Positive,False,
+"A hand-crafted replica of a 6th Century Sutton Hoo Anglo-Saxon steel helmet. An amazing display piece.","#Sports,#Outdoors,#History,#Replica",121,True,1950,660,1900,540,0.01,25,4,Early Morning,Thursday,31,5,2,Positive,False,
+"A reversible plush toy for Arizona Cardinals fans, the NFL Reverse-A-Pal.","#Sports,#Outdoors,#AZCardinals,#NFL",94,True,1880,630,1780,518,0.01,24,4,Midnight,Friday,29,5,1,Positive,False,
+"For the truly dedicated fan: a Gmasking Natural Latex Red Cardinal Mask.","#Toys,#Games,#AZCardinals,#Costume",90,True,1780,600,1630,488,0.02,23,3,Evening,Saturday,28,4,1,Positive,False,
+"'The Teachings of Don Juan' by Carlos Castaneda, mentioned in a discussion about abandoned places.","#Books,#Philosophy,#Counterculture",116,False,2800,930,2750,680,0.03,69,11,Morning,Sunday,86,14,6,Neutral,False,
+"'High Crimes: The Fate of Everest in an Age of Greed' is a recommended read.","#Books,#Adventure,#NonFiction",87,False,2700,900,2650,660,0.03,66,11,Night,Monday,82,13,6,Positive,False,
+"The popular horror novel 'Penpal' by Dathan Auerbach was mentioned.","#Books,#Horror",71,False,2900,970,2900,710,0.03,72,12,Afternoon,Tuesday,90,15,7,Negative,False,
+"A fascinating psychological study: 'The Three Christs of Ypsilanti'.","#Books,#Psychology,#History",79,False,2850,950,2800,690,0.03,70,11,Early Morning,Wednesday,88,14,6,Neutral,False,
+"A 1:400 scale model of a Northwest 747-400 in the 'Bowling Shoe' livery.","#Toys,#Games,#Aviation,#Models",96,True,1900,640,1820,525,0.02,24,4,Midnight,Thursday,30,5,2,Positive,True,Show detailed photos of the model.
+"A Safety Works multi-purpose respirator, important gear for exploring abandoned buildings.","#Tools,#HomeImprovement,#Safety",98,True,1800,600,1650,490,0.02,28,4,Evening,Friday,34,5,2,Neutral,False,
+"The 'Route 66: EZ66 GUIDE' for travelers exploring the historic highway.","#Books,#Travel,#History,#Route66",87,False,1700,560,1550,460,0.02,26,4,Morning,Saturday,32,5,2,Positive,False,
+"A Norpro instant electric immersion heater for a quick cup of coffee or tea.","#Home,#Kitchen,#Travel",87,True,1600,530,1430,420,0.02,24,4,Night,Sunday,30,5,2,Positive,True,Demonstrate how quickly it heats water.
+"'Danzig Baldaev: Drawings from the Gulag' offers a harrowing historical record.","#Books,#History,#Art",86,False,1750,580,1580,470,0.02,27,4,Afternoon,Monday,33,5,2,Negative,False,
+"'The History of Camp Tracy' details the story of Japanese WWII POWs in the US.","#Books,#History,#WWII",93,False,1650,550,1480,440,0.02,25,4,Early Morning,Tuesday,31,5,2,Neutral,False,
+"A popular military history book: 'Tigers in the Mud' by Otto Carius.","#Books,#History,#WWII",81,False,1850,620,1730,508,0.02,28,5,Midnight,Wednesday,35,6,2,Positive,False,
+"Performix Plasti Dip is a versatile rubber coating for many projects.","#Automotive,#DIY,#HomeImprovement",80,True,2700,900,2650,660,0.03,66,11,Evening,Thursday,82,13,6,Positive,False,
+"The First Alert P1010 smoke alarm has a 10-year sealed battery.","#Tools,#HomeImprovement,#Safety,#Abode",90,True,1900,640,1850,530,0.02,29,5,Morning,Friday,36,6,2,Positive,False,
+"A foundational text for NT studies: Raymond Brown's 'An Introduction to the New Testament'.","#Books,#AcademicBiblical,#Theology",110,False,4100,1360,4900,890,0.04,140,23,Night,Saturday,175,28,12,Positive,False,
+"'The Early History of God' by Mark S. Smith is a key text on Israelite religion.","#Books,#AcademicBiblical,#History,#Religion",103,False,4400,1460,5600,920,0.04,160,26,Afternoon,Sunday,200,32,14,Positive,False,
+"John P. Meier's 'A Marginal Jew' is a landmark work on the historical Jesus.","#Books,#AcademicBiblical,#History",96,False,4200,1400,5100,900,0.04,145,24,Early Morning,Monday,180,29,13,Positive,False,
+"The New Oxford Annotated Bible (NRSV) is a cornerstone for academic Bible study.","#Books,#AcademicBiblical,#BibleStudy",96,False,5000,1670,7200,990,0.04,190,32,Midnight,Tuesday,235,38,17,Positive,False,
+"'Politicizing the Bible' explores the roots of historical criticism.","#Books,#AcademicBiblical,#History",77,False,4800,1600,6600,970,0.04,180,30,Evening,Wednesday,220,36,16,Positive,False,
+"'The Origins of Biblical Monotheism' examines Israel's polytheistic background.","#Books,#AcademicBiblical,#History",96,False,4300,1430,5300,910,0.04,150,25,Morning,Thursday,185,30,13,Positive,False,
+"Bart Ehrman's 'Historical Introduction to the Early Christian Writings' is a popular textbook.","#Books,#AcademicBiblical,#History",102,False,3900,1300,4500,850,0.04,130,21,Night,Friday,160,26,11,Positive,False,
+"The HarperCollins Study Bible is another excellent choice for students of religion.","#Books,#AcademicBiblical,#BibleStudy",94,False,4000,1330,4700,870,0.04,135,22,Afternoon,Saturday,168,27,11,Positive,False,
+"Richard Elliott Friedman's 'The Bible with Sources Revealed' explores the Documentary Hypothesis.","#Books,#AcademicBiblical,#History",110,False,3800,1270,4400,840,0.04,125,20,Early Morning,Sunday,155,25,10,Positive,False,
+"'Lost Christianities' by Bart Ehrman discusses the diverse faiths of early Christianity.","#Books,#AcademicBiblical,#History",102,False,3600,1200,3900,810,0.03,105,17,Midnight,Monday,130,21,9,Positive,False,
+"'Paul and Jesus' explores how the Apostle Paul shaped the new faith.","#Books,#AcademicBiblical,#Theology",76,False,2900,970,2900,710,0.03,72,12,Evening,Tuesday,90,15,7,Positive,False,
+"Another edition of Bart Ehrman's popular 'Historical Introduction to the New Testament'.","#Books,#AcademicBiblical,#History",98,False,2800,930,2750,680,0.03,69,11,Morning,Wednesday,86,14,6,Positive,False,
+"'St. Paul versus St. Peter' delves into the competing missions in early Christianity.","#Books,#AcademicBiblical,#History",96,False,2750,915,2700,670,0.03,68,11,Night,Thursday,84,13,6,Positive,False,
+"Investigating 'Opposition to Paul in Jewish Christianity' by Gerd Lüdemann.","#Books,#AcademicBiblical,#Theology",87,False,2650,880,2600,650,0.03,65,10,Afternoon,Friday,80,12,5,Neutral,False,
+"'Paul and the Competing Mission in Corinth' examines early Christian rivalries.","#Books,#AcademicBiblical,#History",91,False,2700,900,2650,660,0.03,66,11,Early Morning,Saturday,82,13,6,Neutral,False,
+"Exploring Marcion's scriptural canon in 'The First New Testament'.","#Books,#AcademicBiblical,#History",75,False,2850,950,2800,690,0.03,70,11,Midnight,Sunday,88,14,6,Positive,False,
+postText,hashtags,length,containsImage,userFollowers,userFollowing,userKarma,accountAgeDays,avgEngagementRate,avgLikes,avgComments,postTimeOfDay,dayOfWeek,receivedLikes,receivedComments,receivedShares,topCommentSentiment,shouldImprove,suggestions
+"Exploring the rise of monotheism in 'Of God and Gods: Egypt, Israel...'. A scholarly work.","#Books,#AcademicBiblical,#History,#Religion",114,False,2900,970,2850,700,0.03,71,11,Morning,Saturday,88,14,6,Neutral,False,
+"The Jewish Annotated New Testament is a valuable resource for understanding the text in its original context.","#Books,#AcademicBiblical,#Judaism,#Theology",128,False,2950,980,2950,720,0.03,75,12,Night,Sunday,94,15,7,Positive,False,
+"James Kugel's 'How to Read the Bible: A Guide to Scripture, Then and Now' was discussed.","#Books,#AcademicBiblical,#BibleStudy",102,False,2850,950,2800,690,0.03,70,11,Afternoon,Monday,88,14,6,Positive,False,
+"A classic in the field: 'Who Wrote the Bible?' by Richard Elliott Friedman.","#Books,#AcademicBiblical,#History",91,False,4200,1400,5200,910,0.04,145,24,Early Morning,Tuesday,180,29,13,Positive,False,
+"Bart Ehrman's 'How Jesus Became God' is a popular and accessible scholarly work.","#Books,#AcademicBiblical,#History,#Christology",100,False,3900,1300,4600,860,0.04,130,21,Midnight,Wednesday,160,26,11,Positive,False,
+"Isaac Asimov's comprehensive 'Guide to the Bible' is a unique and detailed resource.","#Books,#AcademicBiblical,#Science,#History",102,False,3500,1160,3700,800,0.03,98,16,Evening,Thursday,122,20,9,Positive,False,
+"N.T. Wright's 'Jesus and the Victory of God' is a key volume in New Testament studies.","#Books,#AcademicBiblical,#Theology,#NewTestament",106,False,3600,1200,3900,820,0.03,100,16,Morning,Friday,125,21,10,Positive,False,
+"Discussing textual criticism with Bart Ehrman's 'Forged: Writing in the Name of God'.","#Books,#AcademicBiblical,#History,#TextualCriticism",106,False,3700,1230,4100,840,0.03,105,17,Night,Saturday,130,21,9,Positive,False,
+"E.P. Sanders' 'The Historical Figure of Jesus' is a foundational text in the field.","#Books,#AcademicBiblical,#History,#Jesus",105,False,2920,975,2920,715,0.03,73,12,Afternoon,Sunday,91,15,7,Positive,False,
+"Yale's Open Course book 'New Testament History and Literature' is a great intro.","#Books,#AcademicBiblical,#Education,#Yale",99,False,2820,940,2770,685,0.03,70,11,Early Morning,Monday,86,14,6,Positive,False,
+"Brant Pitre's 'Jesus and the Last Supper' offers a deep dive into the Eucharist.","#Books,#AcademicBiblical,#Theology",96,False,2720,905,2670,665,0.03,68,11,Midnight,Tuesday,84,13,6,Positive,False,
+"A mention for 'A Gathering of Saints' by Robert Lindsey.","#Books,#AcademicBiblical",69,False,2620,875,2570,645,0.03,66,11,Evening,Wednesday,82,13,6,Neutral,True,Provide more context on the book's topic.
+"A true crime story intersecting with religion: 'The Mormon Murders'.","#Books,#AcademicBiblical,#TrueCrime",82,False,2520,840,2470,625,0.03,64,10,Morning,Thursday,78,12,5,Negative,False,
+"Elaine Pagels' 'Revelations' explores the politics of the Book of Revelation.","#Books,#AcademicBiblical,#History",96,False,2420,805,2370,605,0.03,62,10,Night,Friday,76,12,5,Positive,False,
+"Diarmaid MacCulloch's 'Christianity: The First Three Thousand Years' is a sweeping history.","#Books,#AcademicBiblical,#History",104,False,2770,925,2720,675,0.03,69,11,Afternoon,Saturday,86,14,6,Positive,False,
+"Scott Hahn's 'Kinship by Covenant' provides a canonical approach to scripture.","#Books,#AcademicBiblical,#Theology",95,False,2670,890,2620,655,0.03,67,11,Early Morning,Sunday,83,13,6,Positive,False,
+"Another edition of 'The New Oxford Annotated Bible' was recommended for study.","#Books,#AcademicBiblical,#BibleStudy",89,False,2970,990,2970,725,0.03,76,12,Midnight,Monday,95,15,7,Positive,False,
+"Ehrman's 'Jesus Before the Gospels' on how early Christian stories evolved.","#Books,#AcademicBiblical,#History",89,False,2870,955,2820,695,0.03,71,11,Evening,Tuesday,89,14,6,Positive,False,
+"Understanding the world of the Hebrew Bible with 'Ancient Near Eastern Thought'.","#Books,#AcademicBiblical,#History,#OldTestament",101,False,2770,925,2720,675,0.03,69,11,Morning,Wednesday,86,14,6,Positive,False,
+"Candida Moss' 'The Myth of Persecution' challenges traditional stories of martyrdom.","#Books,#AcademicBiblical,#History",99,False,2670,890,2620,655,0.03,67,11,Night,Thursday,83,13,6,Neutral,False,
+"A mention for 'A Catholic Introduction to the Bible: The Old Testament'.","#Books,#AcademicBiblical,#Catholicism",85,False,2570,855,2520,635,0.03,65,10,Afternoon,Friday,80,12,5,Positive,False,
+"Tracing the origins of the Devil in 'The Birth of Satan' by T.J. Wray.","#Books,#AcademicBiblical,#Theology",82,False,2470,825,2420,615,0.03,63,10,Early Morning,Saturday,77,12,5,Neutral,False,
+"Philip Jenkins' 'The Lost History of Christianity' covers the faith in Asia, Africa, and the Middle East.","#Books,#AcademicBiblical,#History",122,False,2790,930,2740,680,0.03,70,11,Midnight,Sunday,87,14,6,Positive,False,
+"A comprehensive history of the papacy is found in 'Absolute Monarchs'.","#Books,#AcademicBiblical,#History,#Catholicism",82,False,2690,895,2640,660,0.03,67,11,Evening,Monday,83,13,6,Positive,False,
+"Bruce Metzger's 'The Canon of the New Testament' on its origin and development.","#Books,#AcademicBiblical,#History",99,False,2590,865,2540,640,0.03,65,10,Morning,Tuesday,81,13,6,Positive,False,
+"A discussion on 'Martyrdom and Persecution in the Early Church'.","#Books,#AcademicBiblical,#History",77,False,1900,635,1820,525,0.02,24,4,Night,Wednesday,30,5,2,Neutral,True,Ask for the main thesis of the book.
+"A scholarly reconstruction of the Q source document was mentioned.","#Books,#AcademicBiblical,#Theology",73,False,1800,600,1650,490,0.02,28,4,Afternoon,Thursday,34,5,2,Neutral,True,Explain what the Q source is for a broader audience.
+"The academic work 'Dating Acts: Between the Evangelists and the Apologists'.","#Books,#AcademicBiblical,#History",87,False,1700,565,1550,460,0.02,26,4,Early Morning,Friday,32,5,2,Neutral,True,Post a key argument from the book for discussion.
+"A mention of 'Empirical Models for Biblical Criticism'.","#Books,#AcademicBiblical,#Criticism",62,False,1600,535,1450,430,0.02,25,4,Midnight,Saturday,31,5,2,Neutral,True,Provide an example of an empirical model.
+"Exploring 'Jewish Views of the Afterlife' by Simcha Paull Raphael.","#Books,#AcademicBiblical,#Judaism",77,False,1850,615,1720,505,0.02,28,5,Evening,Sunday,35,6,2,Positive,True,Compare these views to Christian concepts.
+"An introductory text, 'Understanding the Bible', for skeptics and seekers.","#Books,#AcademicBiblical,#Introduction",89,False,1750,585,1620,485,0.02,27,4,Morning,Monday,33,5,2,Positive,True,Who is the ideal reader for this book?
+"Another 'Introduction to the New Testament', this one by D.A. Carson.","#Books,#AcademicBiblical,#Theology",82,False,1950,650,1880,535,0.02,29,5,Night,Tuesday,36,6,2,Positive,False,
+"'New Testament History: A Narrative Account' was also recommended.","#Books,#AcademicBiblical,#History",70,False,1880,625,1760,510,0.02,28,5,Afternoon,Wednesday,35,6,2,Positive,False,
+"Geza Vermes' 'Jesus in His Jewish Context' is a classic scholarly work.","#Books,#AcademicBiblical,#History",85,False,1780,595,1640,490,0.02,27,4,Early Morning,Thursday,33,5,2,Positive,False,
+"Robert R. Wilson's 'Prophecy and Society in Ancient Israel'.","#Books,#AcademicBiblical,#History,#OldTestament",72,False,1680,560,1520,450,0.02,26,4,Midnight,Friday,32,5,2,Positive,False,
+"'The Quest for the Plausible Jesus' examines the criteria of historical Jesus research.","#Books,#AcademicBiblical,#History",98,False,1760,585,1610,480,0.02,26,4,Evening,Saturday,32,5,2,Neutral,False,
+"Exploring 'Greco-Roman Literature and the New Testament' for background context.","#Books,#AcademicBiblical,#History,#Literature",98,False,1660,555,1490,445,0.02,25,4,Morning,Sunday,31,5,2,Positive,False,
+"The 'Dictionary of Jesus and the Gospels' is an essential reference tool.","#Books,#AcademicBiblical,#Reference",83,False,1960,655,1910,540,0.02,29,5,Night,Monday,36,6,2,Positive,False,
+"A mention for the book 'The Right Guy for the Right Girl'.","#Books,#AcademicBiblical,#Relationships",65,False,1560,520,1390,415,0.02,23,3,Afternoon,Tuesday,28,4,1,Neutral,True,How does this relate to the academic biblical field?
+"Raymond Brown's commentary on the Infancy Narratives, 'The Birth of the Messiah'.","#Books,#AcademicBiblical,#Theology",96,False,1860,620,1740,508,0.02,28,5,Early Morning,Wednesday,35,6,2,Positive,False,
+"A book on gender and sexuality in the Bible: 'Sex and the Single Savior'.","#Books,#AcademicBiblical,#GenderStudies",86,False,1740,580,1590,475,0.02,26,4,Midnight,Thursday,32,5,2,Neutral,False,
+"Dale Martin's 'The Corinthian Body' is a key text on Paul's letters and ancient society.","#Books,#AcademicBiblical,#Theology",104,False,1940,645,1870,532,0.02,29,5,Evening,Friday,36,6,2,Positive,False,
+"'The Galatians Debate' covers contemporary issues in its interpretation.","#Books,#AcademicBiblical,#Theology",82,False,1840,615,1720,505,0.02,28,5,Morning,Saturday,35,6,2,Neutral,False,
+"'Jewish Christianity Reconsidered' rethinks ancient groups and texts.","#Books,#AcademicBiblical,#History",77,False,1720,575,1570,470,0.02,26,4,Night,Sunday,32,5,2,Neutral,False,
+"F.C. Baur's classic work 'Paul the Apostle of Jesus Christ'.","#Books,#AcademicBiblical,#History",68,False,1620,540,1450,430,0.02,24,4,Afternoon,Monday,30,4,1,Positive,True,Mention the historical significance of Baur's work.
+"'Mark: Traditions in Conflict' by Theodore Weeden was mentioned.","#Books,#AcademicBiblical,#Theology",68,False,1520,505,1350,400,0.02,22,3,Early Morning,Tuesday,28,4,1,Positive,True,What is the central conflict discussed?
+"A book on the historical figure Marcion: 'Marcion and His Influence'.","#Books,#AcademicBiblical,#History",77,False,1420,475,1250,380,0.02,21,3,Midnight,Wednesday,26,4,1,Neutral,False,
+"Adolf von Harnack's foundational study 'Marcion: The Gospel of the Alien God'.","#Books,#AcademicBiblical,#Theology",89,False,1580,525,1410,418,0.02,23,3,Evening,Thursday,28,4,1,Positive,False,
+"An essay on radical Paulist theology: 'Marcion, on the Restitution of Christianity'.","#Books,#AcademicBiblical,#Theology",98,False,1480,495,1310,398,0.02,22,3,Morning,Friday,27,4,1,Neutral,False,
+"A literary analysis: 'Matthew, Poet of the Beatitudes'.","#Books,#AcademicBiblical,#Literature",62,False,1380,460,1210,378,0.02,21,3,Night,Saturday,26,4,1,Positive,True,Share one poetic insight from the book.
+"A discussion of Hans Dieter Betz's 'Essays on the Sermon on the Mount'.","#Books,#AcademicBiblical,#Theology",81,False,1540,515,1370,408,0.02,22,3,Afternoon,Sunday,27,4,1,Positive,False,
+"'The Fate of the Dead' studies Jewish and Christian apocalyptic literature.","#Books,#AcademicBiblical,#Theology",88,False,1640,545,1470,438,0.02,24,4,Early Morning,Monday,30,4,1,Positive,False,
+"'From Gods to God' examines how the Bible interacted with ancient myths.","#Books,#AcademicBiblical,#Mythology",82,False,1700,565,1540,458,0.02,25,4,Midnight,Tuesday,31,5,2,Positive,False,
+"A mention of the Biblia Hebraica Stuttgartensia, the standard critical edition of the Hebrew Bible.","#Books,#AcademicBiblical,#Hebrew",116,False,1990,665,1980,558,0.01,26,4,Evening,Wednesday,32,5,2,Neutral,False,
+"'Jesus and His World' by John Rousseau provides archaeological and historical context.","#Books,#AcademicBiblical,#History,#Archaeology",100,False,1890,630,1780,515,0.02,28,5,Morning,Thursday,35,6,2,Positive,False,
+"'The Text of the New Testament' by Metzger and Ehrman is a classic on its transmission and restoration.","#Books,#AcademicBiblical,#History,#TextualCriticism",125,False,1980,660,1960,550,0.01,25,4,Night,Friday,31,5,2,Positive,False,
+"The Hermeneia commentary on 'Daniel' is a deeply scholarly resource.","#Books,#AcademicBiblical,#Commentary,#OldTestament",89,False,1870,625,1760,512,0.02,28,5,Afternoon,Saturday,35,6,2,Positive,False,
+"N.T. Wright's 'Paul: In Fresh Perspective' offers a modern take on the apostle.","#Books,#AcademicBiblical,#Theology,#Paul",94,False,1920,640,1830,525,0.02,29,5,Early Morning,Sunday,36,6,2,Positive,False,
+"A comprehensive look at 'Baptism in the Early Church' by Everett Ferguson.","#Books,#AcademicBiblical,#History,#Liturgy",94,False,1820,605,1690,500,0.02,27,4,Midnight,Monday,33,5,2,Positive,False,
+"Robert Orlando's 'Apostle Paul: A Polite Bribe' was mentioned.","#Books,#AcademicBiblical,#Paul",72,False,1720,575,1570,470,0.02,26,4,Evening,Tuesday,32,5,2,Neutral,True,What is the 'polite bribe' referenced?
+"'Let the Reader Understand' applies reader-response criticism to the Gospel of Mark.","#Books,#AcademicBiblical,#Criticism,#Literature",102,False,1620,540,1450,430,0.02,24,4,Morning,Wednesday,30,4,1,Positive,False,
+"Another mention for Brant Pitre's popular book, 'Jesus and the Last Supper'.","#Books,#AcademicBiblical,#Theology",91,False,1910,635,1810,522,0.02,28,5,Night,Thursday,35,6,2,Positive,False,
+"'The Forgotten Kingdom' delves into the archaeology and history of Northern Israel.","#Books,#AcademicBiblical,#Archaeology,#History",98,False,1810,605,1690,500,0.02,27,4,Afternoon,Friday,33,5,2,Positive,False,
+"A 4th edition of Bart Ehrman's 'Historical Introduction to the Early Christian Writings'.","#Books,#AcademicBiblical,#History",99,False,1970,655,1930,545,0.01,25,4,Early Morning,Saturday,31,5,2,Positive,False,
+"Ruth Hoppin's 'Priscilla's Letter' argues for the author of the Epistle to the Hebrews.","#Books,#AcademicBiblical,#History,#WomenInTheology",109,False,1670,555,1500,448,0.02,25,4,Midnight,Sunday,31,5,2,Neutral,True,Post the core argument of the book to spark debate.
+"A specialized study: 'Wages of Cross-Bearing and Debt of Sin'.","#Books,#AcademicBiblical,#Theology",72,False,1570,525,1400,418,0.02,23,3,Evening,Monday,28,4,1,Neutral,True,Explain the key concepts for a lay audience.
+"'The Bible Unearthed' uses archaeology to look at the origin of its sacred texts.","#Books,#AcademicBiblical,#Archaeology",92,False,1990,665,1980,558,0.01,26,4,Morning,Tuesday,32,5,2,Positive,False,
+"Another mention for Dale Martin's important work, 'The Corinthian Body'.","#Books,#AcademicBiblical,#Theology",82,False,1980,660,1960,550,0.01,25,4,Night,Wednesday,31,5,2,Positive,False,
+"The 'Dictionary of Deities and Demons in the Bible' is an exhaustive reference.","#Books,#AcademicBiblical,#Reference",87,False,1950,650,1900,540,0.02,29,5,Afternoon,Thursday,36,6,2,Positive,False,
+"A bilingual edition: 'Biblia Sacra Hebraica Stuttgartensia' with a Greek New Testament.","#Books,#AcademicBiblical,#Languages,#Greek,#Hebrew",118,False,1850,615,1730,508,0.02,28,5,Early Morning,Friday,35,6,2,Neutral,False,
+"An analysis of Genesis 6 in 'The Origin of Evil Spirits'.","#Books,#AcademicBiblical,#Theology",66,False,1750,585,1600,480,0.02,27,4,Midnight,Saturday,33,5,2,Neutral,False,
+postText,hashtags,length,containsImage,userFollowers,userfollowing,userKarma,accountAgeDays,avgEngagementRate,avgLikes,avgComments,postTimeOfDay,dayOfWeek,receivedLikes,receivedComments,receivedShares,topCommentSentiment,shouldImprove,suggestions
+"A skeptical look at the New Testament in Randel Helms' 'Gospel Fictions'.","#Books,#AcademicBiblical,#Criticism",92,False,1800,600,1650,490,0.02,28,4,Afternoon,Wednesday,34,5,2,Neutral,True,Compare its arguments to a mainstream scholarly view.
+"A key resource: 'The Apostolic Fathers' with Greek texts and English translations.","#Books,#AcademicBiblical,#History,#PrimarySources",101,False,1900,635,1800,520,0.02,29,5,Early Morning,Thursday,36,6,2,Positive,False,
+"A deep archaeological dive: 'Galilee in the Late Second Temple and Mishnaic Periods'.","#Books,#AcademicBiblical,#Archaeology",101,False,1700,565,1550,460,0.02,26,4,Midnight,Friday,32,5,2,Positive,True,Share a significant finding from the book.
+"A book on early alphabetic inscriptions and their impact on Israel's history.","#Books,#AcademicBiblical,#History,#Linguistics",92,False,1600,535,1450,430,0.02,25,4,Evening,Saturday,31,5,2,Neutral,True,Explain the core thesis in simpler terms.
+"The 10-volume set of 'The Ante-Nicene Fathers' is a comprehensive collection of early Christian writings.","#Books,#AcademicBiblical,#History,#Theology",122,False,1950,650,1880,535,0.02,29,5,Morning,Sunday,36,6,2,Positive,False,
+"The NIV Study Bible, a popular choice for personal-sized, accessible study.","#Books,#AcademicBiblical,#BibleStudy",92,True,1850,615,1730,508,0.02,28,5,Night,Monday,35,6,2,Positive,False,
+"Debating the ending of Mark's gospel with 'Perspectives on the Ending of Mark: Four Views'.","#Books,#AcademicBiblical,#Theology",104,False,1750,585,1600,480,0.02,27,4,Afternoon,Tuesday,33,5,2,Neutral,False,
+"Exploring 'Among the Gentiles' to understand Greco-Roman religion and its relation to Christianity.","#Books,#AcademicBiblical,#History,#Religion",116,False,1980,660,1960,550,0.01,26,4,Early Morning,Wednesday,32,5,2,Positive,False,
+"Stephen Harris' 'Understanding The Bible' is a recommended introductory text.","#Books,#AcademicBiblical,#Introduction",86,False,1880,625,1760,510,0.02,28,5,Midnight,Thursday,35,6,2,Positive,False,
+"A niche linguistic resource: 'Classical Syriac for Hebraists'.","#Books,#AcademicBiblical,#Linguistics,#Syriac",68,False,1580,525,1410,418,0.02,23,3,Evening,Friday,28,4,1,Neutral,True,Who would be the primary audience for this?
+"The 'Gospel Parallels' is an essential tool for comparing the Synoptic Gospels.","#Books,#AcademicBiblical,#BibleStudy",94,False,1970,655,1930,545,0.01,25,4,Morning,Saturday,31,5,2,Positive,False,
+"'The Gospel of the Lord' on how the early church wrote the story of Jesus.","#Books,#AcademicBiblical,#History",81,False,1870,625,1760,512,0.02,28,5,Night,Sunday,35,6,2,Positive,False,
+"A unique study: 'Reading Romans In Pompeii: Paul's Letter at Ground Level'.","#Books,#AcademicBiblical,#History,#Archaeology",100,False,1770,590,1620,485,0.02,27,4,Afternoon,Monday,33,5,2,Positive,False,
+"Maurice Halbwachs' foundational text, 'On Collective Memory'.","#Books,#AcademicBiblical,#Sociology,#MemoryStudies",74,False,1670,555,1500,448,0.02,25,4,Early Morning,Tuesday,31,5,2,Neutral,False,
+"'Social Memory: New Perspectives on the Past' was another mentioned text.","#Books,#AcademicBiblical,#MemoryStudies",77,False,1690,565,1530,455,0.02,26,4,Midnight,Wednesday,32,5,2,Neutral,False,
+"Exploring 'Memory, Tradition, And Text' and the uses of the past in early Christianity.","#Books,#AcademicBiblical,#History,#MemoryStudies",107,False,1790,600,1660,498,0.02,27,4,Evening,Thursday,33,5,2,Positive,False,
+"James D.G. Dunn's influential work, 'Jesus Remembered'.","#Books,#AcademicBiblical,#History",62,False,1890,630,1780,515,0.02,28,5,Morning,Friday,35,6,2,Positive,False,
+"'The Fall of Jerusalem and the Christian Church' examines the effects of the event of AD 70.","#Books,#AcademicBiblical,#History",103,False,1930,645,1850,530,0.02,29,5,Night,Saturday,36,6,2,Positive,False,
+"The Nag Hammadi Scriptures, a revised and updated translation of sacred Gnostic texts.","#Books,#AcademicBiblical,#Gnosticism",98,False,1960,655,1910,540,0.02,29,5,Afternoon,Sunday,36,6,2,Positive,False,
+"A comparison of 'The Torah: Jewish and Samaritan versions'.","#Books,#AcademicBiblical,#Judaism,#Samaritan",68,False,1860,620,1740,508,0.02,28,5,Early Morning,Monday,35,6,2,Positive,False,
+"A look at the relationship between 'Christianity and Rabbinic Judaism'.","#Books,#AcademicBiblical,#History,#Judaism",73,False,1760,585,1610,480,0.02,26,4,Midnight,Tuesday,32,5,2,Positive,False,
+"A useful 'Handbook on the Pentateuch' covering the first five books of the Hebrew Bible.","#Books,#AcademicBiblical,#OldTestament",101,False,1840,615,1720,505,0.02,28,5,Evening,Wednesday,35,6,2,Positive,False,
+"Phillip Sigal's 'Judaism: The evolution of a faith'.","#Books,#AcademicBiblical,#Judaism",57,False,1740,580,1590,475,0.02,26,4,Morning,Thursday,32,5,2,Positive,False,
+"Exploring 'The Roman Cult of Mithras: The God and His Mysteries'.","#Books,#AcademicBiblical,#History,#Religion",78,False,1920,640,1830,525,0.02,29,5,Night,Friday,36,6,2,Positive,False,
+"A book on Samaritan literature: 'Tradition Kept'.","#Books,#AcademicBiblical,#Samaritan",53,False,1620,540,1450,430,0.02,24,4,Afternoon,Saturday,30,4,1,Neutral,True,Explain who the Samaritans are.
+"A 'Handbook on the Wisdom Books and Psalms' was recommended.","#Books,#AcademicBiblical,#OldTestament",63,False,1810,605,1680,498,0.02,27,4,Early Morning,Sunday,33,5,2,Positive,False,
+"'The Old Testament: An Introduction to the Hebrew Bible' is a foundational text.","#Books,#AcademicBiblical,#OldTestament",88,False,1910,635,1810,522,0.02,28,5,Midnight,Monday,35,6,2,Positive,False,
+"'The Book of Legends/Sefer Ha-Aggadah' is a classic collection from the Talmud and Midrash.","#Books,#AcademicBiblical,#Judaism",106,False,1890,630,1780,515,0.02,28,5,Evening,Tuesday,35,6,2,Positive,False,
+"A 'Handbook on the Prophets' for focused study on that section of the Bible.","#Books,#AcademicBiblical,#OldTestament",88,False,1790,600,1660,498,0.02,27,4,Morning,Wednesday,33,5,2,Positive,False,
+"A 'Handbook on the Historical Books' from Joshua to Esther.","#Books,#AcademicBiblical,#OldTestament",66,False,1820,605,1690,500,0.02,27,4,Night,Thursday,33,5,2,Positive,False,
+"A study of 'Ancient Christian Worship' and early church practices.","#Books,#AcademicBiblical,#History",76,False,1720,575,1570,470,0.02,26,4,Afternoon,Friday,32,5,2,Positive,False,
+"'The IVP Bible Background Commentary' provides context for the New Testament.","#Books,#AcademicBiblical,#Commentary",90,False,1940,645,1870,532,0.02,29,5,Early Morning,Saturday,36,6,2,Positive,False,
+"'The Ways That Never Parted' on the relationship between Jews and Christians in Late Antiquity.","#Books,#AcademicBiblical,#History,#Judaism",113,False,1870,625,1760,512,0.02,28,5,Midnight,Sunday,35,6,2,Positive,False,
+"Debating 'The Question of Canon' and the formation of the New Testament.","#Books,#AcademicBiblical,#History",81,False,1770,590,1620,485,0.02,27,4,Evening,Monday,33,5,2,Positive,False,
+"Another mention for 'Prophecy and Society in Ancient Israel'.","#Books,#AcademicBiblical,#History",68,False,1670,555,1500,448,0.02,25,4,Morning,Tuesday,31,5,2,Positive,False,
+"Jack Miles' Pulitzer Prize-winning 'God: A Biography'.","#Books,#AcademicBiblical,#Theology",60,False,1990,665,1980,558,0.01,26,4,Night,Wednesday,32,5,2,Positive,False,
+"A study on 'The Last of the Rephaim' and the heroic ages of ancient Israel.","#Books,#AcademicBiblical,#History",91,False,1830,610,1710,503,0.02,28,5,Afternoon,Thursday,35,6,2,Neutral,False,
+"'The Blackwell Companion to Paul' is a comprehensive guide to the apostle's life and work.","#Books,#AcademicBiblical,#Theology,#Paul",109,False,1910,635,1810,522,0.02,28,5,Early Morning,Friday,35,6,2,Positive,False,
+"A historical study of 'Byzantine Slavery and the Mediterranean World'.","#Books,#AcademicBiblical,#History,#Slavery",79,False,1710,570,1560,468,0.02,26,4,Midnight,Saturday,32,5,2,Neutral,False,
+"John J. Collins' 'Introduction to the Hebrew Bible' is a standard academic text.","#Books,#AcademicBiblical,#OldTestament",94,False,1860,620,1740,508,0.02,28,5,Evening,Sunday,35,6,2,Positive,False,
+"'Apocalypses in Context' provides a historical overview of apocalyptic currents.","#Books,#AcademicBiblical,#Theology",88,False,1760,585,1610,480,0.02,26,4,Morning,Monday,32,5,2,Positive,False,
+"A study on 'Debt-Slavery in Israel and the Ancient Near East'.","#Books,#AcademicBiblical,#History,#Slavery",75,False,1660,555,1490,445,0.02,25,4,Night,Tuesday,31,5,2,Neutral,False,
+"'The Parting of the Ways' on the split between Christianity and Judaism.","#Books,#AcademicBiblical,#History",81,False,1880,625,1760,510,0.02,28,5,Afternoon,Wednesday,35,6,2,Positive,False,
+"For those deep into the Synoptic Problem: 'The Case Against Q'.","#Books,#AcademicBiblical,#Theology",75,False,1780,595,1640,490,0.02,27,4,Early Morning,Thursday,33,5,2,Neutral,False,
+"A collection of essays on the formation of the Bible: 'The Canon Debate'.","#Books,#AcademicBiblical,#History",86,False,1930,645,1850,530,0.02,29,5,Midnight,Friday,36,6,2,Positive,False,
+"Volume 1 of 'History of Biblical Interpretation', covering the Old Testament to Origen.","#Books,#AcademicBiblical,#History",99,False,1830,610,1710,503,0.02,28,5,Evening,Saturday,35,6,2,Positive,False,
+"Volume 2 of 'History of Biblical Interpretation', from Late Antiquity to the Middle Ages.","#Books,#AcademicBiblical,#History",99,False,1810,605,1690,500,0.02,27,4,Morning,Sunday,33,5,2,Positive,False,
+"Volume 4 of 'History of Biblical Interpretation', from the Enlightenment to the 20th century.","#Books,#AcademicBiblical,#History",105,False,1790,600,1660,498,0.02,27,4,Night,Monday,33,5,2,Positive,False,
+"A revised and expanded edition of 'The Gnostic Bible'.","#Books,#AcademicBiblical,#Gnosticism",59,False,1960,655,1910,540,0.02,29,5,Afternoon,Tuesday,36,6,2,Positive,False,
+"'The Complete Dead Sea Scrolls in English' is an essential resource for scholars.","#Books,#AcademicBiblical,#History,#DeadSeaScrolls",101,False,1980,660,1960,550,0.01,26,4,Early Morning,Wednesday,32,5,2,Positive,False,
+"A controversial but influential work: 'James the Brother of Jesus'.","#Books,#AcademicBiblical,#History",77,False,1950,650,1900,540,0.02,29,5,Midnight,Thursday,36,6,2,Neutral,False,
+"A deep read for philosophy wonks: 'Wandering Significance'.","#Books,#AcademicPhilosophy,#Philosophy",71,False,1650,550,1480,440,0.02,25,4,Evening,Friday,31,5,2,Neutral,True,Define 'conceptual behaviour' for a wider audience.
+"The APA Publication Manual is an absolute essential for psychology students.","#Books,#AcademicPsychology,#APAstyle",84,False,2800,930,2750,680,0.03,69,11,Morning,Saturday,86,14,6,Positive,False,
+"A clinical text on 'Identifying and Understanding the Narcissistic Personality'.","#Books,#AcademicPsychology,#Psychology",90,False,1800,600,1650,490,0.02,28,4,Night,Sunday,34,5,2,Neutral,False,
+"A prep book for grad school applicants: 'Cracking the GRE Psychology Subject Test'.","#Books,#AcademicPsychology,#GradSchool,#GRE",103,False,1700,565,1550,460,0.02,26,4,Afternoon,Monday,32,5,2,Positive,False,
+"A simplified study guide for intro to psych: 'EZ-101 Psychology'.","#Books,#AcademicPsychology,#StudyGuide",73,False,1600,535,1450,430,0.02,25,4,Early Morning,Tuesday,31,5,2,Positive,True,Who is this book best for?
+"'The E-Primer' is a guide to creating psychological experiments in E-Prime.","#Books,#AcademicPsychology,#Research",88,False,1500,500,1350,400,0.02,22,3,Midnight,Wednesday,28,4,1,Neutral,True,Explain what E-Prime is used for.
+"Exploring 'The Origins of the World's Mythologies' by Michael Witzel.","#Books,#Mythology,#History",79,False,1750,585,1600,480,0.02,27,4,Evening,Thursday,33,5,2,Positive,False,
+"A top recommendation in /r/Acadiana for hurricane prep: the LifeStraw Personal Water Filter. A true essential.","#Sports,#Outdoors,#EmergencyPrep,#Acadiana",135,True,5000,1670,7200,990,0.04,190,32,Morning,Friday,235,38,17,Positive,False,
+postText,hashtags,length,containsImage,userFollowers,userFollowing,userKarma,accountAgeDays,avgEngagementRate,avgLikes,avgComments,postTimeOfDay,dayOfWeek,receivedLikes,receivedComments,receivedShares,topCommentSentiment,shouldImprove,suggestions
+"An under-sink water filtration system is a practical upgrade for any home.","#Tools,#HomeImprovement,#DIY,#Acadiana",99,True,1800,600,1650,490,0.02,28,4,Afternoon,Wednesday,34,5,2,Positive,True,Show a before and after of the water quality.
+"Shirataki Noodles, a low-carb pasta alternative, were a grocery find.","#Grocery,#HealthyEating,#LowCarb",80,False,1700,565,1550,460,0.02,26,4,Early Morning,Thursday,32,5,2,Positive,False,
+"The DBPOWER FPV Drone with a WiFi camera is a popular entry-level quadcopter.","#Toys,#Games,#Drones,#Tech",90,True,1900,635,1800,520,0.02,29,5,Midnight,Friday,36,6,2,Positive,False,
+"A highly recommended read: 'In the Garden of Beasts' by Erik Larson.","#Books,#History,#WWII",81,False,3400,1130,3450,790,0.03,94,16,Evening,Saturday,118,20,9,Positive,False,
+"Art Spiegelman's Pulitzer Prize-winning graphic novel 'Maus: A Survivor's Tale'.","#Books,#GraphicNovel,#History",91,False,1950,650,1880,535,0.02,29,5,Morning,Sunday,36,6,2,Positive,False,
+"A handmade reproduction of the iconic Cosmo Kramer portrait from Seinfeld. A true piece of art.","#Home,#Kitchen,#Art,#Seinfeld",106,True,1850,615,1730,508,0.02,28,5,Night,Monday,35,6,2,Positive,False,
+"'Double Entry: How the Merchants of Venice Created Modern Finance' is a great read for accountants.","#Books,#Accounting,#Finance,#History",113,False,2900,970,2850,700,0.03,71,11,Afternoon,Tuesday,88,14,6,Positive,False,
+"A surprisingly popular book in accounting circles: 'The Red Queen: Sex and the Evolution of Human Nature'.","#Books,#Science,#Evolution,#Psychology",121,False,4200,1400,5200,910,0.04,145,24,Early Morning,Wednesday,180,29,13,Positive,False,
+"A top recommendation for understanding economics: 'How an Economy Grows and Why It Crashes'.","#Books,#Economics,#Finance,#Accounting",106,False,4300,1430,5300,915,0.04,150,25,Midnight,Thursday,185,30,13,Positive,False,
+"Donald J. Trump's book 'The Art of the Comeback' was a topic of discussion.","#Books,#Business,#Politics",85,False,3500,1160,3700,800,0.03,98,16,Evening,Friday,122,20,9,Neutral,False,
+"A foundational text of second-wave feminism: 'The Feminine Mystique'.","#Books,#History,#Feminism",77,False,3600,1200,3900,820,0.03,100,16,Morning,Saturday,125,21,10,Positive,False,
+"'Accounting Made Simple' is a great introductory text for beginners.","#Books,#Accounting,#Education",74,False,2800,930,2750,680,0.03,69,11,Night,Sunday,86,14,6,Positive,False,
+"'The Referral Engine' teaches businesses how to market themselves through word-of-mouth.","#Books,#Business,#Marketing",99,False,2700,900,2650,660,0.03,66,11,Afternoon,Monday,82,13,6,Positive,False,
+"'Accounting All-in-One For Dummies' is a comprehensive guide for students and professionals.","#Books,#Accounting,#ForDummies",101,False,1900,635,1800,520,0.02,29,5,Early Morning,Tuesday,36,6,2,Positive,False,
+"A look at the downfall of a major firm: 'Final Accounting: The Fall of Arthur Andersen'.","#Books,#Accounting,#History,#Business",108,False,1800,600,1650,490,0.02,28,4,Midnight,Wednesday,34,5,2,Neutral,False,
+"A niche guide for agricultural businesses: 'The QuickBooks Farm Accounting Cookbook'.","#Books,#Accounting,#Farming,#QuickBooks",100,False,1700,565,1550,460,0.02,26,4,Evening,Thursday,32,5,2,Positive,True,Highlight a specific tip from the book.
+"'Delusions of Power' offers explorations of the state, war, and the economy.","#Books,#Politics,#Economics",88,False,1600,535,1450,430,0.02,25,4,Morning,Friday,31,5,2,Neutral,False,
+"'The Intelligence Paradox' explores why intelligent choices aren't always smart.","#Books,#Psychology,#DecisionMaking",90,False,1750,585,1600,480,0.02,27,4,Night,Saturday,33,5,2,Positive,False,
+"'Buddha's Brain' connects neuroscience with happiness, love, and wisdom.","#Books,#Neuroscience,#Mindfulness,#Psychology",88,False,1850,615,1730,508,0.02,28,5,Afternoon,Sunday,35,6,2,Positive,False,
+"'The Evolution of Everything' discusses how new ideas emerge and evolve.","#Books,#Science,#Sociology",76,False,1950,650,1880,535,0.02,29,5,Early Morning,Monday,36,6,2,Positive,False,
+"A sociological look at New York's underground economy in 'Floating City'.","#Books,#Sociology,#Economics",83,False,1650,550,1480,440,0.02,25,4,Midnight,Tuesday,31,5,2,Positive,False,
+"'Equal Is Unfair' is a book arguing against America's fight against income inequality.","#Books,#Politics,#Economics",94,False,1780,595,1630,488,0.02,27,4,Evening,Wednesday,33,5,2,Neutral,False,
+"A favorite pen among accountants: the Pentel EnerGel NV Liquid Gel Pen.","#OfficeProducts,#Accounting,#Pens",90,True,1980,660,1960,548,0.01,26,4,Morning,Thursday,32,5,2,Positive,False,
+"'Confidence Games' delves into the tax shelter industry and its key players.","#Books,#Finance,#Law,#Accounting",86,False,1880,625,1760,510,0.02,28,5,Night,Friday,35,6,2,Neutral,False,
+"A textbook for learning 'Computerized Accounting with Quickbooks 2013'.","#Books,#Accounting,#QuickBooks,#Textbooks",82,False,1580,525,1410,418,0.02,23,3,Afternoon,Saturday,28,4,1,Positive,False,
+"The Logitech Wireless Number Pad N305 is a must-have for laptop accountants.","#Electronics,#Accounting,#Tech",89,True,1920,640,1830,525,0.02,29,5,Early Morning,Sunday,36,6,2,Positive,False,
+"A classic workhorse calculator: the Texas Instruments TI-1795 SV.","#Electronics,#Accounting,#Calculator",79,True,1820,605,1690,500,0.02,27,4,Midnight,Monday,33,5,2,Positive,False,
+"The Concept2 Model D Indoor Rowing Machine is a top-tier piece of fitness equipment.","#Sports,#Outdoors,#Fitness,#HomeGym",96,True,1960,655,1910,540,0.02,29,5,Evening,Tuesday,36,6,2,Positive,False,
+"A lifesaver for Accutane users: NOW Organic Jojoba Oil is highly recommended for dry skin.","#Health,#Skincare,#Accutane,#JojobaOil",107,True,4100,1360,4900,890,0.04,140,23,Morning,Wednesday,175,28,12,Positive,False,
+"NIVEA's Smooth Kiss Lip Butter is a popular choice for soothing dry lips.","#Beauty,#PersonalCare,#Skincare,#Accutane",84,True,1940,645,1870,532,0.02,29,5,Night,Thursday,36,6,2,Positive,False,
+"For severely chapped lips, Dr. Dan's CortiBalm is often recommended.","#Health,#Skincare,#LipBalm,#Accutane",79,True,1840,615,1720,505,0.02,28,5,Afternoon,Friday,35,6,2,Positive,False,
+"A 3-count of the popular Dr. Dan's Cortibalm for chapped lips.","#Health,#Skincare,#LipBalm,#Accutane",72,True,1890,630,1780,515,0.02,28,5,Early Morning,Saturday,35,6,2,Positive,False,
+"Aquaphor Healing Ointment is another go-to product for Accutane users.","#PrimePantry,#Skincare,#Accutane",81,True,1990,665,1980,558,0.01,26,4,Midnight,Sunday,32,5,2,Positive,False,
+"The classic that started it all: 'Phoenix Wright: Ace Attorney' for the Nintendo DS.","#VideoGames,#AceAttorney,#NintendoDS",97,True,1970,655,1930,545,0.01,25,4,Evening,Monday,31,5,2,Positive,False,
+"A cute Blue Badger rubber keychain charm for Ace Attorney fans.","#Toys,#Games,#AceAttorney,#Merchandise",72,True,1770,590,1620,485,0.02,27,4,Morning,Tuesday,33,5,2,Positive,False,
+"Explore 'The Art of Phoenix Wright: Ace Attorney' for amazing concept art.","#Books,#ArtBook,#AceAttorney,#VideoGames",90,False,1870,625,1760,512,0.02,28,5,Night,Wednesday,35,6,2,Positive,False,
+"These Wonder Mat foam exercise mats are great for AcroYoga practice.","#Sports,#Outdoors,#AcroYoga,#Fitness",80,True,1910,635,1810,522,0.02,28,5,Afternoon,Thursday,35,6,2,Positive,False,
+"Need to add a touch of authenticity? Sequentially numbered holographic security stickers were mentioned.","#OfficeProducts,#Security,#DIY,#ActLikeYouBelong",122,True,2800,930,2750,680,0.03,69,11,Early Morning,Friday,86,14,6,Neutral,False,
+"Holographic self-adhesive paper for your various projects and credentials.","#ArtsCrafts,#DIY,#ActLikeYouBelong",78,False,1800,600,1650,490,0.02,28,4,Midnight,Saturday,34,5,2,Neutral,True,Show an example of a finished project.
+"ID card security hologram overlays with 'Secure-Secure' micro text.","#OfficeProducts,#Security,#ActLikeYouBelong",82,True,1700,565,1550,460,0.02,26,4,Evening,Sunday,32,5,2,Neutral,False,
+"A roll of 1,000 holographic silver circle dot stickers.","#OfficeProducts,#Stickers,#DIY",63,True,1600,535,1450,430,0.02,25,4,Morning,Monday,31,5,2,Neutral,False,
+"A variety pack of 500 Tyvek wristbands for all your... event-access needs.","#OfficeProducts,#Events,#ActLikeYouBelong",92,True,1900,635,1800,520,0.02,29,5,Night,Tuesday,36,6,2,Neutral,False,
+"A replacement ignition key for an EZGO gas or electric golf cart.","#Automotive,#GolfCart,#Keys,#ActLikeYouBelong",79,True,1500,500,1350,400,0.02,22,3,Afternoon,Wednesday,28,4,1,Neutral,True,Mention what models it's compatible with.
+"A starter key for a Club Car golf cart.","#Patio,#LawnGarden,#GolfCart,#ActLikeYouBelong",58,True,1400,465,1250,380,0.02,21,3,Early Morning,Thursday,27,4,1,Neutral,False,
+"'Get the Hell off My Porch' is a book about adventures in summer sales.","#Books,#Sales,#Humor",81,False,1300,435,1150,360,0.02,20,3,Midnight,Friday,26,4,1,Positive,False,
+"A must-have for any Spidey shelf: the Marvel Legends Infinite Series Spider-Man.","#Toys,#Games,#ActionFigures,#SpiderMan",97,True,3300,1100,3350,770,0.03,91,15,Evening,Saturday,112,18,8,Positive,False,
+"The Obitsu Clear Stand is a versatile and popular choice for displaying 6-inch action figures.","#Toys,#Games,#ActionFigures,#Display",111,True,3200,1060,3100,740,0.03,82,13,Morning,Sunday,100,16,7,Positive,False,
+"The DC Comics Icons: Batman 'Last Rights' action figure is a fan favorite.","#Toys,#Games,#ActionFigures,#Batman,#DCComics",99,True,2900,970,2850,700,0.03,71,11,Night,Monday,88,14,6,Positive,False,
+"The Marvel Legends Series Havok figure from the Juggernaut BAF wave.","#Toys,#Games,#ActionFigures,#XMen",79,True,2800,930,2750,680,0.03,69,11,Afternoon,Tuesday,86,14,6,Positive,False,
+"A unique shelf for displaying figures: the FireEscape shelf by Design Ideas.","#Home,#Kitchen,#ActionFigures,#Display",91,True,2700,900,2650,660,0.03,66,11,Early Morning,Wednesday,82,13,6,Positive,False,
+"The SDCC exclusive Marvel Legends Series 'The Defenders' 4-pack was mentioned.","#Toys,#Games,#ActionFigures,#MarvelLegends,#Defenders",104,True,1900,635,1800,520,0.02,29,5,Midnight,Thursday,36,6,2,Positive,True,Missing engagement data, add more photos.
+"For customizers and sculptors, 'Green Stuff' epoxy putty is an essential.","#Toys,#Games,#ActionFigures,#Customizing,#DIY",93,True,3400,1130,3450,790,0.03,94,16,Evening,Friday,118,20,9,Positive,False,
+"The Akro-Mils hardware cabinet is perfect for storing action figure accessories.","#Tools,#HomeImprovement,#ActionFigures,#Organization",102,True,3500,1160,3700,800,0.03,98,16,Morning,Saturday,122,20,9,Positive,False,
+"The Diamond Select Toys Marvel Select Deadpool is a classic collector's piece.","#Toys,#Games,#ActionFigures,#Deadpool",92,True,2950,980,2950,720,0.03,75,12,Night,Sunday,94,15,7,Positive,False,
+"A popular import figure: the Good Smile Figma Link from Skyward Sword.","#Toys,#Games,#ActionFigures,#Zelda,#Figma",93,True,2850,950,2800,690,0.03,70,11,Afternoon,Monday,88,14,6,Positive,False,
+"Bandai's 1/12 scale model kit of R2-D2 & R5-D4 is a fun build for Star Wars fans.","#Toys,#Games,#ActionFigures,#StarWars,#ModelKit",111,True,2750,915,2700,670,0.03,68,11,Early Morning,Tuesday,84,13,6,Positive,False,
+"The Black Series 6-inch Rey (Jakku) and BB-8 is an iconic set from The Force Awakens.","#Toys,#Games,#ActionFigures,#StarWars,#TheForceAwakens",112,True,2980,1000,3100,740,0.03,75,12,Midnight,Wednesday,94,15,7,Positive,False,
+"These battery-powered stick-on puck lights are great for illuminating display cabinets.","#Tools,#HomeImprovement,#ActionFigures,#Display",108,True,2880,960,2830,695,0.03,72,12,Evening,Thursday,90,15,7,Positive,False,
+"Vallejo's face and skin colors paint set is perfect for custom action figures.","#Toys,#Games,#ActionFigures,#Customizing,#Painting",92,True,2780,925,2730,675,0.03,69,11,Morning,Friday,86,14,6,Positive,False,
+"The Black Series 6-inch Guavian Enforcer has a unique and memorable design.","#Toys,#Games,#ActionFigures,#StarWars",87,True,2680,895,2630,658,0.03,67,11,Night,Saturday,83,13,6,Positive,False,
+"The Black Series 6-inch Constable Zuvio, a figure with a mysterious backstory.","#Toys,#Games,#ActionFigures,#StarWars",89,True,2580,860,2530,638,0.03,65,10,Afternoon,Sunday,80,12,5,Neutral,False,
+"The DC Collectibles action figure of The Flash is praised for its sculpt.","#Toys,#Games,#ActionFigures,#TheFlash,#DCComics",91,True,2480,825,2430,618,0.03,63,10,Early Morning,Monday,77,12,5,Positive,False,
+"A retro-style 8-inch cloth Deadpool figure gift set from Diamond Select.","#Toys,#Games,#ActionFigures,#Deadpool,#Retro",95,True,1900,635,1820,525,0.02,24,4,Midnight,Tuesday,30,5,2,Positive,False,
+"An S.H.Figuarts of Akiba Red from the parody series Akibaranger.","#AllDepartments,#ActionFigures,#Figuarts,#Sentai",85,True,1800,600,1650,490,0.02,28,4,Evening,Wednesday,34,5,2,Positive,False,
+"The definitive trooper: the Black Series 6-inch Stormtrooper action figure.","#Toys,#Games,#ActionFigures,#StarWars",89,True,1950,650,1880,535,0.02,29,5,Morning,Thursday,36,6,2,Positive,False,
+"A figma of Rodin's 'The Thinker' from the Table Museum series. A work of art.","#Toys,#Games,#ActionFigures,#Figma,#Art",98,True,1850,615,1730,508,0.02,28,5,Night,Friday,35,6,2,Positive,False,
+"The Table Museum series also includes a figma of Michelangelo's 'David'.","#Toys,#Games,#ActionFigures,#Figma,#Art",84,True,1920,640,1830,525,0.02,29,5,Afternoon,Saturday,36,6,2,Positive,False,
+"A vintage-style paint-your-own Obi-Wan Kenobi 3D figure sculpture.","#Toys,#Games,#ActionFigures,#StarWars,#Vintage",98,True,1720,575,1570,470,0.02,26,4,Early Morning,Sunday,32,5,2,Positive,False,
+"Da Vinci's 'Vitruvian Man' as a fully articulated figma action figure.","#Toys,#Games,#ActionFigures,#Figma,#Art",88,True,1940,645,1870,532,0.02,29,5,Midnight,Monday,36,6,2,Positive,False,
+"The figma of the 'Venus De Milo' from the Table Museum series.","#Toys,#Games,#ActionFigures,#Figma,#Art",72,True,1960,655,1910,540,0.02,29,5,Evening,Tuesday,36,6,2,Positive,False,
+"The original bronze version figma of 'The Thinker' from FREEing.","#Toys,#Games,#ActionFigures,#Figma,#Art",72,True,1980,660,1960,550,0.01,26,4,Morning,Wednesday,32,5,2,Positive,False,
+"The Marvel Legends Silk figure from the Spider-Man 'Web-Slinging Heroines' line.","#Toys,#Games,#ActionFigures,#SpiderMan,#MarvelLegends",113,True,1880,625,1760,510,0.02,28,5,Night,Thursday,35,6,2,Positive,False,
+"A Marvel Legends movie-style 4-pack of the Avengers was mentioned.","#Toys,#Games,#ActionFigures,#Avengers,#MarvelLegends",86,True,1780,595,1640,490,0.02,27,4,Afternoon,Friday,33,5,2,Positive,False,
+"The Legacy of Revoltech Tyrannosaurus figure is an amazing dinosaur collectible.","#Toys,#Games,#ActionFigures,#Dinosaurs,#Revoltech",98,True,1860,620,1740,508,0.02,28,5,Early Morning,Saturday,35,6,2,Positive,False,
+"Kaiser doll stands are a go-to for displaying 11-12 inch fashion dolls like Barbie.","#Home,#Kitchen,#ActionFigures,#Display",104,True,1660,555,1490,445,0.02,25,4,Midnight,Sunday,31,5,2,Positive,False,
+"The Black Series 6-inch K-2SO from Rogue One is a fan-favorite droid figure.","#Toys,#Games,#ActionFigures,#StarWars,#RogueOne",96,True,1910,635,1810,522,0.02,28,5,Evening,Monday,35,6,2,Positive,False,
+"The Medicom MAFEX Batman figure from 'Batman v Superman: Dawn of Justice'.","#Toys,#Games,#ActionFigures,#Batman,#MAFEX",93,True,1810,605,1690,500,0.02,27,4,Morning,Tuesday,33,5,2,Positive,False,
+"The Mainstays 8-Shelf Bookcase is an affordable option for displaying collections.","#Home,#Kitchen,#ActionFigures,#Display,#Shelving",102,True,1710,570,1560,468,0.02,26,4,Night,Wednesday,32,5,2,Positive,False,
+"The brown costume Wolverine from the Marvel Legends Juggernaut wave.","#Toys,#Games,#ActionFigures,#Wolverine,#XMen",82,True,1930,645,1850,530,0.02,29,5,Afternoon,Thursday,36,6,2,Positive,False,
+"An electronic 'Smashin Stompin Hulk' figure from the movie line.","#Toys,#Games,#ActionFigures,#Hulk,#Marvel",85,True,1830,610,1710,503,0.02,28,5,Early Morning,Friday,35,6,2,Positive,False,
+"The Black Series 6-inch First Order Flametrooper from The Force Awakens.","#Toys,#Games,#ActionFigures,#StarWars",87,True,1970,655,1930,545,0.01,25,4,Midnight,Saturday,31,5,2,Positive,False,
+"The Marvel Legends Phoenix figure from the Juggernaut BAF wave.","#Toys,#Games,#ActionFigures,#XMen",77,True,1990,665,1980,558,0.01,26,4,Evening,Sunday,32,5,2,Positive,False,
+"The 90s-style Rogue from the Marvel Legends Juggernaut BAF wave.","#Toys,#Games,#ActionFigures,#XMen,#Rogue",80,True,2000,670,2000,560,0.01,26,4,Morning,Monday,32,5,2,Positive,False,
+"The Marvel Legends Iceman figure from the Juggernaut BAF wave.","#Toys,#Games,#ActionFigures,#XMen",76,True,1960,655,1910,540,0.02,29,5,Night,Tuesday,36,6,2,Positive,False,
+"A Marvel Legends of Kitty Pryde with her dragon Lockheed.","#Toys,#Games,#ActionFigures,#XMen",70,True,1940,645,1870,532,0.02,29,5,Afternoon,Wednesday,36,6,2,Positive,False,
+"The Black Series 6-inch First Order Snowtrooper is a great army-builder.","#Toys,#Games,#ActionFigures,#StarWars",90,True,1840,615,1720,505,0.02,28,5,Early Morning,Thursday,35,6,2,Positive,False,
+"The Black Series 6-inch First Order TIE Fighter Pilot is a sleek figure.","#Toys,#Games,#ActionFigures,#StarWars",87,True,1820,605,1690,500,0.02,27,4,Midnight,Friday,33,5,2,Positive,False,
+"A vintage McDonald's Happy Meal toy of the Red Ranger with Ape Ninja Zord.","#Toys,#Games,#ActionFigures,#PowerRangers,#Vintage",105,True,1720,575,1570,470,0.02,26,4,Evening,Saturday,32,5,2,Positive,False,
+"The Marvel Legends Cable figure from the Juggernaut BAF wave.","#Toys,#Games,#ActionFigures,#XMen,#Cable",76,True,1920,640,1830,525,0.02,29,5,Morning,Sunday,36,6,2,Positive,False,
+"The classic red-suit Marvel Select Daredevil action figure.","#Toys,#Games,#ActionFigures,#Daredevil,#Marvel",75,True,1880,625,1760,510,0.02,28,5,Night,Monday,35,6,2,Positive,False,
+"An old-school Toy Biz X-Men figure of a captive Sabretooth.","#Toys,#Games,#ActionFigures,#XMen,#Vintage",78,True,1780,595,1640,490,0.02,27,4,Afternoon,Tuesday,33,5,2,Positive,False,
+"From the Spider-Man Origins line: a classic Doctor Octopus figure.","#Toys,#Games,#ActionFigures,#SpiderMan",78,True,1680,560,1520,450,0.02,26,4,Early Morning,Wednesday,32,5,2,Positive,False,
+"The amazing 1/12 scale Darth Vader model kit from Bandai.","#Toys,#Games,#ActionFigures,#StarWars,#ModelKit",77,True,1910,635,1810,522,0.02,28,5,Midnight,Thursday,35,6,2,Positive,False,
+"The Black Series 6-inch Poe Dameron in his Resistance pilot gear.","#Toys,#Games,#ActionFigures,#StarWars",79,True,1860,620,1740,508,0.02,28,5,Evening,Friday,35,6,2,Positive,False,
+"The imposing Black Series 6-inch Captain Phasma figure.","#Toys,#Games,#ActionFigures,#StarWars",62,True,1890,630,1780,515,0.02,28,5,Morning,Saturday,35,6,2,Positive,False,
+"The DC Rebirth Justice League of America 7-pack offers a full team.","#Toys,#Games,#ActionFigures,#DCComics,#JLA",85,True,1790,600,1660,498,0.02,27,4,Night,Sunday,33,5,2,Positive,False,
+"A Marvel Legends Cosmic Spider-Man figure from the Vulture BAF wave.","#Toys,#Games,#ActionFigures,#SpiderMan",84,True,1760,585,1610,480,0.02,26,4,Afternoon,Monday,32,5,2,Positive,False,
+"NECA Scalers are fun little characters that hang on your cords, like this Dark Knight Batman.","#Toys,#Games,#ActionFigures,#Batman,#NECA",114,True,1660,555,1490,445,0.02,25,4,Early Morning,Tuesday,31,5,2,Positive,False,
+"The amazing Movie Revo figure of Stitch (Experiment 626) from Revoltech.","#Toys,#Games,#ActionFigures,#Disney,#Revoltech",99,True,1840,615,1720,505,0.02,28,5,Midnight,Wednesday,35,6,2,Positive,False,
+"The Marvel Legends Infinite Series Superior Venom is a unique take on the character.","#Toys,#Games,#ActionFigures,#Venom,#SpiderMan",102,True,1740,580,1590,475,0.02,26,4,Evening,Thursday,32,5,2,Positive,False,
+"The 'Create a WWE Superstar' line lets you mix and match, like this Undertaker Frankenstein pack.","#Toys,#Games,#ActionFigures,#WWE",115,True,1640,545,1470,443,0.02,25,4,Morning,Friday,31,5,2,Positive,False,
+"Another 'Create a WWE Superstar' pack: the Seth Rollins Ninja.","#Toys,#Games,#ActionFigures,#WWE",73,True,1620,540,1450,430,0.02,24,4,Night,Saturday,30,4,1,Positive,False,
+"Create a WWE Superstar also has a Triple H Barbarian pack.","#Toys,#Games,#ActionFigures,#WWE",68,True,1580,525,1410,418,0.02,23,3,Afternoon,Sunday,28,4,1,Positive,False,
+"A 1/12 scale model of Jax's Harley-Davidson from Sons of Anarchy.","#Toys,#Games,#ActionFigures,#SonsofAnarchy,#Motorcycle",98,True,1730,575,1580,473,0.02,26,4,Early Morning,Monday,32,5,2,Positive,False,
+"From the Justice League War animated movie, the DC Collectibles Cyborg figure.","#Toys,#Games,#ActionFigures,#DCComics,#Cyborg",101,True,1630,545,1460,433,0.02,24,4,Midnight,Tuesday,30,4,1,Positive,False,
+"The original Black Series 6-inch Boba Fett is a highly sought-after figure.","#Toys,#Games,#ActionFigures,#StarWars,#BobaFett",98,True,1930,645,1850,530,0.02,29,5,Evening,Wednesday,36,6,2,Positive,False,
+"The Marvel Universe Neo-Classic Iron Man is a great 6-inch figure.","#Toys,#Games,#ActionFigures,#IronMan,#Marvel",80,True,1830,610,1710,503,0.02,28,5,Morning,Thursday,35,6,2,Positive,False,
+"The Bandai Tamashii Stage Act.4 is a go-to clear stand for import figures.","#Toys,#Games,#ActionFigures,#Display,#Figuarts",96,True,1970,655,1930,545,0.01,25,4,Night,Friday,31,5,2,Positive,False,
+"A vintage find: a VR Troopers action figure of JB Reese.","#Toys,#Games,#ActionFigures,#Vintage,#90s",67,True,1670,555,1500,448,0.02,25,4,Afternoon,Saturday,31,5,2,Positive,False,
+"The Marvel Legends Colossus from the Warlock BAF wave is massive.","#Toys,#Games,#ActionFigures,#XMen,#Colossus",80,True,1870,625,1760,512,0.02,28,5,Early Morning,Sunday,35,6,2,Positive,False,
+"The Amazing Spider-Man 2 Legends figure from the Ultimate Green Goblin BAF wave.","#Toys,#Games,#ActionFigures,#SpiderMan",97,True,1770,590,1620,485,0.02,27,4,Midnight,Monday,33,5,2,Positive,False,
+"A classic Toy Biz Fantastic 4 action figure of Doctor Doom.","#Toys,#Games,#ActionFigures,#Fantastic4,#Vintage",72,True,1690,565,1530,455,0.02,26,4,Evening,Tuesday,32,5,2,Positive,False,
+"A 7-inch Stealth Beast action figure with a grappling hook launcher.","#Toys,#Games,#ActionFigures,#XMen",80,True,1590,530,1420,425,0.02,23,3,Morning,Wednesday,29,4,1,Positive,False,
+"A 3.75-inch Marvel Legends 2-pack of Black Panther and Agent 13.","#Toys,#Games,#ActionFigures,#Marvel",94,True,1860,620,1740,508,0.02,28,5,Night,Thursday,35,6,2,Positive,False,
+"A Marvel Legends 2-pack featuring Doctor Strange and his astral form.","#Toys,#Games,#ActionFigures,#DrStrange,#Marvel",89,True,1890,630,1780,515,0.02,28,5,Afternoon,Friday,35,6,2,Positive,False,
+postText,hashtags,length,containsImage,userFollowers,userFollowing,userKarma,accountAgeDays,avgEngagementRate,avgLikes,avgComments,postTimeOfDay,dayOfWeek,receivedLikes,receivedComments,receivedShares,topCommentSentiment,shouldImprove,suggestions
+"A 3.75-inch Marvel Legends 2-pack of Star-Lord and Yondu.","#Toys,#Games,#ActionFigures,#Marvel,#GOTG",90,True,1800,600,1650,490,0.02,28,4,Afternoon,Wednesday,34,5,2,Positive,False,
+"From Spider-Man Homecoming, a 3.75-inch 2-pack of Spider-Man and Vulture.","#Toys,#Games,#ActionFigures,#SpiderMan,#Marvel",107,True,1900,635,1800,520,0.02,29,5,Early Morning,Thursday,36,6,2,Positive,False,
+"The S.H. Figuarts of Cell from Dragon Ball Z is a highly detailed import figure.","#Toys,#Games,#ActionFigures,#DBZ,#Figuarts",102,True,1950,650,1880,535,0.02,29,5,Midnight,Friday,36,6,2,Positive,False,
+"The Marvel Legends Series Captain America figure that comes with his motorcycle.","#Toys,#Games,#ActionFigures,#CaptainAmerica,#Marvel",102,True,1850,615,1730,508,0.02,28,5,Evening,Saturday,35,6,2,Positive,False,
+"The infamous Revoltech Woody figure, a classic and hilarious meme in the collector community.","#Toys,#Games,#ActionFigures,#ToyStory,#Meme",107,True,1980,660,1960,548,0.01,26,4,Morning,Sunday,32,5,2,Positive,False,
+"The SterlingPro French Press is a popular and stylish choice for making coffee.","#Home,#Kitchen,#Coffee,#AdPorn",90,True,3400,1130,3450,790,0.03,94,16,Night,Monday,118,20,9,Positive,False,
+"'The Internet is a Playground' by David Thorne is a hilarious collection of email correspondences.","#Books,#Humor,#Comedy",104,False,1900,635,1800,520,0.02,29,5,Afternoon,Tuesday,36,6,2,Positive,False,
+"A biography of a comedy legend: 'You Might Remember Me: The Life and Times of Phil Hartman'.","#Books,#Biography,#Comedy",102,False,1800,600,1650,490,0.02,28,4,Early Morning,Wednesday,34,5,2,Positive,False,
+"The RainMachine Mini-8 is a smart, forecast-based sprinkler controller.","#Patio,#LawnGarden,#SmartHome,#Tech",84,True,1700,565,1550,460,0.02,26,4,Midnight,Thursday,32,5,2,Positive,False,
+"A book on the racing life of a legend: 'Winning: The Racing Life of Paul Newman'.","#Books,#Biography,#Racing,#PaulNewman",95,False,1850,615,1730,508,0.02,28,5,Evening,Friday,35,6,2,Positive,False,
+"The Merry Products Cage with Crate Cover Set elegantly hides a pet crate.","#PetSupplies,#HomeDecor",82,True,1650,550,1480,440,0.02,25,4,Morning,Saturday,31,5,2,Positive,False,
+"The NVIDIA SHIELD is a powerful streaming device, often recommended for Kodi users.","#Electronics,#Streaming,#Kodi,#NVIDIA",95,True,1950,650,1880,535,0.02,29,5,Night,Sunday,36,6,2,Positive,False,
+"A memoir on brain change and emotional awakening: 'Switched On'.","#Books,#Memoir,#Neuroscience",71,False,1550,515,1380,415,0.02,23,3,Afternoon,Monday,28,4,1,Positive,True,Share a key takeaway from the memoir.
+"A sweet children's book about adoption: 'A Mother for Choco'.","#Books,#Adoption,#ChildrensBooks",72,False,2800,930,2750,680,0.03,69,11,Early Morning,Tuesday,86,14,6,Positive,False,
+"Jamie Lee Curtis's classic adoption story, 'Tell Me Again About the Night I Was Born'.","#Books,#Adoption,#ChildrensBooks",97,False,1900,635,1800,520,0.02,29,5,Midnight,Wednesday,36,6,2,Positive,False,
+"'The Day We Met You' is another heartwarming picture book about adoption.","#Books,#Adoption,#ChildrensBooks",79,False,1800,600,1650,490,0.02,28,4,Evening,Thursday,34,5,2,Positive,False,
+"A touching adoption story from Marianne Richmond: 'I Wished for You'.","#Books,#Adoption,#ChildrensBooks",77,False,1850,615,1730,508,0.02,28,5,Morning,Friday,35,6,2,Positive,False,
+"From Mr. Rogers, a gentle explanation of adoption in 'Let's Talk About It'.","#Books,#Adoption,#MrRogers",89,False,1950,650,1880,535,0.02,29,5,Night,Saturday,36,6,2,Positive,False,
+"A Pop-Top small throw bag, essential rescue gear for whitewater sports.","#Sports,#Outdoors,#Safety,#Kayaking",88,True,1700,565,1550,460,0.02,26,4,Afternoon,Sunday,32,5,2,Positive,False,
+"The Spectra Baby USA S2 Breast Pump was a mentioned product.","#Baby,#Health",64,True,1600,535,1450,430,0.02,25,4,Early Morning,Monday,31,5,2,Neutral,True,This is a niche product; marketing should be highly targeted.
+"An essential visual guide for any fitness enthusiast: 'Strength Training Anatomy'.","#Books,#Fitness,#Anatomy,#StrengthTraining",95,False,4500,1500,5800,930,0.04,165,27,Midnight,Tuesday,205,34,14,Positive,False,
+"Fit Simplify resistance loop bands are a versatile and popular workout tool.","#Sports,#Outdoors,#Fitness,#ResistanceBands",96,True,3300,1100,3350,770,0.03,91,15,Evening,Wednesday,112,18,8,Positive,False,
+"The 'Essentials of Strength Training and Conditioning' is the NSCA's foundational textbook.","#Books,#Fitness,#Education,#Certification",105,False,2900,970,2850,700,0.03,71,11,Morning,Thursday,88,14,6,Positive,False,
+"ACSM's 'Introduction to Exercise Science' is a key text for students.","#Books,#Fitness,#Education",80,False,1900,635,1800,520,0.02,29,5,Night,Friday,36,6,2,Positive,False,
+"A deep dive into the science of 'Exercise Metabolism'.","#Books,#Fitness,#Science,#Education",62,False,1800,600,1650,490,0.02,28,4,Afternoon,Saturday,34,5,2,Positive,False,
+"The 'Essentials of Exercise Physiology' by McArdle & Katch is a core textbook.","#Books,#Fitness,#Education,#Physiology",92,False,1850,615,1730,508,0.02,28,5,Early Morning,Sunday,35,6,2,Positive,False,
+"For serious strength athletes, 'Supertraining' by Yuri Verkhoshansky is a legendary text.","#Books,#Fitness,#StrengthTraining,#Athletics",110,False,1950,650,1880,535,0.02,29,5,Midnight,Monday,36,6,2,Positive,False,
+"An inspirational sports story: 'When the Game Stands Tall'.","#Books,#Sports,#Football,#Inspiration",68,False,1750,585,1600,480,0.02,27,4,Evening,Tuesday,33,5,2,Positive,False,
+"A guide to the mental side of performance: 'The Sport Psych Handbook'.","#Books,#Fitness,#Psychology,#Sports",81,False,1650,550,1480,440,0.02,25,4,Morning,Wednesday,31,5,2,Positive,False,
+"'Foundations of Sport and Exercise Psychology' is another key academic text.","#Books,#Fitness,#Psychology,#Education",85,False,1780,595,1630,488,0.02,27,4,Night,Thursday,33,5,2,Positive,False,
+"A favorite among AMD users, the ASUS ROG SWIFT PG278Q is a highly-recommended 144Hz gaming monitor.","#Electronics,#PCGaming,#AMD,#Monitors",119,True,4600,1530,6000,940,0.04,170,28,Afternoon,Friday,210,35,15,Positive,False,
+"The BenQ XL2730Z is a popular 27-inch gaming monitor with FreeSync technology.","#Electronics,#PCGaming,#AMD,#FreeSync",93,True,3500,1160,3700,800,0.03,98,16,Early Morning,Saturday,122,20,9,Positive,False,
+"The NZXT H630 is an ultra tower computer case known for its quiet, minimalist design.","#Electronics,#PCBuilding,#NZXT",98,True,1930,645,1850,530,0.02,29,5,Midnight,Sunday,36,6,2,Positive,False,
+"'Sams Teach Yourself C in 21 Days' is a classic book for learning programming.","#Books,#Programming,#Education,#C",93,False,2800,930,2750,680,0.03,69,11,Evening,Monday,86,14,6,Positive,False,
+"A bible for serious runners, 'Daniels' Running Formula' is one of the most recommended training books.","#Books,#Running,#MarathonTraining,#AdvancedRunning",121,False,5900,1960,11000,1100,0.06,320,52,Morning,Tuesday,395,64,28,Positive,False,
+"For those tackling 26.2, 'Advanced Marathoning' by Pete Pfitzinger is an essential guide.","#Books,#Running,#MarathonTraining,#AdvancedRunning",112,False,5800,1930,10000,1080,0.06,300,50,Night,Wednesday,370,60,26,Positive,False,
+"To improve your 5K to half marathon times, check out 'Faster Road Racing'.","#Books,#Running,#Racing,#Training",88,False,4800,1600,6600,970,0.04,180,30,Afternoon,Thursday,220,36,16,Positive,False,
+"The 'Hansons Marathon Method' offers a renegade path to your fastest marathon.","#Books,#Running,#MarathonTraining",91,False,3400,1130,3450,790,0.03,94,16,Early Morning,Friday,118,20,9,Positive,False,
+"Learn the proven principles of a running legend in 'Healthy Intelligent Training'.","#Books,#Running,#Training,#Lydiard",91,False,2900,970,2850,700,0.03,71,11,Midnight,Saturday,88,14,6,Positive,False,
+"Aftershokz bone conduction headphones are a popular choice for running safely.","#Electronics,#Headphones,#Running,#Safety",91,True,2950,980,2950,720,0.03,75,12,Evening,Sunday,94,15,7,Positive,False,
+"The legendary 55-gallon drum of lube makes a surprise appearance as a solution for runner's chafing. Hilarious.","#Health,#Meme,#Running,#Chafing",130,True,9300,3150,36000,2200,0.11,970,165,Morning,Monday,1280,215,100,Positive,False,
+"'The New Rules of Marathon and Half-Marathon Nutrition' helps you fuel beyond the wall.","#Books,#Running,#Nutrition,#MarathonTraining",108,False,4100,1360,4900,890,0.04,140,23,Night,Tuesday,175,28,12,Positive,False,
+"Another edition of the popular 'Hansons Marathon Method' training guide.","#Books,#Running,#MarathonTraining",78,False,3800,1270,4400,840,0.04,125,20,Afternoon,Wednesday,155,25,10,Positive,False,
+"The 'Run Less, Run Faster' program from Runner's World is a 3-run-a-week plan.","#Books,#Running,#Training,#RunnersWorld",99,False,2850,950,2800,690,0.03,70,11,Early Morning,Thursday,88,14,6,Positive,False,
+"'The Big Book of Endurance Training and Racing' covers all aspects of the sport.","#Books,#Running,#Triathlon,#Endurance",94,False,2750,915,2700,670,0.03,68,11,Midnight,Friday,84,13,6,Positive,False,
+"A simple clip-on digital metronome can be a great tool for cadence training.","#MusicalInstruments,#Running,#Training,#Hacks",86,True,1900,635,1800,520,0.02,29,5,Evening,Saturday,36,6,2,Positive,False,
+"A book about the quest for the 4-minute mile: 'The Perfect Mile'.","#Books,#Running,#History,#TrackAndField",80,False,1800,600,1650,490,0.02,28,4,Morning,Sunday,34,5,2,Positive,False,
+"A mention of Gillette Venus disposable razors for... aerodynamics?","#Beauty,#PersonalCare,#Running",81,True,1700,565,1550,460,0.02,26,4,Night,Monday,32,5,2,Humorous,True,The context here is likely a joke, lean into it.
+"SPECTRA 360 Electrode Gel, mentioned for use with heart rate monitors.","#Industrial,#Scientific,#Running,#Fitness",89,True,1600,535,1450,430,0.02,25,4,Afternoon,Tuesday,31,5,2,Neutral,False,
+"'Running with the Kenyans' explores the secrets of the world's fastest people.","#Books,#Running,#Kenya",85,False,1850,615,1730,508,0.02,28,5,Early Morning,Wednesday,35,6,2,Positive,False,
+"The Stick is a popular massage tool for muscle recovery and myofascial release.","#Health,#Household,#Running,#Recovery",96,True,1950,650,1880,535,0.02,29,5,Midnight,Thursday,36,6,2,Positive,False,
