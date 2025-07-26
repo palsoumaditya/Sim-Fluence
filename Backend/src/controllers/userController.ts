@@ -1,5 +1,6 @@
 import { prisma } from "../config/prismaClient";
 import { Request, Response } from "express";
+import { RedditService } from "../services/redditService";
 
 // create user
 export const createUser = async (req: Request, res: Response) => {
@@ -9,17 +10,14 @@ export const createUser = async (req: Request, res: Response) => {
     profileImageUrl, 
     redditId, 
     redditUsername,
-    followers,
-    following,
-    averagePostImpressions,
-    totalPosts,
-    engagementRate,
-    averageLikes,
-    averageComments,
-    averageShares,
-    accountAge,
     redditKarma,
     redditAccountAge,
+    totalPostKarma,
+    commentKarma,
+    averageUpvotes,
+    averageComments,
+    engagementRate,
+    totalPosts,
     verified
   } = req.body;
   try {
@@ -30,17 +28,14 @@ export const createUser = async (req: Request, res: Response) => {
         profileImageUrl,
         redditId,
         redditUsername,
-        followers,
-        following,
-        averagePostImpressions,
-        totalPosts,
-        engagementRate,
-        averageLikes,
-        averageComments,
-        averageShares,
-        accountAge,
         redditKarma,
         redditAccountAge,
+        totalPostKarma,
+        commentKarma,
+        averageUpvotes,
+        averageComments,
+        engagementRate,
+        totalPosts,
         verified,
         lastActive: new Date(),
       },
@@ -86,17 +81,14 @@ export const findOrCreateUser = async (req: Request, res: Response) => {
     profileImageUrl, 
     redditId, 
     redditUsername,
-    followers,
-    following,
-    averagePostImpressions,
-    totalPosts,
-    engagementRate,
-    averageLikes,
-    averageComments,
-    averageShares,
-    accountAge,
     redditKarma,
     redditAccountAge,
+    totalPostKarma,
+    commentKarma,
+    averageUpvotes,
+    averageComments,
+    engagementRate,
+    totalPosts,
     verified
   } = req.body;
   try {
@@ -125,17 +117,14 @@ export const findOrCreateUser = async (req: Request, res: Response) => {
           profileImageUrl, 
           redditId, 
           redditUsername,
-          followers,
-          following,
-          averagePostImpressions,
-          totalPosts,
-          engagementRate,
-          averageLikes,
-          averageComments,
-          averageShares,
-          accountAge,
           redditKarma,
           redditAccountAge,
+          totalPostKarma,
+          commentKarma,
+          averageUpvotes,
+          averageComments,
+          engagementRate,
+          totalPosts,
           verified,
           lastActive: new Date(),
         },
@@ -149,17 +138,14 @@ export const findOrCreateUser = async (req: Request, res: Response) => {
           profileImageUrl: profileImageUrl || user.profileImageUrl,
           redditId: redditId || user.redditId,
           redditUsername: redditUsername || user.redditUsername,
-          followers: followers !== undefined ? followers : user.followers,
-          following: following !== undefined ? following : user.following,
-          averagePostImpressions: averagePostImpressions !== undefined ? averagePostImpressions : user.averagePostImpressions,
-          totalPosts: totalPosts !== undefined ? totalPosts : user.totalPosts,
-          engagementRate: engagementRate !== undefined ? engagementRate : user.engagementRate,
-          averageLikes: averageLikes !== undefined ? averageLikes : user.averageLikes,
-          averageComments: averageComments !== undefined ? averageComments : user.averageComments,
-          averageShares: averageShares !== undefined ? averageShares : user.averageShares,
-          accountAge: accountAge !== undefined ? accountAge : user.accountAge,
           redditKarma: redditKarma !== undefined ? redditKarma : user.redditKarma,
           redditAccountAge: redditAccountAge !== undefined ? redditAccountAge : user.redditAccountAge,
+          totalPostKarma: totalPostKarma !== undefined ? totalPostKarma : user.totalPostKarma,
+          commentKarma: commentKarma !== undefined ? commentKarma : user.commentKarma,
+          averageUpvotes: averageUpvotes !== undefined ? averageUpvotes : user.averageUpvotes,
+          averageComments: averageComments !== undefined ? averageComments : user.averageComments,
+          engagementRate: engagementRate !== undefined ? engagementRate : user.engagementRate,
+          totalPosts: totalPosts !== undefined ? totalPosts : user.totalPosts,
           verified: verified !== undefined ? verified : user.verified,
           lastActive: new Date(),
         },
@@ -169,7 +155,7 @@ export const findOrCreateUser = async (req: Request, res: Response) => {
     res.status(200).json(user);
   } catch (error) {
     console.error('Error in findOrCreateUser:', error);
-    res.status(500).json({ error: "Error finding or creating user" });
+    res.status(500).json({ error: error instanceof Error ? error.message : String(error), details: error });
   }
 };
 
@@ -194,17 +180,14 @@ export const getUserByRedditId = async (req: Request, res: Response) => {
 export const updateUserAnalytics = async (req: Request, res: Response) => {
   const { id } = req.params;
   const {
-    followers,
-    following,
-    averagePostImpressions,
-    totalPosts,
-    engagementRate,
-    averageLikes,
-    averageComments,
-    averageShares,
-    accountAge,
     redditKarma,
     redditAccountAge,
+    totalPostKarma,
+    commentKarma,
+    averageUpvotes,
+    averageComments,
+    engagementRate,
+    totalPosts,
     verified
   } = req.body;
   
@@ -212,17 +195,14 @@ export const updateUserAnalytics = async (req: Request, res: Response) => {
     const user = await prisma.user.update({
       where: { id },
       data: {
-        followers,
-        following,
-        averagePostImpressions,
-        totalPosts,
-        engagementRate,
-        averageLikes,
-        averageComments,
-        averageShares,
-        accountAge,
         redditKarma,
         redditAccountAge,
+        totalPostKarma,
+        commentKarma,
+        averageUpvotes,
+        averageComments,
+        engagementRate,
+        totalPosts,
         verified,
         lastActive: new Date(),
       },
@@ -234,14 +214,64 @@ export const updateUserAnalytics = async (req: Request, res: Response) => {
   }
 };
 
+// Update user analytics with detailed Reddit data
+export const updateUserRedditAnalytics = async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const { accessToken } = req.body;
+  
+  try {
+    // Get user from database
+    const user = await prisma.user.findUnique({
+      where: { id },
+    });
+
+    if (!user || !user.redditUsername) {
+      res.status(404).json({ error: "User not found or no Reddit username" });
+      return;
+    }
+
+    // Create Reddit service instance
+    const redditService = new RedditService(accessToken);
+    
+    // Fetch detailed Reddit analytics
+    const redditAnalytics = await redditService.getUserAnalytics(user.redditUsername);
+
+    // Update user with new analytics
+    const updatedUser = await prisma.user.update({
+      where: { id },
+      data: {
+        totalPostKarma: redditAnalytics.totalPostKarma,
+        commentKarma: redditAnalytics.commentKarma,
+        redditKarma: redditAnalytics.redditKarma,
+        redditAccountAge: redditAnalytics.redditAccountAge,
+        averageUpvotes: redditAnalytics.averageUpvotes,
+        averageComments: redditAnalytics.averageComments,
+        totalPosts: redditAnalytics.totalPosts,
+        engagementRate: redditAnalytics.engagementRate,
+        verified: redditAnalytics.verified,
+        lastActive: new Date(),
+      },
+    });
+
+    res.status(200).json({
+      message: "User analytics updated successfully",
+      user: updatedUser,
+      redditAnalytics,
+    });
+  } catch (error) {
+    console.error('Error updating user Reddit analytics:', error);
+    res.status(500).json({ error: "Error updating user Reddit analytics" });
+  }
+};
+
 // Get users with analytics (for leaderboards, etc.)
 export const getUsersWithAnalytics = async (req: Request, res: Response) => {
-  const { sortBy = 'followers', order = 'desc', limit = 10 } = req.query;
+  const { sortBy = 'redditKarma', order = 'desc', limit = 10 } = req.query;
   
   try {
     const users = await prisma.user.findMany({
       where: {
-        followers: { gt: 0 }, // Only users with followers
+        redditKarma: { gt: 0 }, // Only users with Reddit karma
       },
       orderBy: {
         [sortBy as string]: order as 'asc' | 'desc',
@@ -252,9 +282,9 @@ export const getUsersWithAnalytics = async (req: Request, res: Response) => {
         name: true,
         profileImageUrl: true,
         redditUsername: true,
-        followers: true,
-        following: true,
-        averagePostImpressions: true,
+        redditKarma: true,
+        totalPostKarma: true,
+        commentKarma: true,
         engagementRate: true,
         verified: true,
         lastActive: true,

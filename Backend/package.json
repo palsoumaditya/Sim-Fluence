@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "nodemon --exec ts-node src/app.ts",
     "start": "ts-node src/app.ts",
-    "postinstall": "npx prisma generate"
+    "postinstall": "npx prisma generate",
+    "build": "tsc",
+    "test:reddit": "node test-reddit-service.js"
   },
   "keywords": [
     "automation",
@@ -19,6 +21,7 @@
   "dependencies": {
     "@prisma/client": "^6.11.1",
     "@types/express": "^5.0.1",
+    "axios": "^1.11.0",
     "cloudinary": "^2.6.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
