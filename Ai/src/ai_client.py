@@ -232,6 +232,76 @@ class SimFluenceAIClient:
         except requests.RequestException as e:
             return {"error": f"Gemini caption generation failed: {str(e)}", "status": "error"}
 
+    def predict_optimal_time(self,
+                            subreddit: str,
+                            content_type: str = "text",
+                            user_data: Dict = None) -> Dict:
+        """
+        Predict optimal posting time for a given subreddit and content type
+
+        Args:
+            subreddit: Target subreddit name
+            content_type: Type of content (text, image, video, link)
+            user_data: Optional user-specific data
+
+        Returns:
+            Dict with optimal hour, confidence, and suggestions
+        """
+        payload = {
+            "subreddit": subreddit,
+            "content_type": content_type,
+            "user_data": user_data or {}
+        }
+
+        try:
+            response = self.session.post(f"{self.base_url}/predict/optimal-time",
+                                         json=payload)
+            response.raise_for_status()
+            return response.json()
+        except requests.RequestException as e:
+            return {"error": f"Time prediction failed: {str(e)}", "status": "error"}
+
+    def predict_time_engagement(self,
+                               subreddit: str,
+                               content_type: str = "text",
+                               hours: List[int] = None) -> Dict:
+        """
+        Predict engagement for different posting times
+
+        Args:
+            subreddit: Target subreddit name
+            content_type: Type of content
+            hours: List of hours to analyze (default: [9, 12, 15, 18, 21])
+
+        Returns:
+            Dict with hourly engagement predictions
+        """
+        if hours is None:
+            hours = [9, 12, 15, 18, 21]
+
+        payload = {
+            "subreddit": subreddit,
+            "content_type": content_type,
+            "hours": hours
+        }
+
+        try:
+            response = self.session.post(f"{self.base_url}/predict/time-engagement",
+                                         json=payload)
+            response.raise_for_status()
+            return response.json()
+        except requests.RequestException as e:
+            return {"error": f"Time engagement prediction failed: {str(e)}", "status": "error"}
+
+    def get_time_prediction_status(self) -> Dict:
+        """Check status of time prediction models"""
+        try:
+            response = self.session.get(f"{self.base_url}/time/status")
+            response.raise_for_status()
+            return response.json()
+        except requests.RequestException as e:
+            return {"error": f"Status check failed: {str(e)}", "status": "error"}
+
     def comprehensive_ai_analysis(self,
                                   content: str,
                                   user_data: Dict,
@@ -446,10 +516,39 @@ class SimFluenceAI:
                 "xgboost_available": models_status.get("xgboost_model", {}).get("available", False),
                 "gemini_available": models_status.get("gemini_api", {}).get("configured", False),
                 "langchain_available": models_status.get("langchain_integration", {}).get("available", False),
+                "time_prediction_available": True,  # New capability
                 "recommended_mode": "gemini" if models_status.get("gemini_api", {}).get("configured") else "standard"
             }
 
         return {"error": "Could not check AI capabilities", "recommended_mode": "standard"}
+
+    def quick_time_prediction(self, subreddit: str, content_type: str = "text") -> Dict:
+        """
+        Quick time prediction for optimal posting time
+        
+        Args:
+            subreddit: Target subreddit name
+            content_type: Type of content (text, image, video, link)
+            
+        Returns:
+            Dict with optimal hour and confidence
+        """
+        result = self.client.predict_optimal_time(subreddit, content_type)
+        
+        if result.get("status") == "success":
+            return {
+                "optimal_hour": result.get("optimal_hour", 12),
+                "optimal_time_slot": result.get("optimal_time_slot", "Afternoon"),
+                "confidence": result.get("confidence", 0.5),
+                "suggestions": result.get("suggestions", [])
+            }
+        else:
+            return {
+                "optimal_hour": 12,
+                "optimal_time_slot": "Afternoon",
+                "confidence": 0.5,
+                "suggestions": ["Default time recommendation"]
+            }
 
 # Example usage for backend integration
 

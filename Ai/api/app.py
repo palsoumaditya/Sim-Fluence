@@ -21,6 +21,7 @@ from routes.shares import shares_bp
 from routes.sentiment import sentiment_bp
 from routes.caption import caption_bp
 from routes.optimize import optimize_bp
+from routes.time import time_bp
 from utils import transform_input_features, generate_optimization_recommendations
 from logger import logger
 
@@ -43,6 +44,7 @@ app.register_blueprint(shares_bp)
 app.register_blueprint(sentiment_bp)
 app.register_blueprint(caption_bp)
 app.register_blueprint(optimize_bp)
+app.register_blueprint(time_bp)
 
 
 @app.route('/', methods=['GET'])
